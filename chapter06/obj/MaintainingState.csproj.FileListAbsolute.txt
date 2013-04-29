@@ -1,0 +1,10 @@
+C:\Users\Jon\Documents\ASP.NET Cookbook\Sample Code\chapter06-maintaining-state\bin\MaintainingState.dll
+C:\Users\Jon\Documents\ASP.NET Cookbook\Sample Code\chapter06-maintaining-state\bin\MaintainingState.pdb
+C:\Users\Jon\Documents\ASP.NET Cookbook\Sample Code\chapter06-maintaining-state\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Jon\Documents\ASP.NET Cookbook\Sample Code\chapter06-maintaining-state\obj\Debug\MaintainingState.dll
+C:\Users\Jon\Documents\ASP.NET Cookbook\Sample Code\chapter06-maintaining-state\obj\Debug\MaintainingState.pdb
+C:\Documents and Settings\Jon\My Documents\ASP.NET Cookbook\Sample Code\chapter06-maintaining-state\bin\MaintainingState.dll
+C:\Documents and Settings\Jon\My Documents\ASP.NET Cookbook\Sample Code\chapter06-maintaining-state\bin\MaintainingState.pdb
+C:\Documents and Settings\Jon\My Documents\ASP.NET Cookbook\Sample Code\chapter06-maintaining-state\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Jon\My Documents\ASP.NET Cookbook\Sample Code\chapter06-maintaining-state\obj\Debug\MaintainingState.dll
+C:\Documents and Settings\Jon\My Documents\ASP.NET Cookbook\Sample Code\chapter06-maintaining-state\obj\Debug\MaintainingState.pdb

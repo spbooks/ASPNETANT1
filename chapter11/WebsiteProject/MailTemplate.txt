@@ -1,0 +1,6 @@
+Dear <customer>,
+
+A review of our records shows that your account was accidentally debited by <amount>. We have credited your account for <amount> to resolve the problem.
+
+Regards,
+INITech Technical Support

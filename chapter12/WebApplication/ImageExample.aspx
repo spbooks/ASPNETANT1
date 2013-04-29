@@ -1,0 +1,1 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ImageExample.aspx.cs" Inherits="chapter_12_rendering_binary_content.ExcelTest" %>

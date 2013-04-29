@@ -1,0 +1,26 @@
+﻿body
+{
+	margin: 0;
+	padding: 0;
+	background: #CCFF11;
+	font-family: Impact;
+}
+
+#links
+{
+	background:#11FFCC;
+    float:right;
+    width:25%;	
+}
+
+#news
+{	
+    float:left;
+    width:75%;	
+}
+
+.list
+{
+	list-style-image: url(images/beachball.gif);	
+}
+

@@ -1,0 +1,142 @@
+﻿body 
+{
+	background-color: Black;
+	font-family: Sans-Serif;
+	font-size: .8em;
+}
+h1#title
+{
+	background-color: #e2e2e2;
+	margin: 0px 0px 10px 0px;
+	padding: 10px 5px;
+}
+div#container
+{
+	background-color: White;
+	color: Black;
+	width: 800px;
+	margin: 0px auto;
+	padding: 10px;
+}
+
+div#menuContainer
+{
+	position: absolute;
+	top: 82px;
+	padding: 5px;
+	width: 175px;
+}
+
+div#contentContainer
+{
+	margin-left: 185px;
+}
+
+/*Menu*/
+
+.StyledMenu ul.AspNet-Menu
+{
+    width: 160px;
+    border-top: solid 1px red;
+}
+
+/*
+.StyledMenu ul.AspNet-Menu ul
+{
+	width: 140px;
+	padding-left: 20px;
+	position: relative;
+	display: block;
+}*/
+
+.StyledMenu ul.AspNet-Menu ul
+{
+    width: 180px;
+    left: 155px;
+    top: 0;
+    z-index: 400;
+    position:absolute;
+    border-top: solid red 1px;
+}
+
+.StyledMenu ul.AspNet-Menu ul ul
+{
+	left: 175px;
+}
+
+.StyledMenu ul.AspNet-Menu li
+{
+    background:teal;
+}
+
+.StyledMenu ul.AspNet-Menu li li
+{
+    background:tan;
+}
+
+.StyledMenu ul.AspNet-Menu li li li
+{
+    background:brown;
+}
+
+.StyledMenu ul.AspNet-Menu li a,
+.StyledMenu ul.AspNet-Menu li span
+{
+    color: white;
+    padding: 4px 2px 4px 8px;
+    border:1px solid red;
+    border-top: 0px;
+}
+
+.StyledMenu ul.AspNet-Menu li:hover, 
+.StyledMenu ul.AspNet-Menu li.AspNet-Menu-Hover
+{
+    background:#7795BD;
+}
+
+
+/*Accordian */
+
+.AccordianMenu ul
+{
+    background:#7795BD;
+}
+
+.AccordianMenu .AspNet-Menu-Vertical ul.AspNet-Menu
+{
+    width: 160px;
+}
+
+.AccordianMenu ul.AspNet-Menu ul
+{
+    width: 140px;
+    padding-left: 20px;
+    z-index: 400;
+    position:relative;
+}
+
+.AccordianMenu ul.AspNet-Menu ul ul
+{
+	 width: 120px;
+}
+
+.AccordianMenu ul.AspNet-Menu li
+{
+    background:teal;
+}
+
+.AccordianMenu ul.AspNet-Menu li a,
+.AccordianMenu ul.AspNet-Menu li span
+{
+    color: white;
+    padding: 4px 2px 4px 8px;
+    border:1px solid red;
+    border-bottom: 0;
+}
+
+.AccordianMenu ul.AspNet-Menu li:hover, 
+.AccordianMenu ul.AspNet-Menu li.AspNet-Menu-Hover
+{
+	border: solid red 1px;
+    background:#7795BD;
+}

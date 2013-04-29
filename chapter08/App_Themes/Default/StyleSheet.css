@@ -1,0 +1,43 @@
+﻿body 
+{
+	background-color: #cccc99;
+	margin: 0;
+}
+
+.header
+{
+	border-bottom: #990033 thick solid;
+	background-color: #999999;
+	font-family: "Comic Sans MS", Cursive, Sans-Serif;
+	padding: 10px;
+	font-weight: bold;
+	font-size: x-large;
+	vertical-align:bottom;
+}
+
+.footer
+{
+	border-top: #990033 thick solid;
+	font-family: "Comic Sans MS", Cursive, Sans-Serif;
+	background-color: gray;	
+	text-align: center;
+}
+
+.footer input
+{
+	background: #cccccc;
+	margin: 10px;
+}
+
+#Greeting
+{
+    float:left;
+    width:60%;	
+}
+
+#Search
+{	
+    float:right;
+    width:40%;
+    text-align :right;		
+}

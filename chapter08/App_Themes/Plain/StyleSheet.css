@@ -1,0 +1,19 @@
+﻿body, div
+{
+	margin:0;
+    padding:0;
+    background:#99cccc;
+}
+
+#links
+{
+	background:#cccc99;
+    float:left;
+    width:25%;	
+}
+
+#news
+{	
+    float:right;
+    width:75%;	
+}

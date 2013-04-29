@@ -1,0 +1,131 @@
+/*
+
+Author(s):
+
+    Atif Aziz (atif.aziz@skybow.com, http://www.raboof.com)
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ 
+*/
+
+body
+{
+    font-family: Verdana;
+    font-size: small;
+    font-size: 70%;
+}
+
+a
+{
+    color: #0033CC;
+}
+
+a:visited
+{
+    color: Navy;
+}
+
+a:hover
+{
+    color: #FF6600;
+}
+
+table
+{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td
+{
+    font-size: 70%;
+    border: solid 1px silver;
+    padding: 0.4em;
+    vertical-align: top;
+}
+
+th
+{
+    font-size: 70%;
+    text-align: left;
+    background-color: #0A6CCE;
+    padding: 0.4em;
+    color: White;
+    vertical-align: top;
+    border: solid 1px silver;
+}
+
+.odd-row
+{
+    background-color: #e9e9e9;
+}
+
+.type-col
+{
+    font-weight: bold;
+}
+
+.code-col, .date-col, .time-col
+{
+    text-align: right;
+}
+
+#ErrorDetail
+{
+    font-size: 110%;
+    background-color: #ffffcc;
+    padding: 1em;
+    width: 100%;
+    overflow: scroll;
+}
+
+#ErrorTitle
+{
+    font-weight: bold;
+    font-size: 120%;
+}
+
+#ErrorType, #ErrorMessage
+{
+    display: block;
+}
+
+#ErrorTypeMessageSeparator
+{
+    display: none;
+}
+
+.key-col
+{
+    font-weight: bold;
+}
+
+#PageTitle
+{
+    font-family: Verdana;
+    color: #0A6CCE;
+    font-size: 175%;
+    padding-bottom: 0.5em;
+    border-bottom: solid 1px silver;
+}
+
+.table-caption
+{
+    background-color: navy;
+    margin: 0;
+    color: white;
+    padding: 0.4em;
+    font-weight: bold;
+}
+
+.scroll-view
+{
+    width: 100%;
+    overflow: scroll;
+}

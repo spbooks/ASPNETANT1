@@ -1,0 +1,7 @@
+C:\Users\Jon\Documents\ASP.NET Cookbook\Sample Code\chapter_13_error_handling\ELMAHExample\CodePlex.ELMAH\bin\CodePlex.Elmah.dll
+C:\Users\Jon\Documents\ASP.NET Cookbook\Sample Code\chapter_13_error_handling\ELMAHExample\CodePlex.ELMAH\bin\CodePlex.Elmah.pdb
+C:\Users\Jon\Documents\ASP.NET Cookbook\Sample Code\chapter_13_error_handling\ELMAHExample\CodePlex.ELMAH\bin\GotDotNet.Elmah.xml
+C:\Users\Jon\Documents\ASP.NET Cookbook\Sample Code\chapter_13_error_handling\ELMAHExample\CodePlex.ELMAH\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Jon\Documents\ASP.NET Cookbook\Sample Code\chapter_13_error_handling\ELMAHExample\CodePlex.ELMAH\obj\Debug\CodePlex.Elmah.ErrorLog.css
+C:\Users\Jon\Documents\ASP.NET Cookbook\Sample Code\chapter_13_error_handling\ELMAHExample\CodePlex.ELMAH\obj\Debug\CodePlex.Elmah.dll
+C:\Users\Jon\Documents\ASP.NET Cookbook\Sample Code\chapter_13_error_handling\ELMAHExample\CodePlex.ELMAH\obj\Debug\CodePlex.Elmah.pdb

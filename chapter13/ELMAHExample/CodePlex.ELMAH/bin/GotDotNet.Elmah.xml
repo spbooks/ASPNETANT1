@@ -1,0 +1,753 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CodePlex.Elmah</name>
+    </assembly>
+    <members>
+        <member name="T:CodePlex.Elmah.ErrorMailModule">
+            <summary>
+            HTTP module that sends an e-mail whenever an unhandled exception
+            occurs in an ASP.NET web application.
+            </summary>
+        </member>
+        <member name="M:CodePlex.Elmah.ErrorMailModule.Init(System.Web.HttpApplication)">
+            <summary>
+            Initializes the module and prepares it to handle requests.
+            </summary>
+        </member>
+        <member name="M:CodePlex.Elmah.ErrorMailModule.Dispose">
+            <summary>
+            Disposes of the resources (other than memory) used by the module.
+            </summary>
+        </member>
+        <member name="M:CodePlex.Elmah.ErrorMailModule.OnError(System.Object,System.EventArgs)">
+            <summary>
+            The handler called when an unhandled exception bubbles up to 
+            the module.
+            </summary>
+        </member>
+        <member name="M:CodePlex.Elmah.ErrorMailModule.ReportErrorAsync(CodePlex.Elmah.Error)">
+            <summary>
+            Schedules the error to be e-mailed asynchronously.
+            </summary>
+            <remarks>
+            The default implementation uses the <see cref="T:System.Threading.ThreadPool"/>
+            to queue the reporting.
+            </remarks>
+        </member>
+        <member name="M:CodePlex.Elmah.ErrorMailModule.ReportError(CodePlex.Elmah.Error)">
+            <summary>
+            Schedules the error to be e-mailed synchronously.
+            </summary>
+        </member>
+        <member name="M:CodePlex.Elmah.ErrorMailModule.PreSendMail(System.Net.Mail.MailMessage,CodePlex.Elmah.Error)">
+            <summary>
+            Provides a final point (mainly for inheritors) to customize the 
+            e-mail message before it is sent.
+            </summary>
+        </member>
+        <member name="M:CodePlex.Elmah.ErrorMailModule.DisposeMail(System.Net.Mail.MailMessage)">
+            <summary>
+            Disposes the e-mail message after sending it, like deleting
+            any temporary files created for attachements.
+            </summary>
+        </member>
+        <member name="M:CodePlex.Elmah.ErrorMailModule.CreateErrorFormatter">
+            <summary>
+            Creates the <see cref="T:CodePlex.Elmah.ErrorTextFormatter"/> implementation to 
+            be used to format the body of the e-mail.
+            </summary>
+        </member>
+        <member name="M:CodePlex.Elmah.ErrorMailModule.SendMail(System.Net.Mail.MailMessage)">
+            <summary>
+            Sends the e-mail using <see cref="T:System.Net.Mail.SmtpClient"/>.
+            </summary>
+        </member>
+        <member name="M:CodePlex.Elmah.ErrorMailModule.GetConfig">
+            <summary>
+            Gets the configuration object used by <see cref="M:CodePlex.Elmah.ErrorMailModule.Init(System.Web.HttpApplication)"/> to read
+            the settings for module.
+            </summary>
+        </member>
+        <member name="M:CodePlex.Elmah.ErrorMailModule.GetLastError(System.Web.HttpApplication)">
+            <summary>
+            Builds an <see cref="T:CodePlex.Elmah.Error"/> object from the last application
+            exception generated.
+            </summary>
+        </member>
+        <member name="P:CodePlex.Elmah.ErrorMailModule.MailSender">
+            <summary>
+            Gets the e-mail address of the sender.
+            </summary>
+        </member>
+        <member name="P:CodePlex.Elmah.ErrorMailModule.MailRecipient">
+            <summary>
+            Gets the e-mail address of the recipient, or a semicolon-delimited 
+            list of e-mail addresses in case of multiple recipients.
+            </summary>
+        </member>
+        <member name="P:CodePlex.Elmah.ErrorMailModule.MailSubjectFormat">
+            <summary>
+            Gets the text used to format the e-mail subject.
+            </summary>
+            <remarks>
+            The subject text specification may include {0} where the
+            error message (<see cref="P:CodePlex.Elmah.Error.Message"/>) should be inserted 
+            and {1} <see cref="P:CodePlex.Elmah.Error.Type"/> where the error type should 
+            be insert.
+            </remarks>
+        </member>
+        <member name="T:CodePlex.Elmah.Debug">
+            <summary>
+            Provides methods for assertions and debugging help that is mostly 
+            applicable during development.
+            </summary>
+        </member>
+        <member name="T:CodePlex.Elmah.TestException">
+            <summary>
+            The exception that is thrown when to test the error logging 
+            subsystem. This exception is used for testing purposes only and 
+            should not be used for any other purpose.
+            </summary>
+        </member>
+        <member name="M:CodePlex.Elmah.TestException.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:CodePlex.Elmah.TestException"/> class.
+            </summary>
+        </member>
+        <member name="M:CodePlex.Elmah.TestException.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:CodePlex.Elmah.TestException"/> class 
+            with a specified error message.
+            </summary>
+        </member>
+        <member name="M:CodePlex.Elmah.TestException.#ctor(System.String,System.Exception)">
+            <summary>
+            ializes a new instance of the <see cref="T:CodePlex.Elmah.TestException"/> 
+            class with a specified error message and a reference to the 
+            inner exception that is the cause of this exception.
+            </summary>
+        </member>
+        <member name="M:CodePlex.Elmah.TestException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Initializes a new instance of the <see cref="T:CodePlex.Elmah.TestException"/> class 
+            with serialized data.
+            </summary>
+        </member>
+        <member name="T:CodePlex.Elmah.ErrorPageBase">
+            <summary>
+            Provides the base implementation and layout for most pages that render 
+            HTML for the error log.
+            </summary>
+        </member>
+        <member name="T:CodePlex.Elmah.StringEtc">
+            <summary>
+            Collection of utility methods that complement <see cref="T:System.String"/>.
+            </summary>
+        </member>
+        <member name="T:CodePlex.Elmah.ErrorTextFormatter">
+            <summary>
+            Provides the base contract for implementations that render
+            text-based formatting for an error.
+            </summary>
+        </member>
+        <member name="M:CodePlex.Elmah.ErrorTextFormatter.Format(System.IO.TextWriter,CodePlex.Elmah.Error)">
+            <summary>
+            Formats a text representation of the given <see cref="T:CodePlex.Elmah.Error"/> 
+            instance using a <see cref="T:System.IO.TextWriter"/>.
+            </summary>
+        </member>
+        <member name="P:CodePlex.Elmah.ErrorTextFormatter.MimeType">
+            <summary>
+            Gets the MIME type of the text format provided by the formatter
+            implementation.
+            </summary>
+        </member>
+        <member name="T:CodePlex.Elmah.HttpValuesCollection">
+            <summary>
+            A name-values collection implementation suitable for web-based collections 
+            (like server variables, query strings, forms and cookies) that can also
+            be written and read as XML.
+            </summary>
+        </member>
+        <member name="T:CodePlex.Elmah.IXmlExportable">
+            <summary>
+            Defines methods to convert an object to and from its XML representation.
+            </summary>
+        </member>
+        <member name="M:CodePlex.Elmah.IXmlExportable.FromXml(System.Xml.XmlReader)">
+            <summary>
+            Reads the object state from its XML representation.
+            </summary>
+        </member>
+        <member name="M:CodePlex.Elmah.IXmlExportable.ToXml(System.Xml.XmlWriter)">
+            <summary>
+            Writes the XML representation of the object.
+            </summary>
+        </member>
+        <member name="T:CodePlex.Elmah.PoweredBy">
+            <summary>
+            Displays a "Powered-by ELMAH" message that also contains the assembly
+            file version informatin and copyright notice.
+            </summary>
+        </member>
+        <member name="M:CodePlex.Elmah.PoweredBy.RenderContents(System.Web.UI.HtmlTextWriter)">
+            <summary>
+            Renders the contents of the control into the specified writer.
+            </summary>
+        </member>
+        <member name="T:CodePlex.Elmah.ErrorLog">
+            <summary>
+            Represents an error log capable of storing and retrieving errors
+            generated in an ASP.NET Web application.
+            </summary>
+        </member>
+        <member name="M:CodePlex.Elmah.ErrorLog.Log(CodePlex.Elmah.Error)">
+            <summary>
+            Logs an error in log for the application.
+            </summary>
+        </member>
+        <member name="M:CodePlex.Elmah.ErrorLog.GetError(System.String)">
+            <summary>
+            Retrieves a single application error from log given its 
+            identifier, or null if it does not exist.
+            </summary>
+        </member>
+        <member name="M:CodePlex.Elmah.ErrorLog.GetErrors(System.Int32,System.Int32,System.Collections.IList)">
+            <summary>
+            Retrieves a page of application errors from the log in 
+            descending order of logged time.
+            </summary>
+        </member>
+        <member name="P:CodePlex.Elmah.ErrorLog.Name">
+            <summary>
+            Get the name of this log.
+            </summary>
+        </member>
+        <member name="P:CodePlex.Elmah.ErrorLog.ApplicationName">
+            <summary>
+            Gets the name of the application to which the log is scoped.
+            </summary>
+        </member>
+        <member name="P:CodePlex.Elmah.ErrorLog.Default">
+            <summary>
+            Gets the default error log implementation specified in the 
+            configuration file, or the in-memory log implemention if
+            none is configured.
+            </summary>
+        </member>
+        <member name="T:CodePlex.Elmah.ErrorHtmlPage">
+            <summary>
+            Renders an HTML page displaying the detailed host-generated (ASP.NET)
+            HTML recorded for an error from the error log.
+            </summary>
+        </member>
+        <member name="T:CodePlex.Elmah.ErrorDetailPage">
+            <summary>
+            Renders an HTML page displaying details about an error from the 
+            error log.
+            </summary>
+        </member>
+        <member name="T:CodePlex.Elmah.ManifestResourceHandler">
+            <summary>
+            Reads a resource from the assembly manifest and returns its contents
+            as the response entity.
+            </summary>
+        </member>
+        <member name="T:CodePlex.Elmah.SimpleServiceProviderFactory">
+            <summary>
+            A simple factory for creating instances of types specified in a 
+            section of the configuration file.
+            </summary>
+        </member>
+        <member name="T:CodePlex.Elmah.ErrorMailHtmlFormatter">
+            <summary>
+            Formats the HTML to display the details of a given error that is
+            suitable for sending as the body of an e-mail message.
+            </summary>
+        </member>
+        <member name="M:CodePlex.Elmah.ErrorMailHtmlFormatter.Format(System.IO.TextWriter,CodePlex.Elmah.Error)">
+            <summary>
+            Formats a complete HTML document describing the given 
+            <see cref="P:CodePlex.Elmah.ErrorMailHtmlFormatter.Error"/> instance.
+            </summary>
+        </member>
+        <member name="M:CodePlex.Elmah.ErrorMailHtmlFormatter.RenderHead">
+            <summary>
+            Renders the &lt;head&gt; section of the HTML document.
+            </summary>
+        </member>
+        <member name="M:CodePlex.Elmah.ErrorMailHtmlFormatter.RenderBody">
+            <summary>
+            Renders the &lt;body&gt; section of the HTML document.
+            </summary>
+        </member>
+        <member name="M:CodePlex.Elmah.ErrorMailHtmlFormatter.RenderFooter">
+            <summary>
+            Renders the footer content that appears at the end of the 
+            HTML document body.
+            </summary>
+        </member>
+        <member name="M:CodePlex.Elmah.ErrorMailHtmlFormatter.RenderStyle">
+            <summary>
+            Renders the &lt;style&gt; element along with in-line styles
+            used to format the body of the HTML document.
+            </summary>
+        </member>
+        <member name="M:CodePlex.Elmah.ErrorMailHtmlFormatter.RenderDetail">
+            <summary>
+            Renders the details about the <see cref="P:CodePlex.Elmah.ErrorMailHtmlFormatter.Error"/> object in
+            body of the HTML document.
+            </summary>
+        </member>
+        <member name="M:CodePlex.Elmah.ErrorMailHtmlFormatter.RenderSummary">
+            <summary>
+            Renders a summary about the <see cref="P:CodePlex.Elmah.ErrorMailHtmlFormatter.Error"/> object in
+            body of the HTML document.
+            </summary>
+        </member>
+        <member name="M:CodePlex.Elmah.ErrorMailHtmlFormatter.RenderCollections">
+            <summary>
+            Renders the diagnostic collections of the <see cref="P:CodePlex.Elmah.ErrorMailHtmlFormatter.Error"/> object in
+            body of the HTML document.
+            </summary>
+        </member>
+        <member name="M:CodePlex.Elmah.ErrorMailHtmlFormatter.RenderCollection(System.Collections.Specialized.NameValueCollection,System.String)">
+            <summary>
+            Renders a collection as a table in HTML document body.
+            </summary>
+            <remarks>
+            This method is called by <see cref="M:CodePlex.Elmah.ErrorMailHtmlFormatter.RenderCollections"/> to 
+            format a diagnostic collection from <see cref="P:CodePlex.Elmah.ErrorMailHtmlFormatter.Error"/> object.
+            </remarks>
+        </member>
+        <member name="P:CodePlex.Elmah.ErrorMailHtmlFormatter.MimeType">
+            <summary>
+            Returns the text/html MIME type that is the format provided 
+            by this <see cref="T:CodePlex.Elmah.ErrorTextFormatter"/> implementation.
+            </summary>
+        </member>
+        <member name="P:CodePlex.Elmah.ErrorMailHtmlFormatter.Writer">
+            <summary>
+            Gets the <see cref="T:System.Web.UI.HtmlTextWriter"/> used for HTML formatting.
+            </summary>
+            <remarks>
+            This property is only available to downstream methods in the
+            context of the <see cref="M:CodePlex.Elmah.ErrorMailHtmlFormatter.Format(System.IO.TextWriter,CodePlex.Elmah.Error)"/> method call.
+            </remarks>
+        </member>
+        <member name="P:CodePlex.Elmah.ErrorMailHtmlFormatter.Error">
+            <summary>
+            Gets the <see cref="P:CodePlex.Elmah.ErrorMailHtmlFormatter.Error"/> object for which a HTML document
+            is being formatted.
+            </summary>
+            <remarks>
+            This property is only available to downstream methods in the
+            context of the <see cref="M:CodePlex.Elmah.ErrorMailHtmlFormatter.Format(System.IO.TextWriter,CodePlex.Elmah.Error)"/> method call.
+            </remarks>
+        </member>
+        <member name="T:CodePlex.Elmah.ErrorLogModule">
+            <summary>
+            HTTP module implementation that logs unhandled exceptions in an
+            ASP.NET Web application to an error log.
+            </summary>
+        </member>
+        <member name="M:CodePlex.Elmah.ErrorLogModule.Init(System.Web.HttpApplication)">
+            <summary>
+            Initializes the module and prepares it to handle requests.
+            </summary>
+        </member>
+        <member name="M:CodePlex.Elmah.ErrorLogModule.Dispose">
+            <summary>
+            Disposes of the resources (other than memory) used by the module.
+            </summary>
+        </member>
+        <member name="M:CodePlex.Elmah.ErrorLogModule.OnError(System.Object,System.EventArgs)">
+            <summary>
+            The handler called when an unhandled exception bubbles up to 
+            the module.
+            </summary>
+        </member>
+        <member name="M:CodePlex.Elmah.ErrorLogModule.LogException(System.Exception,System.Web.HttpContext)">
+            <summary>
+            Logs an exception and its context to the error log.
+            </summary>
+        </member>
+        <member name="P:CodePlex.Elmah.ErrorLogModule.ErrorLog">
+            <summary>
+            Gets the <see cref="P:CodePlex.Elmah.ErrorLogModule.ErrorLog"/> instance to which the module
+            will log exceptions.
+            </summary>
+        </member>
+        <member name="T:CodePlex.Elmah.ErrorLogPageFactory">
+            <summary>
+            HTTP handler factory that dispenses handlers for rendering views and 
+            resources needed to display the error log.
+            </summary>
+        </member>
+        <member name="M:CodePlex.Elmah.ErrorLogPageFactory.GetHandler(System.Web.HttpContext,System.String,System.String,System.String)">
+            <summary>
+            Returns an object that implements the <see cref="T:System.Web.IHttpHandler"/> 
+            interface and which is responsible for serving the request.
+            </summary>
+            <returns>
+            A new <see cref="T:System.Web.IHttpHandler"/> object that processes the request.
+            </returns>
+        </member>
+        <member name="M:CodePlex.Elmah.ErrorLogPageFactory.ReleaseHandler(System.Web.IHttpHandler)">
+            <summary>
+            Enables the factory to reuse an existing handler instance.
+            </summary>
+        </member>
+        <member name="T:CodePlex.Elmah.ErrorLogEntry">
+            <summary>
+            Binds an <see cref="P:CodePlex.Elmah.ErrorLogEntry.Error"/> instance with the <see cref="T:CodePlex.Elmah.ErrorLog"/>
+            instance from where it was served.
+            </summary>
+        </member>
+        <member name="M:CodePlex.Elmah.ErrorLogEntry.#ctor(CodePlex.Elmah.ErrorLog,System.String,CodePlex.Elmah.Error)">
+            <summary>
+            Initializes a new instance of the <see cref="T:CodePlex.Elmah.ErrorLogEntry"/> class
+            for a given unique error entry in an error log.
+            </summary>
+        </member>
+        <member name="P:CodePlex.Elmah.ErrorLogEntry.Log">
+            <summary>
+            Gets the <see cref="T:CodePlex.Elmah.ErrorLog"/> instance where this entry 
+            originated from.
+            </summary>
+        </member>
+        <member name="P:CodePlex.Elmah.ErrorLogEntry.Id">
+            <summary>
+            Gets the unique identifier that identifies the error entry 
+            in the log.
+            </summary>
+        </member>
+        <member name="P:CodePlex.Elmah.ErrorLogEntry.Error">
+            <summary>
+            Gets the <see cref="P:CodePlex.Elmah.ErrorLogEntry.Error"/> object held in the entry.
+            </summary>
+        </member>
+        <member name="T:CodePlex.Elmah.MemoryErrorLog">
+            <summary>
+            An <see cref="T:CodePlex.Elmah.ErrorLog"/> implementation that uses memory as its 
+            backing store. 
+            </summary>
+            <remarks>
+            All <see cref="T:CodePlex.Elmah.MemoryErrorLog"/> instances will share the same memory 
+            store that is bound to the application (not an instance of this class).
+            </remarks>
+        </member>
+        <member name="F:CodePlex.Elmah.MemoryErrorLog.MaximumSize">
+            <summary>
+            The maximum number of errors that will ever be allowed to be stored
+            in memory.
+            </summary>
+        </member>
+        <member name="F:CodePlex.Elmah.MemoryErrorLog.DefaultSize">
+            <summary>
+            The maximum number of errors that will be held in memory by default 
+            if no size is specified.
+            </summary>
+        </member>
+        <member name="M:CodePlex.Elmah.MemoryErrorLog.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:CodePlex.Elmah.MemoryErrorLog"/> class
+            with a default size for maximum recordable entries.
+            </summary>
+        </member>
+        <member name="M:CodePlex.Elmah.MemoryErrorLog.#ctor(System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:CodePlex.Elmah.MemoryErrorLog"/> class
+            with a specific size for maximum recordable entries.
+            </summary>
+        </member>
+        <member name="M:CodePlex.Elmah.MemoryErrorLog.#ctor(System.Collections.IDictionary)">
+            <summary>
+            Initializes a new instance of the <see cref="T:CodePlex.Elmah.MemoryErrorLog"/> class
+            using a dictionary of configured settings.
+            </summary>
+        </member>
+        <member name="M:CodePlex.Elmah.MemoryErrorLog.Log(CodePlex.Elmah.Error)">
+            <summary>
+            Logs an error to the application memory.
+            </summary>
+            <remarks>
+            If the log is full then the oldest error entry is removed.
+            </remarks>
+        </member>
+        <member name="M:CodePlex.Elmah.MemoryErrorLog.GetError(System.String)">
+            <summary>
+            Returns the specified error from application memory, or null 
+            if it does not exist.
+            </summary>
+        </member>
+        <member name="M:CodePlex.Elmah.MemoryErrorLog.GetErrors(System.Int32,System.Int32,System.Collections.IList)">
+            <summary>
+            Returns a page of errors from the application memory in
+            descending order of logged time.
+            </summary>
+        </member>
+        <member name="P:CodePlex.Elmah.MemoryErrorLog.Name">
+            <summary>
+            Gets the name of this error log implementation.
+            </summary>
+        </member>
+        <member name="T:CodePlex.Elmah.ErrorLogPage">
+            <summary>
+            Renders an HTML page displaying a page of errors from the error log.
+            </summary>
+        </member>
+        <member name="T:CodePlex.Elmah.ErrorRssHandler">
+            <summary>
+            Renders a XML using the RSS 0.91 vocabulary that displays, at most,
+            the 15 most recent errors recorded in the error log.
+            </summary>
+        </member>
+        <member name="T:CodePlex.Elmah.ApplicationException">
+            <summary>
+            The exception that is thrown when a non-fatal error occurs. 
+            This exception also serves as the base for all exceptions thrown by
+            this library.
+            </summary>
+        </member>
+        <member name="M:CodePlex.Elmah.ApplicationException.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:CodePlex.Elmah.ApplicationException"/> class.
+            </summary>
+        </member>
+        <member name="M:CodePlex.Elmah.ApplicationException.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:CodePlex.Elmah.ApplicationException"/> class 
+            with a specified error message.
+            </summary>
+        </member>
+        <member name="M:CodePlex.Elmah.ApplicationException.#ctor(System.String,System.Exception)">
+            <summary>
+            Initializes a new instance of the <see cref="T:CodePlex.Elmah.ApplicationException"/> 
+            class with a specified error message and a reference to the 
+            inner exception that is the cause of this exception.
+            </summary>
+        </member>
+        <member name="M:CodePlex.Elmah.ApplicationException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Initializes a new instance of the <see cref="T:CodePlex.Elmah.ApplicationException"/> class 
+            with serialized data.
+            </summary>
+        </member>
+        <member name="T:CodePlex.Elmah.SqlErrorLog">
+            <summary>
+            An <see cref="T:CodePlex.Elmah.ErrorLog"/> implementation that uses Microsoft SQL 
+            Server 2000 as its backing store.
+            </summary>
+        </member>
+        <member name="M:CodePlex.Elmah.SqlErrorLog.#ctor(System.Collections.IDictionary)">
+            <summary>
+            Initializes a new instance of the <see cref="T:CodePlex.Elmah.SqlErrorLog"/> class
+            using a dictionary of configured settings.
+            </summary>
+        </member>
+        <member name="M:CodePlex.Elmah.SqlErrorLog.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:CodePlex.Elmah.SqlErrorLog"/> class
+            to use a specific connection string for connecting to the database.
+            </summary>
+        </member>
+        <member name="M:CodePlex.Elmah.SqlErrorLog.Log(CodePlex.Elmah.Error)">
+            <summary>
+            Logs an error to the database.
+            </summary>
+            <remarks>
+            Use the stored procedure called by this implementation to set a
+            policy on how long errors are kept in the log. The default
+            implementation stores all errors for an indefinite time.
+            </remarks>
+        </member>
+        <member name="M:CodePlex.Elmah.SqlErrorLog.GetErrors(System.Int32,System.Int32,System.Collections.IList)">
+            <summary>
+            Returns a page of errors from the databse in descending order 
+            of logged time.
+            </summary>
+        </member>
+        <member name="M:CodePlex.Elmah.SqlErrorLog.GetError(System.String)">
+            <summary>
+            Returns the specified error from the database, or null 
+            if it does not exist.
+            </summary>
+        </member>
+        <member name="M:CodePlex.Elmah.SqlErrorLog.NewError">
+            <summary>
+            Creates a new and empty instance of the <see cref="T:CodePlex.Elmah.Error"/> class.
+            </summary>
+        </member>
+        <member name="P:CodePlex.Elmah.SqlErrorLog.Name">
+            <summary>
+            Gets the name of this error log implementation.
+            </summary>
+        </member>
+        <member name="P:CodePlex.Elmah.SqlErrorLog.ConnectionString">
+            <summary>
+            Gets the connection string used by the log to connect to the database.
+            </summary>
+        </member>
+        <member name="T:CodePlex.Elmah.Error">
+            <summary>
+            Represents a logical application error (as opposed to the actual 
+            exception it may be representing).
+            </summary>
+        </member>
+        <member name="M:CodePlex.Elmah.Error.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:CodePlex.Elmah.Error"/> class.
+            </summary>
+        </member>
+        <member name="M:CodePlex.Elmah.Error.#ctor(System.Exception)">
+            <summary>
+            Initializes a new instance of the <see cref="T:CodePlex.Elmah.Error"/> class
+            from a given <see cref="P:CodePlex.Elmah.Error.Exception"/> instance.
+            </summary>
+        </member>
+        <member name="M:CodePlex.Elmah.Error.#ctor(System.Exception,System.Web.HttpContext)">
+            <summary>
+            Initializes a new instance of the <see cref="T:CodePlex.Elmah.Error"/> class
+            from a given <see cref="P:CodePlex.Elmah.Error.Exception"/> instance and 
+            <see cref="T:System.Web.HttpContext"/> instance representing the HTTP 
+            context during the exception.
+            </summary>
+        </member>
+        <member name="M:CodePlex.Elmah.Error.ToString">
+            <summary>
+            Returns the value of the <see cref="P:CodePlex.Elmah.Error.Message"/> property.
+            </summary>
+        </member>
+        <member name="M:CodePlex.Elmah.Error.FromXml(System.Xml.XmlReader)">
+            <summary>
+            Loads the error object from its XML representation.
+            </summary>
+        </member>
+        <member name="M:CodePlex.Elmah.Error.ReadXmlAttributes(System.Xml.XmlReader)">
+            <summary>
+            Reads the error data in XML attributes.
+            </summary>
+        </member>
+        <member name="M:CodePlex.Elmah.Error.ReadInnerXml(System.Xml.XmlReader)">
+            <summary>
+            Reads the error data in child nodes.
+            </summary>
+        </member>
+        <member name="M:CodePlex.Elmah.Error.ToXml(System.Xml.XmlWriter)">
+            <summary>
+            Writes the error data to its XML representation.
+            </summary>
+        </member>
+        <member name="M:CodePlex.Elmah.Error.WriteXmlAttributes(System.Xml.XmlWriter)">
+            <summary>
+            Writes the error data that belongs in XML attributes.
+            </summary>
+        </member>
+        <member name="M:CodePlex.Elmah.Error.WriteInnerXml(System.Xml.XmlWriter)">
+            <summary>
+            Writes the error data that belongs in child nodes.
+            </summary>
+        </member>
+        <member name="M:CodePlex.Elmah.Error.System#ICloneable#Clone">
+            <summary>
+            Creates a new object that is a copy of the current instance.
+            </summary>
+        </member>
+        <member name="P:CodePlex.Elmah.Error.Exception">
+            <summary>
+            Get the <see cref="P:CodePlex.Elmah.Error.Exception"/> instance used to initialize this
+            instance.
+            </summary>
+            <remarks>
+            This is a run-time property only that is not written or read 
+            during XML serialization via <see cref="M:CodePlex.Elmah.Error.FromXml(System.Xml.XmlReader)"/> and 
+            <see cref="M:CodePlex.Elmah.Error.ToXml(System.Xml.XmlWriter)"/>.
+            </remarks>
+        </member>
+        <member name="P:CodePlex.Elmah.Error.ApplicationName">
+            <summary>
+            Gets or sets the name of application in which this error occurred.
+            </summary>
+        </member>
+        <member name="P:CodePlex.Elmah.Error.HostName">
+            <summary>
+            Gets or sets name of host machine where this error occurred.
+            </summary>
+        </member>
+        <member name="P:CodePlex.Elmah.Error.Type">
+            <summary>
+            Get or sets the type, class or category of the error.
+            </summary>
+        </member>
+        <member name="P:CodePlex.Elmah.Error.Source">
+            <summary>
+            Gets or sets the source that is the cause of the error.
+            </summary>
+        </member>
+        <member name="P:CodePlex.Elmah.Error.Message">
+            <summary>
+            Gets or sets a brief text describing the error.
+            </summary>
+        </member>
+        <member name="P:CodePlex.Elmah.Error.Detail">
+            <summary>
+            Gets or sets a detailed text describing the error, such as a
+            stack trace.
+            </summary>
+        </member>
+        <member name="P:CodePlex.Elmah.Error.User">
+            <summary>
+            Gets or sets the user logged into the application at the time 
+            of the error.
+            </summary>
+        </member>
+        <member name="P:CodePlex.Elmah.Error.Time">
+            <summary>
+            Gets or sets the date and time (in local time) at which the 
+            error occurred.
+            </summary>
+        </member>
+        <member name="P:CodePlex.Elmah.Error.StatusCode">
+            <summary>
+            Gets or sets the HTTP status code of the output returned to the 
+            client for the error.
+            </summary>
+            <remarks>
+            For cases where this value cannot always be reliably determined, 
+            the value may be reported as zero.
+            </remarks>
+        </member>
+        <member name="P:CodePlex.Elmah.Error.WebHostHtmlMessage">
+            <summary>
+            Gets or sets the HTML message generated by the web host (ASP.NET) 
+            for the given error.
+            </summary>
+        </member>
+        <member name="P:CodePlex.Elmah.Error.ServerVariables">
+            <summary>
+            Gets a collection representing the Web server variables
+            captured as part of diagnostic data for the error.
+            </summary>
+        </member>
+        <member name="P:CodePlex.Elmah.Error.QueryString">
+            <summary>
+            Gets a collection representing the Web query string variables
+            captured as part of diagnostic data for the error.
+            </summary>
+        </member>
+        <member name="P:CodePlex.Elmah.Error.Form">
+            <summary>
+            Gets a collection representing the form variables captured as 
+            part of diagnostic data for the error.
+            </summary>
+        </member>
+        <member name="P:CodePlex.Elmah.Error.Cookies">
+            <summary>
+            Gets a collection representing the client cookies
+            captured as part of diagnostic data for the error.
+            </summary>
+        </member>
+    </members>
+</doc>

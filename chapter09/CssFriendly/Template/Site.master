@@ -1,0 +1,33 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="Template_Site" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>CSS Friendly Adapters Example</title>
+    <link type="text/css" media="screen" href="Style/StyleSheet.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="container">
+        <h1 id="title">CSS Friendly Adapters</h1>
+        <div id="contentContainer">
+            <asp:contentplaceholder id="PageContentPlaceholder" runat="server" />
+        </div>
+                <div id="menuContainer" style="margin-bottom: 20px;">
+<asp:SiteMapDataSource 
+    ID="WebSitemap" 
+    runat="server" 
+    ShowStartingNode="False" 
+ />
+<asp:Menu 
+    ID="SampleMenu" 
+    runat="server" 
+    DataSourceID="WebSitemap"
+    CssSelectorClass="StyledMenu" 
+ />
+        </div>
+    </div>
+    </form>
+</body>
+</html>

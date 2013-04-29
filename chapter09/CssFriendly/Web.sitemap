@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="~/Default.aspx" title="Home">
+    <siteMapNode url="~/Products/Default.aspx" title="Products List">
+      <siteMapNode url="~/Products/Books.aspx" title="Books" />
+      <siteMapNode url="~/Products/CDs.aspx" title="CDs">
+        <siteMapNode url="~/Products/CDs/Rock.aspx" title="Rock CDs" />
+        <siteMapNode url="~/Products/CDs/Rap.aspx" title="Rap CDs" />
+      </siteMapNode>
+      <siteMapNode url="~/Products/DVDs.aspx" title="DVDs" />
+      <siteMapNode url="~/Products/Software.aspx" title="Software" />
+    </siteMapNode>
+    <siteMapNode url="~/About/Default.aspx" title="About Us">
+      <siteMapNode url="~/About/OurFound.aspx" title="Our Founder" />
+      <siteMapNode url="~/About/Investors.aspx" title="Investor Information" />
+      <siteMapNode url="~/About/Careers.aspx" title="Career Opportunities" />
+    </siteMapNode>
+    <siteMapNode url="~/ContactUs.aspx" title="Contact Us" />
+  </siteMapNode>
+</siteMap>
+

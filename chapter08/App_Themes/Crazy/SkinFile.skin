@@ -1,0 +1,3 @@
+<asp:BulletedList 
+  runat="server" SkinID="LinkListSkin" 
+  DisplayMode="HyperLink" CssClass="list"  />

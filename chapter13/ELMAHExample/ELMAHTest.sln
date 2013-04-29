@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodePlex.Elmah", "CodePlex.ELMAH\CodePlex.Elmah.csproj", "{C92DC151-A0BA-4A5E-A20E-620EC9C06AFF}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "C:\...\ELMAHTestWeb\", "ELMAHTestWeb\", "{6BD9BDC9-B43F-4AF7-ACED-6392FC9ED3A4}"
+	ProjectSection(WebsiteProperties) = preProject
+		ProjectReferences = "{C92DC151-A0BA-4A5E-A20E-620EC9C06AFF}|CodePlex.Elmah.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/ELMAHTestWeb"
+		Debug.AspNetCompiler.PhysicalPath = "ELMAHTestWeb\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\ELMAHTestWeb\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/ELMAHTestWeb"
+		Release.AspNetCompiler.PhysicalPath = "ELMAHTestWeb\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\ELMAHTestWeb\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1167"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Release|.NET = Release|.NET
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C92DC151-A0BA-4A5E-A20E-620EC9C06AFF}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{C92DC151-A0BA-4A5E-A20E-620EC9C06AFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C92DC151-A0BA-4A5E-A20E-620EC9C06AFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C92DC151-A0BA-4A5E-A20E-620EC9C06AFF}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{C92DC151-A0BA-4A5E-A20E-620EC9C06AFF}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{C92DC151-A0BA-4A5E-A20E-620EC9C06AFF}.Release|.NET.ActiveCfg = Release|Any CPU
+		{C92DC151-A0BA-4A5E-A20E-620EC9C06AFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C92DC151-A0BA-4A5E-A20E-620EC9C06AFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C92DC151-A0BA-4A5E-A20E-620EC9C06AFF}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{C92DC151-A0BA-4A5E-A20E-620EC9C06AFF}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{6BD9BDC9-B43F-4AF7-ACED-6392FC9ED3A4}.Debug|.NET.ActiveCfg = Debug|.NET
+		{6BD9BDC9-B43F-4AF7-ACED-6392FC9ED3A4}.Debug|.NET.Build.0 = Debug|.NET
+		{6BD9BDC9-B43F-4AF7-ACED-6392FC9ED3A4}.Debug|Any CPU.ActiveCfg = Debug|.NET
+		{6BD9BDC9-B43F-4AF7-ACED-6392FC9ED3A4}.Debug|Mixed Platforms.ActiveCfg = Debug|.NET
+		{6BD9BDC9-B43F-4AF7-ACED-6392FC9ED3A4}.Debug|Mixed Platforms.Build.0 = Debug|.NET
+		{6BD9BDC9-B43F-4AF7-ACED-6392FC9ED3A4}.Release|.NET.ActiveCfg = Debug|.NET
+		{6BD9BDC9-B43F-4AF7-ACED-6392FC9ED3A4}.Release|.NET.Build.0 = Debug|.NET
+		{6BD9BDC9-B43F-4AF7-ACED-6392FC9ED3A4}.Release|Any CPU.ActiveCfg = Debug|.NET
+		{6BD9BDC9-B43F-4AF7-ACED-6392FC9ED3A4}.Release|Mixed Platforms.ActiveCfg = Debug|.NET
+		{6BD9BDC9-B43F-4AF7-ACED-6392FC9ED3A4}.Release|Mixed Platforms.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

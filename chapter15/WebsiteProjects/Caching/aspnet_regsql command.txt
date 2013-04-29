@@ -1,0 +1,2 @@
+C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\aspnet_regsql.exe -S (local)\SQL2005 -E -d Northwind -ed
+C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\aspnet_regsql.exe -S (local)\SQL2005 -E -d Northwind -et -t Products

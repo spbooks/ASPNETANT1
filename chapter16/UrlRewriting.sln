@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "C:\...\UrlRewriting\", "..\..\..\ASP.NET Cookbook\Sample Code\chapter_16_search_engine_optimization\UrlRewriting", "{6CDD91F4-956C-4B7B-A639-3F00FC4AFDC9}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.VirtualPath = "/UrlRewriting"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\ASP.NET Cookbook\Sample Code\chapter_16_search_engine_optimization\UrlRewriting\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\UrlRewriting\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/UrlRewriting"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\ASP.NET Cookbook\Sample Code\chapter_16_search_engine_optimization\UrlRewriting\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\UrlRewriting\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "3055"
+		VWDVirtualPath = "/"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6CDD91F4-956C-4B7B-A639-3F00FC4AFDC9}.Debug|.NET.ActiveCfg = Debug|.NET
+		{6CDD91F4-956C-4B7B-A639-3F00FC4AFDC9}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

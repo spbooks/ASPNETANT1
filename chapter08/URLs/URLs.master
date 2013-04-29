@@ -1,0 +1,31 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="URLs.master.cs" Inherits="URLs_URLs" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Untitled Page</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+    
+        <img src="images/disco_night.png" runat="server" alt="Disco night" />
+        <br />
+        <asp:Image runat="server" ImageUrl="images/disco_night.png" ID="Image1" />
+           
+        <div runat="server" style="background-image:url(images/disco_night.png)">
+            Test
+        </div>
+        
+        <div style="background-image:url(<%=ResolveClientUrl("images/disco_night.png")%>)">
+            Test
+        </div>
+        
+        
+        <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+        </asp:contentplaceholder>
+    </div>
+    </form>
+</body>
+</html>

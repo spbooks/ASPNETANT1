@@ -1,0 +1,10 @@
+C:\Users\Jon\Documents\ASP.NET Cookbook\Sample Code\chapter12-rendering-binary-content\bin\BinaryContent.dll
+C:\Users\Jon\Documents\ASP.NET Cookbook\Sample Code\chapter12-rendering-binary-content\bin\BinaryContent.pdb
+C:\Users\Jon\Documents\ASP.NET Cookbook\Sample Code\chapter12-rendering-binary-content\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Jon\Documents\ASP.NET Cookbook\Sample Code\chapter12-rendering-binary-content\obj\Debug\BinaryContent.dll
+C:\Users\Jon\Documents\ASP.NET Cookbook\Sample Code\chapter12-rendering-binary-content\obj\Debug\BinaryContent.pdb
+C:\Users\Jon\Documents\ASP.NET Cookbook\Sample Code\chapter_12_rendering-binary-content\WebApplication\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Jon\Documents\ASP.NET Cookbook\Sample Code\chapter_12_rendering-binary-content\WebApplication\obj\Debug\BinaryContent.dll
+C:\Users\Jon\Documents\ASP.NET Cookbook\Sample Code\chapter_12_rendering-binary-content\WebApplication\obj\Debug\BinaryContent.pdb
+C:\Users\Jon\Documents\ASP.NET Cookbook\Sample Code\chapter_12_rendering-binary-content\WebApplication\bin\BinaryContent.dll
+C:\Users\Jon\Documents\ASP.NET Cookbook\Sample Code\chapter_12_rendering-binary-content\WebApplication\bin\BinaryContent.pdb

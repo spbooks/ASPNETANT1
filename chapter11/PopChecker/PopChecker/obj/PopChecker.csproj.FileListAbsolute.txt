@@ -1,0 +1,7 @@
+C:\Users\Jon\Documents\ASP.NET Cookbook\Sample Code\chapter_11_email\PopChecker\PopChecker\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Jon\Documents\ASP.NET Cookbook\Sample Code\chapter_11_email\PopChecker\PopChecker\bin\Debug\PopChecker.exe
+C:\Users\Jon\Documents\ASP.NET Cookbook\Sample Code\chapter_11_email\PopChecker\PopChecker\bin\Debug\PopChecker.pdb
+C:\Users\Jon\Documents\ASP.NET Cookbook\Sample Code\chapter_11_email\PopChecker\PopChecker\bin\Debug\Pop3MailClient.exe
+C:\Users\Jon\Documents\ASP.NET Cookbook\Sample Code\chapter_11_email\PopChecker\PopChecker\bin\Debug\Pop3MailClient.pdb
+C:\Users\Jon\Documents\ASP.NET Cookbook\Sample Code\chapter_11_email\PopChecker\PopChecker\obj\Debug\PopChecker.exe
+C:\Users\Jon\Documents\ASP.NET Cookbook\Sample Code\chapter_11_email\PopChecker\PopChecker\obj\Debug\PopChecker.pdb

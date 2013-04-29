@@ -1,0 +1,7 @@
+bin\CodePlex.Elmah.dll
+bin\CodePlex.Elmah.pdb
+bin\GotDotNet.Elmah.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\CodePlex.Elmah.ErrorLog.css
+obj\Debug\CodePlex.Elmah.dll
+obj\Debug\CodePlex.Elmah.pdb

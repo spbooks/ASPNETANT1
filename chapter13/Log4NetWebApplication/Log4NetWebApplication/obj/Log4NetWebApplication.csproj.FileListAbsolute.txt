@@ -1,0 +1,6 @@
+C:\Users\Jon\Documents\ASP.NET Cookbook\Sample Code\chapter_13_error_handling\Log4NetWebApplication\Log4NetWebApplication\bin\Log4NetWebApplication.dll
+C:\Users\Jon\Documents\ASP.NET Cookbook\Sample Code\chapter_13_error_handling\Log4NetWebApplication\Log4NetWebApplication\bin\Log4NetWebApplication.pdb
+C:\Users\Jon\Documents\ASP.NET Cookbook\Sample Code\chapter_13_error_handling\Log4NetWebApplication\Log4NetWebApplication\bin\log4net.dll
+C:\Users\Jon\Documents\ASP.NET Cookbook\Sample Code\chapter_13_error_handling\Log4NetWebApplication\Log4NetWebApplication\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Jon\Documents\ASP.NET Cookbook\Sample Code\chapter_13_error_handling\Log4NetWebApplication\Log4NetWebApplication\obj\Debug\Log4NetWebApplication.dll
+C:\Users\Jon\Documents\ASP.NET Cookbook\Sample Code\chapter_13_error_handling\Log4NetWebApplication\Log4NetWebApplication\obj\Debug\Log4NetWebApplication.pdb

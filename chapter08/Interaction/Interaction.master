@@ -1,0 +1,22 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Interaction.master.cs" Inherits="Interaction_Site" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Interaction</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="header">
+            <h1>
+                <span runat="server" id="HeaderSpan">Welcome!</span>
+            </h1>
+        </div>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+      
+    </form>
+        
+</body>
+</html>

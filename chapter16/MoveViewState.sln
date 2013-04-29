@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "C:\...\MoveViewState\", "..\..\..\ASP.NET Cookbook\Sample Code\chapter_16_search_engine_optimization\MoveViewState\", "{A1703E37-C7D1-406F-AAB0-AB194BD44AA9}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.VirtualPath = "/MoveViewState"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\ASP.NET Cookbook\Sample Code\chapter_16_search_engine_optimization\MoveViewState\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\MoveViewState\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/MoveViewState"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\ASP.NET Cookbook\Sample Code\chapter_16_search_engine_optimization\MoveViewState\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\MoveViewState\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "2203"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1703E37-C7D1-406F-AAB0-AB194BD44AA9}.Debug|.NET.ActiveCfg = Debug|.NET
+		{A1703E37-C7D1-406F-AAB0-AB194BD44AA9}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,6 @@
+obj\Debug\ResolveAssemblyReference.cache
+bin\Log4NetWebApplication.dll
+bin\Log4NetWebApplication.pdb
+bin\log4net.dll
+obj\Debug\Log4NetWebApplication.dll
+obj\Debug\Log4NetWebApplication.pdb

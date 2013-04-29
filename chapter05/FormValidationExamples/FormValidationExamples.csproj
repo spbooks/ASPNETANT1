@@ -1,0 +1,150 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{98B02951-8D1B-48FB-BE94-642A61A19189}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FormValidationExamples</RootNamespace>
+    <AssemblyName>FormValidationExamples</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CustomValidatorControlExample.aspx" />
+    <Content Include="CustomValidatorExample.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="IsPinValid.aspx" />
+    <Content Include="RegisterExpandoAttributeExample.aspx" />
+    <EmbeddedResource Include="Resources\Scripts\PinValidatorEvaluateIsValid.js" />
+    <Content Include="SimpleForm.aspx" />
+    <Content Include="SimpleFormWithSideMessages.aspx" />
+    <Content Include="ValidationGroupExample.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="WithoutValidationGroupExample.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CustomValidatorControlExample.aspx.cs">
+      <DependentUpon>CustomValidatorControlExample.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CustomValidatorControlExample.aspx.designer.cs">
+      <DependentUpon>CustomValidatorControlExample.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CustomValidatorExample.aspx.cs">
+      <DependentUpon>CustomValidatorExample.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CustomValidatorExample.aspx.designer.cs">
+      <DependentUpon>CustomValidatorExample.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ExpandoControl.cs" />
+    <Compile Include="IsPinValid.aspx.cs">
+      <DependentUpon>IsPinValid.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IsPinValid.aspx.designer.cs">
+      <DependentUpon>IsPinValid.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PinValidator.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegisterExpandoAttributeExample.aspx.cs">
+      <DependentUpon>RegisterExpandoAttributeExample.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RegisterExpandoAttributeExample.aspx.designer.cs">
+      <DependentUpon>RegisterExpandoAttributeExample.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SimpleForm.aspx.cs">
+      <DependentUpon>SimpleForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SimpleForm.aspx.designer.cs">
+      <DependentUpon>SimpleForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SimpleFormWithSideMessages.aspx.cs">
+      <DependentUpon>SimpleFormWithSideMessages.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SimpleFormWithSideMessages.aspx.designer.cs">
+      <DependentUpon>SimpleFormWithSideMessages.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ValidationGroupExample.aspx.cs">
+      <DependentUpon>ValidationGroupExample.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ValidationGroupExample.aspx.designer.cs">
+      <DependentUpon>ValidationGroupExample.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WithoutValidationGroupExample.aspx.cs">
+      <DependentUpon>WithoutValidationGroupExample.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WithoutValidationGroupExample.aspx.designer.cs">
+      <DependentUpon>WithoutValidationGroupExample.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v8.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>57890</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

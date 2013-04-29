@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "D:\...\ChooseYourControls\", "ChooseYourControls\", "{DD5DE868-79F9-47D8-B2CE-0EF63E33668E}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.VirtualPath = "/ChooseYourControls"
+		Debug.AspNetCompiler.PhysicalPath = "ChooseYourControls\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\ChooseYourControls\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/ChooseYourControls"
+		Release.AspNetCompiler.PhysicalPath = "ChooseYourControls\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\ChooseYourControls\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "2799"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "D:\...\CssFriendly\", "CssFriendly\", "{3BF5C9C9-2535-4037-9FEE-9A2C519A282A}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.VirtualPath = "/CssFriendly"
+		Debug.AspNetCompiler.PhysicalPath = "CssFriendly\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\CssFriendly\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/CssFriendly"
+		Release.AspNetCompiler.PhysicalPath = "CssFriendly\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\CssFriendly\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "4862"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD5DE868-79F9-47D8-B2CE-0EF63E33668E}.Debug|.NET.ActiveCfg = Debug|.NET
+		{DD5DE868-79F9-47D8-B2CE-0EF63E33668E}.Debug|.NET.Build.0 = Debug|.NET
+		{3BF5C9C9-2535-4037-9FEE-9A2C519A282A}.Debug|.NET.ActiveCfg = Debug|.NET
+		{3BF5C9C9-2535-4037-9FEE-9A2C519A282A}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

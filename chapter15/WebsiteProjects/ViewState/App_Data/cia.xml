@@ -1,0 +1,6152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cia>
+<continent id='europe' 
+  name='Europe'/>
+
+<continent id='asia' 
+  name='Asia'/>
+
+<continent id='northAmerica' 
+  name='North America'/>
+
+<continent id='australia' 
+  name='Australia/Oceania'/>
+
+<continent id='southAmerica' 
+  name='South America'/>
+
+<continent id='africa' 
+  name='Africa'/>
+
+<country id='cid-cia-Albania' 
+  continent='Europe'
+  name='Albania'
+  datacode='AL'
+  total_area='28750'
+  population='3249136'
+  population_growth='1.34'
+  infant_mortality='49.2'
+  gdp_agri='55'
+  inflation='16'
+  gdp_total='4100'
+  indep_date='28 11 1912'
+  government='emerging democracy'
+  capital='Tirane'>
+  <ethnicgroups name='Greeks'>3</ethnicgroups>
+  <ethnicgroups name='Albanian'>95</ethnicgroups>
+  <religions name='Muslim'>70</religions>
+  <religions name='Roman Catholic'>10</religions>
+  <religions name='Albanian Orthodox'>20</religions>
+  <borders country='cid-cia-Greece'>282</borders>
+  <borders country='cid-cia-Macedonia'>151</borders>
+  <borders country='cid-cia-Serbia-and-Montenegro'>287</borders>
+  <coasts>Adriatic Sea</coasts>
+  <coasts>Ionian Sea</coasts>
+  <coasts>Serbia</coasts>
+  <coasts>Montenegro</coasts>
+</country>
+
+<country id='cid-cia-Andorra' 
+  continent='Europe'
+  name='Andorra'
+  datacode='AN'
+  total_area='450'
+  population='72766'
+  population_growth='2.96'
+  infant_mortality='2.2'
+  gdp_total='1000'
+  government='parliamentary democracy that retains as its heads of state a coprincipality'
+  capital='Andorra la Vella'>
+  <ethnicgroups name='French'>6</ethnicgroups>
+  <ethnicgroups name='Spanish'>61</ethnicgroups>
+  <ethnicgroups name='Andorran'>30</ethnicgroups>
+  <religions name='Roman Catholic'>100</religions>
+  <borders country='cid-cia-France'>60</borders>
+  <borders country='cid-cia-Spain'>65</borders>
+</country>
+
+<country id='cid-cia-Austria' 
+  continent='Europe'
+  name='Austria'
+  datacode='AU'
+  total_area='83850'
+  population='8023244'
+  population_growth='0.41'
+  infant_mortality='6.2'
+  gdp_agri='2'
+  inflation='2.3'
+  gdp_ind='34'
+  gdp_serv='64'
+  gdp_total='152000'
+  indep_date='12 11 1918'
+  government='federal republic'
+  capital='Vienna'>
+  <ethnicgroups name='German'>99.4</ethnicgroups>
+  <ethnicgroups name='Slovene'>0.2</ethnicgroups>
+  <ethnicgroups name='Croatian'>0.3</ethnicgroups>
+  <religions name='Roman Catholic'>85</religions>
+  <religions name='Protestant'>6</religions>
+  <languages name='German'>100</languages>
+  <borders country='cid-cia-Czech-Republic'>362</borders>
+  <borders country='cid-cia-Germany'>784</borders>
+  <borders country='cid-cia-Hungary'>366</borders>
+  <borders country='cid-cia-Italy'>430</borders>
+  <borders country='cid-cia-Liechtenstein'>37</borders>
+  <borders country='cid-cia-Slovakia'>91</borders>
+  <borders country='cid-cia-Slovenia'>324</borders>
+  <borders country='cid-cia-Switzerland'>164</borders>
+</country>
+
+<country id='cid-cia-Belarus' 
+  continent='Europe'
+  name='Belarus'
+  datacode='BO'
+  total_area='207600'
+  population='10415973'
+  population_growth='0.2'
+  infant_mortality='13.4'
+  gdp_agri='21'
+  inflation='244'
+  gdp_ind='49'
+  gdp_serv='30'
+  gdp_total='49200'
+  indep_date='25 08 1991'
+  government='republic'
+  capital='Minsk'>
+  <ethnicgroups name='Polish'>4.1</ethnicgroups>
+  <ethnicgroups name='Ukrainian'>2.9</ethnicgroups>
+  <ethnicgroups name='Russian'>13.2</ethnicgroups>
+  <ethnicgroups name='Byelorussian'>77.9</ethnicgroups>
+  <religions name='Eastern Orthodox'>60</religions>
+  <borders country='cid-cia-Latvia'>141</borders>
+  <borders country='cid-cia-Lithuania'>502</borders>
+  <borders country='cid-cia-Poland'>605</borders>
+  <borders country='cid-cia-Ukraine'>891</borders>
+  <borders country='cid-cia-Russia'>959</borders>
+</country>
+
+<country id='cid-cia-Belgium' 
+  continent='Europe'
+  name='Belgium'
+  datacode='BE'
+  total_area='30510'
+  population='10170241'
+  population_growth='0.33'
+  infant_mortality='6.4'
+  gdp_agri='2'
+  inflation='1.6'
+  gdp_ind='28'
+  gdp_serv='70'
+  gdp_total='197000'
+  indep_date='04 10 1830'
+  government='constitutional monarchy'
+  capital='Brussels'>
+  <ethnicgroups name='Fleming'>55</ethnicgroups>
+  <ethnicgroups name='Walloon'>33</ethnicgroups>
+  <religions name='Roman Catholic'>75</religions>
+  <religions name='Protestant'>25</religions>
+  <languages name='French'>32</languages>
+  <languages name='German'>1</languages>
+  <languages name='Dutch'>56</languages>
+  <borders country='cid-cia-France'>620</borders>
+  <borders country='cid-cia-Germany'>167</borders>
+  <borders country='cid-cia-Luxembourg'>148</borders>
+  <borders country='cid-cia-Netherlands'>450</borders>
+  <coasts>North Sea</coasts>
+</country>
+
+<country id='cid-cia-Bosnia-and-Herzegovina' 
+  continent='Europe'
+  name='Bosnia and Herzegovina'
+  datacode='BK'
+  total_area='51233'
+  population='2656240'
+  population_growth='-2.84'
+  infant_mortality='43.2'
+  gdp_total='1000'
+  indep_date='01 04 1992'
+  government='emerging democracy'
+  capital='Sarajevo'>
+  <ethnicgroups name='Muslim'>38</ethnicgroups>
+  <ethnicgroups name='Serb'>40</ethnicgroups>
+  <ethnicgroups name='Croat'>22</ethnicgroups>
+  <religions name='Muslim'>40</religions>
+  <religions name='Protestant'>4</religions>
+  <religions name='Orthodox'>31</religions>
+  <religions name='Catholic'>15</religions>
+  <languages name='Serbo-Croatian'>99</languages>
+  <borders country='cid-cia-Croatia'>932</borders>
+  <borders country='cid-cia-Serbia-and-Montenegro'>527</borders>
+  <coasts>Adriatic Sea</coasts>
+</country>
+
+<country id='cid-cia-Bulgaria' 
+  continent='Europe'
+  name='Bulgaria'
+  datacode='BU'
+  total_area='110910'
+  population='8612757'
+  population_growth='0.46'
+  infant_mortality='15.7'
+  gdp_agri='12'
+  inflation='35'
+  gdp_ind='36'
+  gdp_serv='52'
+  gdp_total='43200'
+  indep_date='22 09 1908'
+  government='emerging democracy'
+  capital='Sofia'>
+  <ethnicgroups name='Russian'>0.2</ethnicgroups>
+  <ethnicgroups name='Gypsy'>2.6</ethnicgroups>
+  <ethnicgroups name='Turk'>8.5</ethnicgroups>
+  <ethnicgroups name='Bulgarian'>85.3</ethnicgroups>
+  <ethnicgroups name='Armenian'>0.3</ethnicgroups>
+  <ethnicgroups name='Macedonian'>2.5</ethnicgroups>
+  <religions name='Muslim'>13</religions>
+  <religions name='Jewish'>0.8</religions>
+  <religions name='Roman Catholic'>0.5</religions>
+  <religions name='Bulgarian Orthodox'>85</religions>
+  <religions name='Uniate Catholic'>0.2</religions>
+  <languages name='Bulgarian'>100</languages>
+  <borders country='cid-cia-Greece'>494</borders>
+  <borders country='cid-cia-Macedonia'>148</borders>
+  <borders country='cid-cia-Romania'>608</borders>
+  <borders country='cid-cia-Serbia-and-Montenegro'>318</borders>
+  <borders country='cid-cia-Turkey'>240</borders>
+  <coasts>Black Sea</coasts>
+</country>
+
+<country id='cid-cia-Croatia' 
+  continent='Europe'
+  name='Croatia'
+  datacode='HR'
+  total_area='56538'
+  population='5004112'
+  population_growth='0.58'
+  infant_mortality='10.2'
+  gdp_agri='12.7'
+  inflation='3.7'
+  gdp_ind='30.6'
+  gdp_serv='56.7'
+  gdp_total='20100'
+  indep_date='25 06 1991'
+  government='parliamentary democracy'
+  capital='Zagreb'>
+  <ethnicgroups name='Muslim'>0.9</ethnicgroups>
+  <ethnicgroups name='Serb'>12</ethnicgroups>
+  <ethnicgroups name='Croat'>78</ethnicgroups>
+  <ethnicgroups name='Hungarian'>0.5</ethnicgroups>
+  <ethnicgroups name='Slovenian'>0.5</ethnicgroups>
+  <religions name='Protestant'>0.4</religions>
+  <religions name='Orthodox'>11.1</religions>
+  <religions name='Catholic'>76.5</religions>
+  <religions name='Slavic Muslim'>1.2</religions>
+  <languages name='Serbo-Croatian'>96</languages>
+  <borders country='cid-cia-Bosnia-and-Herzegovina'>932</borders>
+  <borders country='cid-cia-Hungary'>329</borders>
+  <borders country='cid-cia-Serbia-and-Montenegro'>266</borders>
+  <borders country='cid-cia-Slovenia'>546</borders>
+  <coasts>Adriatic Sea</coasts>
+  <coasts>Bosnia</coasts>
+  <coasts>Herzegovina</coasts>
+</country>
+
+<country id='cid-cia-Czech-Republic' 
+  continent='Europe'
+  name='Czech Republic'
+  datacode='EZ'
+  total_area='78703'
+  population='10321120'
+  population_growth='-0.03'
+  infant_mortality='8.4'
+  gdp_agri='5.8'
+  inflation='9.1'
+  gdp_ind='40.7'
+  gdp_serv='53.5'
+  gdp_total='106200'
+  indep_date='01 01 1993'
+  government='parliamentary democracy'
+  capital='Prague'>
+  <ethnicgroups name='German'>0.5</ethnicgroups>
+  <ethnicgroups name='Polish'>0.6</ethnicgroups>
+  <ethnicgroups name='Gypsy'>0.3</ethnicgroups>
+  <ethnicgroups name='Hungarian'>0.2</ethnicgroups>
+  <ethnicgroups name='Czech'>94.4</ethnicgroups>
+  <ethnicgroups name='Slovak'>3</ethnicgroups>
+  <religions name='Roman Catholic'>39.2</religions>
+  <religions name='Protestant'>4.6</religions>
+  <religions name='Orthodox'>3</religions>
+  <borders country='cid-cia-Austria'>362</borders>
+  <borders country='cid-cia-Germany'>646</borders>
+  <borders country='cid-cia-Poland'>658</borders>
+  <borders country='cid-cia-Slovakia'>214</borders>
+</country>
+
+<country id='cid-cia-Denmark' 
+  continent='Europe'
+  name='Denmark'
+  datacode='DA'
+  total_area='43070'
+  population='5249632'
+  population_growth='0.38'
+  infant_mortality='4.8'
+  gdp_agri='3'
+  inflation='2.4'
+  gdp_ind='23.5'
+  gdp_serv='73.5'
+  gdp_total='112800'
+  government='constitutional monarchy'
+  capital='Copenhagen'>
+  <religions name='Evangelical Lutheran'>91</religions>
+  <religions name='Protestant Roman Catholic'>2</religions>
+  <borders country='cid-cia-Germany'>68</borders>
+  <coasts>North Sea</coasts>
+  <coasts>Baltic Sea</coasts>
+</country>
+
+<country id='cid-cia-Estonia' 
+  continent='Europe'
+  name='Estonia'
+  datacode='EN'
+  total_area='45100'
+  population='1459428'
+  population_growth='-1.13'
+  infant_mortality='17.4'
+  gdp_agri='10'
+  inflation='29'
+  gdp_ind='37'
+  gdp_serv='53'
+  gdp_total='12300'
+  indep_date='06 09 1991'
+  government='republic'
+  capital='Tallinn'>
+  <ethnicgroups name='Ukrainian'>3.2</ethnicgroups>
+  <ethnicgroups name='Russian'>30.3</ethnicgroups>
+  <ethnicgroups name='Byelorussian'>1.8</ethnicgroups>
+  <ethnicgroups name='Finn'>1.1</ethnicgroups>
+  <ethnicgroups name='Estonian'>61.5</ethnicgroups>
+  <borders country='cid-cia-Latvia'>267</borders>
+  <borders country='cid-cia-Russia'>290</borders>
+  <coasts>Baltic Sea</coasts>
+  <coasts>Gulf Of Finland</coasts>
+</country>
+
+<country id='cid-cia-Faroe-Islands' 
+  continent='Europe'
+  name='Faroe Islands'
+  datacode='FO'
+  total_area='1400'
+  population='43857'
+  population_growth='-1.8'
+  infant_mortality='7.2'
+  inflation='6.8'
+  gdp_total='733'
+  government='part of the Danish realm'
+  capital='Torshavn'>
+  <ethnicgroups name='Scandinavian'>100</ethnicgroups>
+  <religions name='Evangelical Lutheran'>100</religions>
+  <coasts>Norwegian Sea</coasts>
+  <coasts>Atlantic Ocean</coasts>
+</country>
+
+<country id='cid-cia-Finland' 
+  continent='Europe'
+  name='Finland'
+  datacode='FI'
+  total_area='337030'
+  population='5105230'
+  population_growth='0.1'
+  infant_mortality='4.9'
+  gdp_agri='4.6'
+  inflation='2'
+  gdp_ind='28'
+  gdp_serv='67.4'
+  gdp_total='92400'
+  indep_date='06 12 1917'
+  government='republic'
+  capital='Helsinki'>
+  <religions name='Evangelical Lutheran'>89</religions>
+  <religions name='Greek Orthodox'>1</religions>
+  <languages name='Swedish'>6.3</languages>
+  <languages name='Finnish'>93.5</languages>
+  <borders country='cid-cia-Norway'>729</borders>
+  <borders country='cid-cia-Sweden'>586</borders>
+  <borders country='cid-cia-Russia'>1313</borders>
+  <coasts>Baltic Sea</coasts>
+  <coasts>Gulf Of Finland</coasts>
+  <coasts>Gulf Of Bothnia</coasts>
+</country>
+
+<country id='cid-cia-France' 
+  continent='Europe'
+  name='France'
+  datacode='FR'
+  total_area='547030'
+  population='58317450'
+  population_growth='0.34'
+  infant_mortality='5.3'
+  gdp_agri='2.4'
+  inflation='1.7'
+  gdp_ind='26.5'
+  gdp_serv='71.1'
+  gdp_total='1173000'
+  government='republic'
+  capital='Paris'>
+  <religions name='Muslim'>1</religions>
+  <religions name='Jewish'>1</religions>
+  <religions name='Roman Catholic'>90</religions>
+  <religions name='Protestant'>2</religions>
+  <languages name='French'>100</languages>
+  <borders country='cid-cia-Andorra'>60</borders>
+  <borders country='cid-cia-Belgium'>620</borders>
+  <borders country='cid-cia-Germany'>451</borders>
+  <borders country='cid-cia-Italy'>488</borders>
+  <borders country='cid-cia-Luxembourg'>73</borders>
+  <borders country='cid-cia-Monaco'>4.4</borders>
+  <borders country='cid-cia-Spain'>623</borders>
+  <borders country='cid-cia-Switzerland'>573</borders>
+  <coasts>Bay Of Biscay</coasts>
+  <coasts>English Channel</coasts>
+  <coasts>UK;</coasts>
+  <coasts>Mediterranean Sea</coasts>
+</country>
+
+<country id='cid-cia-Germany' 
+  continent='Europe'
+  name='Germany'
+  datacode='GM'
+  total_area='356910'
+  population='83536115'
+  population_growth='0.67'
+  infant_mortality='6'
+  gdp_agri='1'
+  gdp_ind='34.2'
+  gdp_serv='64.8'
+  gdp_total='1452200'
+  indep_date='18 01 1871'
+  government='federal republic'
+  capital='Berlin'>
+  <ethnicgroups name='Greeks'>0.4</ethnicgroups>
+  <ethnicgroups name='German'>95.1</ethnicgroups>
+  <ethnicgroups name='Italians'>0.7</ethnicgroups>
+  <ethnicgroups name='Turkish'>2.3</ethnicgroups>
+  <ethnicgroups name='Poles'>0.4</ethnicgroups>
+  <religions name='Roman Catholic'>37</religions>
+  <religions name='Protestant'>45</religions>
+  <languages name='German'>100</languages>
+  <borders country='cid-cia-Austria'>784</borders>
+  <borders country='cid-cia-Belgium'>167</borders>
+  <borders country='cid-cia-Czech-Republic'>646</borders>
+  <borders country='cid-cia-Denmark'>68</borders>
+  <borders country='cid-cia-France'>451</borders>
+  <borders country='cid-cia-Luxembourg'>138</borders>
+  <borders country='cid-cia-Netherlands'>577</borders>
+  <borders country='cid-cia-Poland'>456</borders>
+  <borders country='cid-cia-Switzerland'>334</borders>
+  <coasts>North Sea</coasts>
+  <coasts>Baltic Sea</coasts>
+</country>
+
+<country id='cid-cia-Gibraltar' 
+  continent='Europe'
+  name='Gibraltar'
+  datacode='GI'
+  total_area='6.5'
+  population='28765'
+  population_growth='0.54'
+  infant_mortality='6.9'
+  gdp_total='205'
+  government='dependent territory of the UK'
+  capital='Gibraltar'>
+  <religions name='Muslim'>8</religions>
+  <religions name='Jewish'>2</religions>
+  <religions name='Roman Catholic'>74</religions>
+  <religions name='Protestant'>11</religions>
+  <borders country='cid-cia-Spain'>1.2</borders>
+  <coasts>Mediterranean Sea</coasts>
+  <coasts>Strait Of Gibraltar</coasts>
+  <coasts>North Atlantic Ocean</coasts>
+</country>
+
+<country id='cid-cia-Greece' 
+  continent='Europe'
+  name='Greece'
+  datacode='GR'
+  total_area='131940'
+  population='10538594'
+  population_growth='0.42'
+  infant_mortality='7.4'
+  gdp_agri='11.8'
+  inflation='8.1'
+  gdp_ind='22.2'
+  gdp_serv='66'
+  gdp_total='101700'
+  indep_date='01 01 1829'
+  government='parliamentary republic'
+  capital='Athens'>
+  <ethnicgroups name='Greek'>98</ethnicgroups>
+  <religions name='Muslim'>1.3</religions>
+  <religions name='Greek Orthodox'>98</religions>
+  <borders country='cid-cia-Albania'>282</borders>
+  <borders country='cid-cia-Bulgaria'>494</borders>
+  <borders country='cid-cia-Macedonia'>228</borders>
+  <borders country='cid-cia-Turkey'>206</borders>
+  <coasts>Ionian Sea</coasts>
+  <coasts>Mediterranean Sea</coasts>
+  <coasts>Aegean Sea</coasts>
+</country>
+
+<country id='cid-cia-Guernsey' 
+  continent='Europe'
+  name='Guernsey'
+  datacode='GK'
+  total_area='194'
+  population='62920'
+  population_growth='1.28'
+  infant_mortality='9.2'
+  inflation='7'
+  government='British crown dependency'
+  capital='Saint Peter Port'>
+  <ethnicgroups name='UK Norman-French'>100</ethnicgroups>
+  <coasts>English Channel</coasts>
+</country>
+
+<country id='cid-cia-Holy-See' 
+  continent='Europe'
+  name='Holy See'
+  datacode='VT'
+  total_area='0.44'
+  population='840'
+  population_growth='1.15'
+  indep_date='11 02 1929'
+  government='monarchical sacerdotal state'
+  capital='Vatican City'>
+  <religions name='Roman Catholic'>100</religions>
+  <borders country='cid-cia-Italy'>3.2</borders>
+  <coasts>Rome (Italy)</coasts>
+</country>
+
+<country id='cid-cia-Hungary' 
+  continent='Europe'
+  name='Hungary'
+  datacode='HU'
+  total_area='93030'
+  population='10002541'
+  population_growth='-0.68'
+  infant_mortality='12.3'
+  gdp_agri='7.3'
+  inflation='28.3'
+  gdp_ind='37.5'
+  gdp_serv='55.2'
+  gdp_total='72500'
+  indep_date='01 01 1001'
+  government='republic'
+  capital='Budapest'>
+  <ethnicgroups name='German'>2.6</ethnicgroups>
+  <ethnicgroups name='Serb'>2</ethnicgroups>
+  <ethnicgroups name='Gypsy'>4</ethnicgroups>
+  <ethnicgroups name='Hungarian'>89.9</ethnicgroups>
+  <ethnicgroups name='Slovak'>0.8</ethnicgroups>
+  <ethnicgroups name='Romanian'>0.7</ethnicgroups>
+  <religions name='Roman Catholic'>67.5</religions>
+  <religions name='Lutheran'>5</religions>
+  <religions name='Calvinist'>20</religions>
+  <languages name='Hungarian'>98.2</languages>
+  <borders country='cid-cia-Austria'>366</borders>
+  <borders country='cid-cia-Croatia'>329</borders>
+  <borders country='cid-cia-Romania'>443</borders>
+  <borders country='cid-cia-Serbia-and-Montenegro'>151</borders>
+  <borders country='cid-cia-Slovakia'>515</borders>
+  <borders country='cid-cia-Slovenia'>102</borders>
+  <borders country='cid-cia-Ukraine'>103</borders>
+</country>
+
+<country id='cid-cia-Iceland' 
+  continent='Europe'
+  name='Iceland'
+  datacode='IC'
+  total_area='103000'
+  population='270292'
+  population_growth='0.83'
+  infant_mortality='4.3'
+  gdp_agri='9.6'
+  inflation='2.5'
+  gdp_ind='22.1'
+  gdp_serv='68.3'
+  gdp_total='5000'
+  indep_date='17 06 1944'
+  government='republic'
+  capital='Reykjavik'>
+  <ethnicgroups name='Norwegians Celts'>100</ethnicgroups>
+  <religions name='Evangelical Lutheran'>96</religions>
+  <religions name='Protestant Roman Catholic'>3</religions>
+  <languages name='Icelandic'>100</languages>
+  <coasts>UK</coasts>
+  <coasts>North Atlantic Ocean</coasts>
+  <coasts>Greenland Sea</coasts>
+</country>
+
+<country id='cid-cia-Ireland' 
+  continent='Europe'
+  name='Ireland'
+  datacode='EI'
+  total_area='70280'
+  population='3566833'
+  population_growth='-0.22'
+  infant_mortality='6.4'
+  gdp_agri='6.8'
+  inflation='2.8'
+  gdp_ind='35.3'
+  gdp_serv='57.9'
+  gdp_total='54600'
+  indep_date='06 12 1921'
+  government='republic'
+  capital='Dublin'>
+  <religions name='Roman Catholic'>93</religions>
+  <religions name='Anglican'>3</religions>
+  <coasts>North Atlantic Ocean</coasts>
+  <coasts>Great Britain</coasts>
+</country>
+
+<country id='cid-cia-Italy' 
+  continent='Europe'
+  name='Italy'
+  datacode='IT'
+  total_area='301230'
+  population='57460274'
+  population_growth='0.13'
+  infant_mortality='6.9'
+  gdp_agri='2.9'
+  inflation='5.4'
+  gdp_ind='31.6'
+  gdp_serv='65.5'
+  gdp_total='1088600'
+  indep_date='17 03 1861'
+  government='republic'
+  capital='Rome'>
+  <religions name='Roman Catholic'>98</religions>
+  <borders country='cid-cia-Austria'>430</borders>
+  <borders country='cid-cia-France'>488</borders>
+  <borders country='cid-cia-Holy-See'>3.2</borders>
+  <borders country='cid-cia-San-Marino'>39</borders>
+  <borders country='cid-cia-Slovenia'>235</borders>
+  <borders country='cid-cia-Switzerland'>740</borders>
+  <coasts>Mediterranean Sea</coasts>
+</country>
+
+<country id='cid-cia-Jan-Mayen' 
+  continent='Europe'
+  name='Jan Mayen'
+  datacode='JN'
+  total_area='373'
+  government='territory of Norway'>
+  <coasts>Norwegian Sea</coasts>
+  <coasts>Greenland Sea</coasts>
+</country>
+
+<country id='cid-cia-Jersey' 
+  continent='Europe'
+  name='Jersey'
+  datacode='JE'
+  total_area='117'
+  population='87848'
+  population_growth='0.77'
+  infant_mortality='2.7'
+  government='British crown dependency'
+  capital='Saint Helier'>
+  <ethnicgroups name='UK Norman-French'>100</ethnicgroups>
+  <coasts>English Channel</coasts>
+</country>
+
+<country id='cid-cia-Latvia' 
+  continent='Europe'
+  name='Latvia'
+  datacode='LG'
+  total_area='64100'
+  population='2468982'
+  population_growth='-1.39'
+  infant_mortality='21.2'
+  gdp_agri='9'
+  inflation='20'
+  gdp_ind='31'
+  gdp_serv='60'
+  gdp_total='14700'
+  indep_date='06 09 1991'
+  government='republic'
+  capital='Riga'>
+  <ethnicgroups name='Polish'>2.3</ethnicgroups>
+  <ethnicgroups name='Ukrainian'>3.4</ethnicgroups>
+  <ethnicgroups name='Russian'>33.8</ethnicgroups>
+  <ethnicgroups name='Byelorussian'>4.5</ethnicgroups>
+  <ethnicgroups name='Latvian'>51.8</ethnicgroups>
+  <borders country='cid-cia-Belarus'>141</borders>
+  <borders country='cid-cia-Estonia'>267</borders>
+  <borders country='cid-cia-Lithuania'>453</borders>
+  <borders country='cid-cia-Russia'>217</borders>
+  <coasts>Baltic Sea</coasts>
+</country>
+
+<country id='cid-cia-Liechtenstein' 
+  continent='Europe'
+  name='Liechtenstein'
+  datacode='LS'
+  total_area='160'
+  population='31122'
+  population_growth='1.08'
+  infant_mortality='5.3'
+  inflation='5.4'
+  gdp_total='630'
+  indep_date='23 01 1719'
+  government='hereditary constitutional monarchy'
+  capital='Vaduz'>
+  <ethnicgroups name='Italian'>5</ethnicgroups>
+  <ethnicgroups name='Alemannic'>95</ethnicgroups>
+  <religions name='Roman Catholic'>87.3</religions>
+  <religions name='Protestant'>8.3</religions>
+  <borders country='cid-cia-Austria'>37</borders>
+  <borders country='cid-cia-Switzerland'>41</borders>
+</country>
+
+<country id='cid-cia-Lithuania' 
+  continent='Europe'
+  name='Lithuania'
+  datacode='LH'
+  total_area='65200'
+  population='3646041'
+  population_growth='-0.35'
+  infant_mortality='17'
+  gdp_agri='20'
+  inflation='35'
+  gdp_ind='42'
+  gdp_serv='38'
+  gdp_total='13300'
+  indep_date='06 09 1991'
+  government='republic'
+  capital='Vilnius'>
+  <ethnicgroups name='Polish'>7.7</ethnicgroups>
+  <ethnicgroups name='Russian'>8.6</ethnicgroups>
+  <ethnicgroups name='Byelorussian'>1.5</ethnicgroups>
+  <ethnicgroups name='Lithuanian'>80.1</ethnicgroups>
+  <borders country='cid-cia-Belarus'>502</borders>
+  <borders country='cid-cia-Latvia'>453</borders>
+  <borders country='cid-cia-Poland'>91</borders>
+  <borders country='cid-cia-Russia'>227</borders>
+  <coasts>Baltic Sea</coasts>
+</country>
+
+<country id='cid-cia-Luxembourg' 
+  continent='Europe'
+  name='Luxembourg'
+  datacode='LU'
+  total_area='2586'
+  population='415870'
+  population_growth='1.57'
+  infant_mortality='4.7'
+  gdp_agri='1.4'
+  inflation='3.6'
+  gdp_ind='33.7'
+  gdp_serv='64.9'
+  gdp_total='10000'
+  government='constitutional monarchy'
+  capital='Luxembourg'>
+  <religions name='Roman Catholic'>97</religions>
+  <religions name='Protestant Jewish'>3</religions>
+  <borders country='cid-cia-Belgium'>148</borders>
+  <borders country='cid-cia-France'>73</borders>
+  <borders country='cid-cia-Germany'>138</borders>
+</country>
+
+<country id='cid-cia-Macedonia' 
+  continent='Europe'
+  name='Macedonia'
+  datacode='MK'
+  total_area='25333'
+  population='2104035'
+  population_growth='0.46'
+  infant_mortality='29.7'
+  gdp_agri='24'
+  inflation='14.8'
+  gdp_ind='44'
+  gdp_serv='32'
+  gdp_total='1900'
+  indep_date='17 09 1991'
+  government='emerging democracy'
+  capital='Skopje'>
+  <ethnicgroups name='Albanian'>22</ethnicgroups>
+  <ethnicgroups name='Serb'>2</ethnicgroups>
+  <ethnicgroups name='Macedonian'>65</ethnicgroups>
+  <ethnicgroups name='Turkish'>4</ethnicgroups>
+  <ethnicgroups name='Gypsies'>3</ethnicgroups>
+  <religions name='Muslim'>30</religions>
+  <religions name='Eastern Orthodox'>67</religions>
+  <languages name='Albanian'>21</languages>
+  <languages name='Macedonian'>70</languages>
+  <languages name='Turkish'>3</languages>
+  <languages name='Serbo-Croatian'>3</languages>
+  <borders country='cid-cia-Albania'>151</borders>
+  <borders country='cid-cia-Bulgaria'>148</borders>
+  <borders country='cid-cia-Greece'>228</borders>
+  <borders country='cid-cia-Serbia-and-Montenegro'>221</borders>
+</country>
+
+<country id='cid-cia-Malta' 
+  continent='Europe'
+  name='Malta'
+  datacode='MT'
+  total_area='320'
+  population='375576'
+  population_growth='1.01'
+  infant_mortality='6.9'
+  inflation='5'
+  gdp_total='4400'
+  indep_date='21 09 1964'
+  government='parliamentary democracy'
+  capital='Valletta'>
+  <religions name='Roman Catholic'>98</religions>
+  <coasts>Mediterranean Sea</coasts>
+  <coasts>Sicily (Italy)</coasts>
+</country>
+
+<country id='cid-cia-Man' 
+  continent='Europe'
+  name='Man'
+  datacode='IM'
+  total_area='588'
+  population='73837'
+  population_growth='0.94'
+  infant_mortality='2.4'
+  inflation='7'
+  gdp_total='780'
+  government='British crown dependency'
+  capital='Douglas'>
+  <coasts>Great Britain</coasts>
+  <coasts>Irish Sea</coasts>
+</country>
+
+<country id='cid-cia-Moldova' 
+  continent='Europe'
+  name='Moldova'
+  datacode='MD'
+  total_area='33700'
+  population='4463847'
+  population_growth='0.18'
+  infant_mortality='47.6'
+  gdp_agri='33'
+  inflation='24'
+  gdp_ind='36'
+  gdp_serv='31'
+  gdp_total='10400'
+  indep_date='27 08 1991'
+  government='republic'
+  capital='Chisinau'>
+  <ethnicgroups name='Ukrainian'>13.8</ethnicgroups>
+  <ethnicgroups name='Russian'>13</ethnicgroups>
+  <ethnicgroups name='Bulgarian'>2</ethnicgroups>
+  <ethnicgroups name='Jewish'>1.5</ethnicgroups>
+  <ethnicgroups name='Gagauz'>3.5</ethnicgroups>
+  <ethnicgroups name='Moldavian/Romanian'>64.5</ethnicgroups>
+  <religions name='Jewish'>1.5</religions>
+  <religions name='Eastern Orthodox'>98.5</religions>
+  <borders country='cid-cia-Romania'>450</borders>
+  <borders country='cid-cia-Ukraine'>939</borders>
+</country>
+
+<country id='cid-cia-Monaco' 
+  continent='Europe'
+  name='Monaco'
+  datacode='MN'
+  total_area='1.9'
+  population='31719'
+  population_growth='0.59'
+  infant_mortality='6.9'
+  gdp_total='788'
+  indep_date='01 01 1419'
+  government='constitutional monarchy'
+  capital='Monaco'>
+  <ethnicgroups name='French'>47</ethnicgroups>
+  <ethnicgroups name='Italian'>16</ethnicgroups>
+  <ethnicgroups name='Monegasque'>16</ethnicgroups>
+  <religions name='Roman Catholic'>95</religions>
+  <borders country='cid-cia-France'>4.4</borders>
+  <coasts>Mediterranean Sea</coasts>
+</country>
+
+<country id='cid-cia-Netherlands' 
+  continent='Europe'
+  name='Netherlands'
+  datacode='NL'
+  total_area='37330'
+  population='15568034'
+  population_growth='0.56'
+  infant_mortality='4.9'
+  gdp_agri='3.4'
+  inflation='2.25'
+  gdp_ind='26.9'
+  gdp_serv='69.7'
+  gdp_total='301900'
+  indep_date='01 01 1579'
+  government='constitutional monarchy'
+  capital='Amsterdam'>
+  <ethnicgroups name='Dutch'>96</ethnicgroups>
+  <religions name='Muslim'>3</religions>
+  <religions name='Roman Catholic'>34</religions>
+  <religions name='Protestant'>25</religions>
+  <languages name='Dutch'>100</languages>
+  <borders country='cid-cia-Belgium'>450</borders>
+  <borders country='cid-cia-Germany'>577</borders>
+  <coasts>North Sea</coasts>
+</country>
+
+<country id='cid-cia-Norway' 
+  continent='Europe'
+  name='Norway'
+  datacode='NO'
+  total_area='324220'
+  population='4383807'
+  population_growth='0.48'
+  infant_mortality='4.9'
+  gdp_agri='2.9'
+  inflation='2.5'
+  gdp_ind='34.7'
+  gdp_serv='62.4'
+  gdp_total='106200'
+  indep_date='26 10 1905'
+  government='constitutional monarchy'
+  capital='Oslo'>
+  <religions name='Evangelical Lutheran'>87.8</religions>
+  <religions name='Protestant Roman Catholic'>3.8</religions>
+  <languages name='Norwegian'>100</languages>
+  <borders country='cid-cia-Finland'>729</borders>
+  <borders country='cid-cia-Sweden'>1619</borders>
+  <borders country='cid-cia-Russia'>167</borders>
+  <coasts>North Sea</coasts>
+  <coasts>North Atlantic Ocean</coasts>
+</country>
+
+<country id='cid-cia-Poland' 
+  continent='Europe'
+  name='Poland'
+  datacode='PL'
+  total_area='312683'
+  population='38642565'
+  population_growth='0.14'
+  infant_mortality='12.4'
+  gdp_agri='7'
+  inflation='21.6'
+  gdp_ind='38'
+  gdp_serv='55'
+  gdp_total='226700'
+  indep_date='11 11 1918'
+  government='democratic state'
+  capital='Warsaw'>
+  <ethnicgroups name='German'>1.3</ethnicgroups>
+  <ethnicgroups name='Polish'>97.6</ethnicgroups>
+  <ethnicgroups name='Ukrainian'>0.6</ethnicgroups>
+  <ethnicgroups name='Byelorussian'>0.5</ethnicgroups>
+  <religions name='Roman Catholic'>95</religions>
+  <languages name='Polish'>100</languages>
+  <borders country='cid-cia-Belarus'>605</borders>
+  <borders country='cid-cia-Czech-Republic'>658</borders>
+  <borders country='cid-cia-Germany'>456</borders>
+  <borders country='cid-cia-Lithuania'>91</borders>
+  <borders country='cid-cia-Slovakia'>444</borders>
+  <borders country='cid-cia-Ukraine'>428</borders>
+  <borders country='cid-cia-Russia'>206</borders>
+</country>
+
+<country id='cid-cia-Portugal' 
+  continent='Europe'
+  name='Portugal'
+  datacode='PO'
+  total_area='92080'
+  population='9865114'
+  population_growth='0.02'
+  infant_mortality='7.6'
+  gdp_agri='6'
+  inflation='4.6'
+  gdp_ind='35.8'
+  gdp_serv='58.2'
+  gdp_total='116200'
+  indep_date='01 01 1140'
+  government='republic'
+  capital='Lisbon'>
+  <religions name='Roman Catholic'>97</religions>
+  <religions name='Protestant'>1</religions>
+  <languages name='Portuguese'>100</languages>
+  <borders country='cid-cia-Spain'>1214</borders>
+  <coasts>North Atlantic Ocean</coasts>
+</country>
+
+<country id='cid-cia-Romania' 
+  continent='Europe'
+  name='Romania'
+  datacode='RO'
+  total_area='237500'
+  population='21657162'
+  population_growth='-1.21'
+  infant_mortality='23.2'
+  gdp_agri='19.6'
+  inflation='25'
+  gdp_ind='36.3'
+  gdp_serv='44.1'
+  gdp_total='105700'
+  indep_date='01 01 1881'
+  government='republic'
+  capital='Bucharest'>
+  <ethnicgroups name='German'>0.4</ethnicgroups>
+  <ethnicgroups name='Gypsy'>1.6</ethnicgroups>
+  <ethnicgroups name='Hungarian'>8.9</ethnicgroups>
+  <ethnicgroups name='Romanian'>89.1</ethnicgroups>
+  <religions name='Roman Catholic'>6</religions>
+  <religions name='Protestant'>6</religions>
+  <religions name='Romanian Orthodox'>70</religions>
+  <borders country='cid-cia-Bulgaria'>608</borders>
+  <borders country='cid-cia-Hungary'>443</borders>
+  <borders country='cid-cia-Moldova'>450</borders>
+  <borders country='cid-cia-Serbia-and-Montenegro'>476</borders>
+  <borders country='cid-cia-Ukraine'>531</borders>
+  <coasts>Black Sea</coasts>
+</country>
+
+<country id='cid-cia-San-Marino' 
+  continent='Europe'
+  name='San Marino'
+  datacode='SM'
+  total_area='60'
+  population='24521'
+  population_growth='0.82'
+  infant_mortality='5.5'
+  inflation='5.5'
+  gdp_total='380'
+  indep_date='01 01 0301'
+  government='republic'
+  capital='San Marino'>
+  <religions name='Roman Catholic'>100</religions>
+  <languages name='Italian'>100</languages>
+  <borders country='cid-cia-Italy'>39</borders>
+</country>
+
+<country id='cid-cia-Serbia-and-Montenegro' 
+  continent='Europe'
+  name='Serbia and Montenegro'
+  total_area='102350'
+  population='10614558'
+  inflation='20'
+  gdp_total='20600'
+  indep_date='11 04 1992'
+  government='republic'
+  capital='Belgrade'>
+  <ethnicgroups name='Serbs'>63</ethnicgroups>
+  <ethnicgroups name='Albanians'>14</ethnicgroups>
+  <ethnicgroups name='Montenegrins'>6</ethnicgroups>
+  <ethnicgroups name='Hungarians'>4</ethnicgroups>
+  <religions name='Muslim'>19</religions>
+  <religions name='Roman Catholic'>4</religions>
+  <religions name='Protestant'>1</religions>
+  <religions name='Orthodox'>65</religions>
+  <languages name='Albanian'>5</languages>
+  <languages name='Serbo-Croatian'>95</languages>
+  <borders country='cid-cia-Albania'>287</borders>
+  <borders country='cid-cia-Bosnia-and-Herzegovina'>527</borders>
+  <borders country='cid-cia-Bulgaria'>318</borders>
+  <borders country='cid-cia-Croatia'>266</borders>
+  <borders country='cid-cia-Hungary'>151</borders>
+  <borders country='cid-cia-Macedonia'>221</borders>
+  <borders country='cid-cia-Romania'>476</borders>
+  <coasts>Adriatic Sea</coasts>
+  <coasts>Bosnia</coasts>
+  <coasts>Herzegovina</coasts>
+</country>
+
+<country id='cid-cia-Slovakia' 
+  continent='Europe'
+  name='Slovakia'
+  datacode='LO'
+  total_area='48845'
+  population='5374362'
+  population_growth='0.34'
+  infant_mortality='10.7'
+  gdp_agri='6.7'
+  inflation='7.5'
+  gdp_ind='47.6'
+  gdp_serv='45.7'
+  gdp_total='39000'
+  indep_date='01 01 1993'
+  government='parliamentary democracy'
+  capital='Bratislava'>
+  <ethnicgroups name='German'>0.1</ethnicgroups>
+  <ethnicgroups name='Polish'>0.1</ethnicgroups>
+  <ethnicgroups name='Ukrainian'>0.3</ethnicgroups>
+  <ethnicgroups name='Gypsy'>1.5</ethnicgroups>
+  <ethnicgroups name='Hungarian'>10.7</ethnicgroups>
+  <ethnicgroups name='Czech'>1</ethnicgroups>
+  <ethnicgroups name='Slovak'>85.7</ethnicgroups>
+  <ethnicgroups name='Ruthenian'>0.3</ethnicgroups>
+  <religions name='Roman Catholic'>60.3</religions>
+  <religions name='Protestant'>8.4</religions>
+  <religions name='Orthodox'>4.1</religions>
+  <borders country='cid-cia-Austria'>91</borders>
+  <borders country='cid-cia-Czech-Republic'>215</borders>
+  <borders country='cid-cia-Hungary'>515</borders>
+  <borders country='cid-cia-Poland'>444</borders>
+  <borders country='cid-cia-Ukraine'>90</borders>
+</country>
+
+<country id='cid-cia-Slovenia' 
+  continent='Europe'
+  name='Slovenia'
+  datacode='SI'
+  total_area='20256'
+  population='1951443'
+  population_growth='-0.27'
+  infant_mortality='7.3'
+  gdp_agri='5.3'
+  inflation='8'
+  gdp_ind='39.9'
+  gdp_serv='54.8'
+  gdp_total='22600'
+  indep_date='25 06 1991'
+  government='emerging democracy'
+  capital='Ljubljana'>
+  <ethnicgroups name='Slovene'>91</ethnicgroups>
+  <ethnicgroups name='Muslim'>1</ethnicgroups>
+  <ethnicgroups name='Serb'>2</ethnicgroups>
+  <ethnicgroups name='Croat'>3</ethnicgroups>
+  <religions name='Muslim'>1</religions>
+  <religions name='Roman Catholic'>96</religions>
+  <languages name='Slovenian'>91</languages>
+  <languages name='Serbo-Croatian'>7</languages>
+  <borders country='cid-cia-Austria'>324</borders>
+  <borders country='cid-cia-Croatia'>546</borders>
+  <borders country='cid-cia-Hungary'>102</borders>
+  <borders country='cid-cia-Italy'>235</borders>
+  <coasts>Adriatic Sea</coasts>
+</country>
+
+<country id='cid-cia-Spain' 
+  continent='Europe'
+  name='Spain'
+  datacode='SP'
+  total_area='504750'
+  population='39181114'
+  population_growth='0.16'
+  infant_mortality='6.3'
+  gdp_agri='3.6'
+  inflation='4.3'
+  gdp_ind='33.6'
+  gdp_serv='62.8'
+  gdp_total='565000'
+  indep_date='01 01 1492'
+  government='parliamentary monarchy'
+  capital='Madrid'>
+  <ethnicgroups name='Mediterranean Nordic'>100</ethnicgroups>
+  <religions name='Roman Catholic'>99</religions>
+  <languages name='Catalan'>17</languages>
+  <languages name='Galician'>7</languages>
+  <languages name='Basque'>2</languages>
+  <borders country='cid-cia-Andorra'>65</borders>
+  <borders country='cid-cia-France'>623</borders>
+  <borders country='cid-cia-Gibraltar'>1.2</borders>
+  <borders country='cid-cia-Portugal'>1214</borders>
+  <coasts>Bay Of Biscay</coasts>
+  <coasts>Mediterranean Sea</coasts>
+  <coasts>North Atlantic Ocean</coasts>
+</country>
+
+<country id='cid-cia-Svalbard' 
+  continent='Europe'
+  name='Svalbard'
+  datacode='SV'
+  total_area='62049'
+  population='2715'
+  population_growth='-4.01'
+  government='territory of Norway administered by the Ministry of Industry'
+  capital='Longyearbyen'>
+  <ethnicgroups name='Norwegian'>38</ethnicgroups>
+  <ethnicgroups name='Russian Ukrainian'>62</ethnicgroups>
+  <coasts>Norwegian Sea</coasts>
+  <coasts>Greenland Sea</coasts>
+  <coasts>Arctic Ocean</coasts>
+  <coasts>Barents Sea</coasts>
+</country>
+
+<country id='cid-cia-Sweden' 
+  continent='Europe'
+  name='Sweden'
+  datacode='SW'
+  total_area='449964'
+  population='8900954'
+  population_growth='0.56'
+  infant_mortality='4.5'
+  gdp_agri='2'
+  inflation='2.6'
+  gdp_ind='27'
+  gdp_serv='71'
+  gdp_total='177300'
+  government='constitutional monarchy'
+  capital='Stockholm'>
+  <ethnicgroups name='foreign-born first-generation'>12</ethnicgroups>
+  <religions name='Roman Catholic'>1.5</religions>
+  <religions name='Evangelical Lutheran'>94</religions>
+  <religions name='Pentecostal'>1</religions>
+  <languages name='Swedish'>100</languages>
+  <borders country='cid-cia-Finland'>586</borders>
+  <borders country='cid-cia-Norway'>1619</borders>
+  <coasts>Baltic Sea</coasts>
+  <coasts>Gulf Of Bothnia</coasts>
+  <coasts>Skagerrak</coasts>
+</country>
+
+<country id='cid-cia-Switzerland' 
+  continent='Europe'
+  name='Switzerland'
+  datacode='SZ'
+  total_area='41290'
+  population='7207060'
+  population_growth='0.59'
+  infant_mortality='5.4'
+  gdp_agri='3'
+  inflation='1.8'
+  gdp_ind='33.5'
+  gdp_serv='63.5'
+  gdp_total='158500'
+  government='federal republic'
+  capital='Bern'>
+  <religions name='Roman Catholic'>47.6</religions>
+  <religions name='Protestant'>44.3</religions>
+  <languages name='French'>18</languages>
+  <languages name='German'>65</languages>
+  <languages name='Italian'>12</languages>
+  <languages name='Romansch'>1</languages>
+  <borders country='cid-cia-Austria'>164</borders>
+  <borders country='cid-cia-France'>573</borders>
+  <borders country='cid-cia-Germany'>334</borders>
+  <borders country='cid-cia-Italy'>740</borders>
+  <borders country='cid-cia-Liechtenstein'>41</borders>
+</country>
+
+<country id='cid-cia-Ukraine' 
+  continent='Europe'
+  name='Ukraine'
+  datacode='UP'
+  total_area='603700'
+  population='50864009'
+  population_growth='-0.4'
+  infant_mortality='22.5'
+  gdp_agri='31'
+  inflation='9'
+  gdp_ind='43'
+  gdp_serv='26'
+  gdp_total='174600'
+  indep_date='01 12 1991'
+  government='republic'
+  capital='Kiev'>
+  <ethnicgroups name='Ukrainian'>73</ethnicgroups>
+  <ethnicgroups name='Russian'>22</ethnicgroups>
+  <ethnicgroups name='Jewish'>1</ethnicgroups>
+  <borders country='cid-cia-Belarus'>891</borders>
+  <borders country='cid-cia-Hungary'>103</borders>
+  <borders country='cid-cia-Moldova'>939</borders>
+  <borders country='cid-cia-Poland'>428</borders>
+  <borders country='cid-cia-Romania'>531</borders>
+  <borders country='cid-cia-Slovakia'>90</borders>
+  <borders country='cid-cia-Russia'>1576</borders>
+  <coasts>Black Sea</coasts>
+</country>
+
+<country id='cid-cia-United-Kingdom' 
+  continent='Europe'
+  name='United Kingdom'
+  datacode='UK'
+  total_area='244820'
+  population='58489975'
+  population_growth='0.22'
+  infant_mortality='6.4'
+  gdp_agri='1.7'
+  inflation='3.1'
+  gdp_ind='27.7'
+  gdp_serv='70.6'
+  gdp_total='1138400'
+  indep_date='01 01 1801'
+  government='constitutional monarchy'
+  capital='London'>
+  <ethnicgroups name='English'>81.5</ethnicgroups>
+  <ethnicgroups name='Irish'>2.4</ethnicgroups>
+  <ethnicgroups name='Welsh'>1.9</ethnicgroups>
+  <ethnicgroups name='Scottish'>9.6</ethnicgroups>
+  <ethnicgroups name='Ulster'>1.8</ethnicgroups>
+  <borders country='cid-cia-Ireland'>360</borders>
+  <coasts>North Sea</coasts>
+  <coasts>North Atlantic Ocean</coasts>
+</country>
+
+<country id='cid-cia-Afghanistan' 
+  continent='Asia'
+  name='Afghanistan'
+  datacode='AF'
+  total_area='647500'
+  population='22664136'
+  population_growth='4.78'
+  infant_mortality='149.7'
+  gdp_agri='65'
+  gdp_ind='15'
+  gdp_serv='20'
+  gdp_total='12800'
+  indep_date='19 08 1919'
+  government='transitional government'
+  capital='Kabul'>
+  <ethnicgroups name='Tajik'>25</ethnicgroups>
+  <ethnicgroups name='Pashtun'>38</ethnicgroups>
+  <ethnicgroups name='Uzbek'>6</ethnicgroups>
+  <ethnicgroups name='Hazara'>19</ethnicgroups>
+  <religions name='Sunni Muslim'>84</religions>
+  <religions name='Shia Muslim'>15</religions>
+  <languages name='Turkic'>11</languages>
+  <languages name='Pashtu'>35</languages>
+  <languages name='Afghan Persian'>50</languages>
+  <borders country='cid-cia-China'>76</borders>
+  <borders country='cid-cia-Iran'>936</borders>
+  <borders country='cid-cia-Pakistan'>2430</borders>
+  <borders country='cid-cia-Tajikistan'>1206</borders>
+  <borders country='cid-cia-Turkmenistan'>744</borders>
+  <borders country='cid-cia-Uzbekistan'>137</borders>
+</country>
+
+<country id='cid-cia-Armenia' 
+  continent='Asia'
+  name='Armenia'
+  datacode='AM'
+  total_area='29800'
+  population='3463574'
+  population_growth='0.02'
+  infant_mortality='38.9'
+  gdp_agri='57'
+  inflation='32.2'
+  gdp_ind='36'
+  gdp_serv='7'
+  gdp_total='9100'
+  indep_date='28 05 1918'
+  government='republic'
+  capital='Yerevan'>
+  <ethnicgroups name='Russian'>2</ethnicgroups>
+  <ethnicgroups name='Armenian'>93</ethnicgroups>
+  <ethnicgroups name='Azeri'>3</ethnicgroups>
+  <religions name='Armenian Orthodox'>94</religions>
+  <languages name='Russian'>2</languages>
+  <languages name='Armenian'>96</languages>
+  <borders country='cid-cia-Georgia'>164</borders>
+  <borders country='cid-cia-Iran'>35</borders>
+  <borders country='cid-cia-Turkey'>268</borders>
+</country>
+
+<country id='cid-cia-Ashmore-and-Cartier-Islands' 
+  continent='Asia'
+  name='Ashmore and Cartier Islands'
+  datacode='AT'
+  total_area='5'
+  government='territory of Australia administered by the Australian Ministry for the Environment'>
+  <coasts>Indian Ocean</coasts>
+</country>
+
+<country id='cid-cia-Azerbaijan' 
+  continent='Asia'
+  name='Azerbaijan'
+  datacode='AJ'
+  total_area='86600'
+  population='7676953'
+  population_growth='0.78'
+  infant_mortality='74.5'
+  inflation='85'
+  gdp_total='11500'
+  indep_date='30 08 1991'
+  government='republic'
+  capital='Baku'>
+  <ethnicgroups name='Russian'>2.5</ethnicgroups>
+  <ethnicgroups name='Armenian'>2.3</ethnicgroups>
+  <ethnicgroups name='Azeri'>90</ethnicgroups>
+  <ethnicgroups name='Dagestani Peoples'>3.2</ethnicgroups>
+  <religions name='Muslim'>93.4</religions>
+  <religions name='Armenian Orthodox'>2.3</religions>
+  <religions name='Russian Orthodox'>2.5</religions>
+  <languages name='Russian'>3</languages>
+  <languages name='Armenian'>2</languages>
+  <languages name='Azeri'>89</languages>
+  <borders country='cid-cia-Armenia'>787</borders>
+  <borders country='cid-cia-Georgia'>322</borders>
+  <borders country='cid-cia-Iran'>611</borders>
+  <borders country='cid-cia-Russia'>284</borders>
+  <borders country='cid-cia-Turkey'>9</borders>
+  <coasts>Caspian Sea</coasts>
+</country>
+
+<country id='cid-cia-Bahrain' 
+  continent='Asia'
+  name='Bahrain'
+  datacode='BA'
+  total_area='620'
+  population='590042'
+  population_growth='2.27'
+  infant_mortality='17.1'
+  inflation='3'
+  gdp_total='7300'
+  indep_date='15 08 1971'
+  government='traditional monarchy'
+  capital='Manama'>
+  <ethnicgroups name='Arab'>10</ethnicgroups>
+  <ethnicgroups name='Asian'>13</ethnicgroups>
+  <ethnicgroups name='Bahraini'>63</ethnicgroups>
+  <ethnicgroups name='Iranian'>8</ethnicgroups>
+  <religions name='Sunni Muslim'>25</religions>
+  <religions name='Shia Muslim'>75</religions>
+  <coasts>Persian Gulf</coasts>
+</country>
+
+<country id='cid-cia-Bangladesh' 
+  continent='Asia'
+  name='Bangladesh'
+  datacode='BG'
+  total_area='144000'
+  population='123062800'
+  population_growth='1.85'
+  infant_mortality='102.3'
+  inflation='4.5'
+  gdp_total='144500'
+  indep_date='16 12 1971'
+  government='republic'
+  capital='Dhaka'>
+  <ethnicgroups name='Bengali'>98</ethnicgroups>
+  <religions name='Muslim'>83</religions>
+  <religions name='Hindu'>16</religions>
+  <borders country='cid-cia-Burma'>193</borders>
+  <borders country='cid-cia-India'>4053</borders>
+  <coasts>Bay Of Bengal</coasts>
+</country>
+
+<country id='cid-cia-Bhutan' 
+  continent='Asia'
+  name='Bhutan'
+  datacode='BT'
+  total_area='47000'
+  population='1822625'
+  population_growth='2.32'
+  infant_mortality='116.3'
+  inflation='8.6'
+  gdp_total='1300'
+  indep_date='08 08 1949'
+  government='monarchy'
+  capital='Thimphu'>
+  <ethnicgroups name='Bhote'>50</ethnicgroups>
+  <ethnicgroups name='Nepalese'>35</ethnicgroups>
+  <religions name='Lamaistic Buddhism'>75</religions>
+  <religions name='Indian- Nepalese-influenced Hinduism'>25</religions>
+  <borders country='cid-cia-China'>470</borders>
+  <borders country='cid-cia-India'>605</borders>
+</country>
+
+<country id='cid-cia-British-Indian-Ocean-Territory' 
+  continent='Asia'
+  name='British Indian Ocean Territory'
+  datacode='IO'
+  total_area='60'
+  government='dependent territory of the UK'>
+  <coasts>Indian Ocean</coasts>
+</country>
+
+<country id='cid-cia-Brunei' 
+  continent='Asia'
+  name='Brunei'
+  datacode='BX'
+  total_area='5770'
+  population='299939'
+  population_growth='2.56'
+  infant_mortality='24.2'
+  gdp_agri='3'
+  inflation='2.4'
+  gdp_ind='42'
+  gdp_serv='55'
+  gdp_total='4600'
+  indep_date='01 01 1984'
+  government='constitutional sultanate'
+  capital='Bandar Seri Begawan'>
+  <ethnicgroups name='Malay'>64</ethnicgroups>
+  <ethnicgroups name='Chinese'>20</ethnicgroups>
+  <religions name='Muslim'>63</religions>
+  <religions name='Christian'>8</religions>
+  <religions name='Buddhism'>14</religions>
+  <borders country='cid-cia-Malaysia'>381</borders>
+  <coasts>South China Sea</coasts>
+</country>
+
+<country id='cid-cia-Burma' 
+  continent='Asia'
+  name='Burma'
+  datacode='BM'
+  total_area='678500'
+  population='45975625'
+  population_growth='1.84'
+  infant_mortality='80.7'
+  gdp_agri='60'
+  inflation='38'
+  gdp_ind='10'
+  gdp_serv='30'
+  gdp_total='47000'
+  indep_date='04 01 1948'
+  government='military regime'
+  capital='Rangoon'>
+  <ethnicgroups name='Indian'>2</ethnicgroups>
+  <ethnicgroups name='Chinese'>3</ethnicgroups>
+  <ethnicgroups name='Burman'>68</ethnicgroups>
+  <ethnicgroups name='Shan'>9</ethnicgroups>
+  <ethnicgroups name='Karen'>7</ethnicgroups>
+  <ethnicgroups name='Rakhine'>4</ethnicgroups>
+  <ethnicgroups name='Mon'>2</ethnicgroups>
+  <religions name='Muslim'>4</religions>
+  <religions name='Buddhist'>89</religions>
+  <religions name='Christian'>4</religions>
+  <languages name='Burmese'>100</languages>
+  <borders country='cid-cia-Bangladesh'>193</borders>
+  <borders country='cid-cia-China'>2185</borders>
+  <borders country='cid-cia-India'>1463</borders>
+  <borders country='cid-cia-Laos'>235</borders>
+  <borders country='cid-cia-Thailand'>1800</borders>
+  <coasts>Bay Of Bengal</coasts>
+  <coasts>Andaman Sea</coasts>
+</country>
+
+<country id='cid-cia-Cambodia' 
+  continent='Asia'
+  name='Cambodia'
+  datacode='CB'
+  total_area='181040'
+  population='10861218'
+  population_growth='2.77'
+  infant_mortality='107.8'
+  gdp_agri='52'
+  inflation='6'
+  gdp_ind='13.5'
+  gdp_serv='34.5'
+  gdp_total='7000'
+  indep_date='09 11 1949'
+  government='multiparty liberal democracy under a constitutional monarchy established in September 1993'
+  capital='Phnom Penh'>
+  <ethnicgroups name='Chinese'>1</ethnicgroups>
+  <ethnicgroups name='Khmer'>90</ethnicgroups>
+  <ethnicgroups name='Vietnamese'>5</ethnicgroups>
+  <religions name='Theravada Buddhism'>95</religions>
+  <borders country='cid-cia-Laos'>541</borders>
+  <borders country='cid-cia-Thailand'>803</borders>
+  <borders country='cid-cia-Vietnam'>1228</borders>
+  <coasts>Gulf Of Thailand</coasts>
+</country>
+
+<country id='cid-cia-China' 
+  continent='Asia'
+  name='China'
+  datacode='CH'
+  total_area='9596960'
+  population='1210004956'
+  population_growth='0.98'
+  infant_mortality='39.6'
+  gdp_agri='19'
+  inflation='10.1'
+  gdp_ind='48'
+  gdp_serv='33'
+  gdp_total='3500000'
+  government='Communist state'
+  capital='Beijing'>
+  <ethnicgroups name='Han Chinese'>91.9</ethnicgroups>
+  <religions name='Muslim'>2</religions>
+  <religions name='Christian'>1</religions>
+  <borders country='cid-cia-Afghanistan'>76</borders>
+  <borders country='cid-cia-Bhutan'>470</borders>
+  <borders country='cid-cia-Burma'>2185</borders>
+  <borders country='cid-cia-Hong-Kong'>30</borders>
+  <borders country='cid-cia-India'>3380</borders>
+  <borders country='cid-cia-Kazakstan'>1533</borders>
+  <borders country='cid-cia-North-Korea'>1416</borders>
+  <borders country='cid-cia-Kyrgyzstan'>858</borders>
+  <borders country='cid-cia-Laos'>423</borders>
+  <borders country='cid-cia-Macau'>0.34</borders>
+  <borders country='cid-cia-Mongolia'>4673</borders>
+  <borders country='cid-cia-Nepal'>1236</borders>
+  <borders country='cid-cia-Pakistan'>523</borders>
+  <borders country='cid-cia-Russia'>3645</borders>
+  <borders country='cid-cia-Tajikistan'>414</borders>
+  <borders country='cid-cia-Vietnam'>1281</borders>
+  <coasts>South China Sea</coasts>
+  <coasts>East China Sea</coasts>
+  <coasts>Korea Bay</coasts>
+  <coasts>Yellow Sea</coasts>
+</country>
+
+<country id='cid-cia-Christmas-Island' 
+  continent='Asia'
+  name='Christmas Island'
+  datacode='KT'
+  total_area='135'
+  population='813'
+  population_growth='-8.98'
+  government='territory of Australia'
+  capital='The Settlement'>
+  <ethnicgroups name='Malay'>25</ethnicgroups>
+  <ethnicgroups name='Chinese'>61</ethnicgroups>
+  <ethnicgroups name='European'>11</ethnicgroups>
+  <religions name='Muslim'>10</religions>
+  <religions name='Buddhist'>55</religions>
+  <religions name='Christian'>15</religions>
+  <languages name='English'>100</languages>
+  <coasts>Indian Ocean</coasts>
+</country>
+
+<country id='cid-cia-Cocos-Islands' 
+  continent='Asia'
+  name='Cocos Islands'
+  datacode='CK'
+  total_area='14'
+  population='609'
+  population_growth='0.94'
+  government='territory of Australia'
+  capital='West Island'>
+  <religions name='Sunni Muslim'>57</religions>
+  <religions name='Christian'>22</religions>
+  <languages name='English'>100</languages>
+  <coasts>Indian Ocean</coasts>
+</country>
+
+<country id='cid-cia-Cyprus' 
+  continent='Asia'
+  name='Cyprus'
+  datacode='CY'
+  total_area='9250'
+  population='744609'
+  population_growth='1.11'
+  infant_mortality='8.4'
+  gdp_agri='5.6'
+  gdp_ind='24.9'
+  gdp_serv='69.5'
+  gdp_total='7800'
+  indep_date='16 08 1960'
+  government='republic'
+  capital='Nicosia'>
+  <religions name='Muslim'>18</religions>
+  <religions name='Greek Orthodox'>78</religions>
+  <coasts>Mediterranean Sea</coasts>
+</country>
+
+<country id='cid-cia-Gaza-Strip' 
+  continent='Asia'
+  name='Gaza Strip'
+  datacode='GZ'
+  total_area='360'
+  population='813332'
+  population_growth='4.55'
+  infant_mortality='30.6'
+  inflation='5.7'
+  gdp_total='1700'>
+  <ethnicgroups name='Jewish'>0.6</ethnicgroups>
+  <ethnicgroups name='Palestinian Arab'>99.4</ethnicgroups>
+  <religions name='Muslim'>98.7</religions>
+  <religions name='Jewish'>0.6</religions>
+  <religions name='Christian'>0.7</religions>
+  <borders country='cid-cia-Israel'>51</borders>
+  <borders country='cid-cia-Egypt'>11</borders>
+  <coasts>Mediterranean Sea</coasts>
+</country>
+
+<country id='cid-cia-Georgia' 
+  continent='Asia'
+  name='Georgia'
+  datacode='GG'
+  total_area='69700'
+  population='5219810'
+  population_growth='-1.02'
+  infant_mortality='22.5'
+  gdp_agri='70.4'
+  inflation='2.2'
+  gdp_ind='10.2'
+  gdp_serv='19.4'
+  gdp_total='6200'
+  indep_date='09 04 1991'
+  government='republic'
+  capital='Tbilisi'>
+  <ethnicgroups name='Russian'>6.3</ethnicgroups>
+  <ethnicgroups name='Armenian'>8.1</ethnicgroups>
+  <ethnicgroups name='Azeri'>5.7</ethnicgroups>
+  <ethnicgroups name='Georgian'>70.1</ethnicgroups>
+  <ethnicgroups name='Ossetian'>3</ethnicgroups>
+  <ethnicgroups name='Abkhaz'>1.8</ethnicgroups>
+  <religions name='Muslim'>11</religions>
+  <religions name='Armenian Apostolic'>8</religions>
+  <religions name='Christian Orthodox'>75</religions>
+  <languages name='Russian'>9</languages>
+  <languages name='Armenian'>7</languages>
+  <languages name='Azeri'>6</languages>
+  <languages name='Georgian'>71</languages>
+  <borders country='cid-cia-Armenia'>164</borders>
+  <borders country='cid-cia-Azerbaijan'>322</borders>
+  <borders country='cid-cia-Russia'>723</borders>
+  <borders country='cid-cia-Turkey'>252</borders>
+  <coasts>Black Sea</coasts>
+</country>
+
+<country id='cid-cia-Hong-Kong' 
+  continent='Asia'
+  name='Hong Kong'
+  datacode='HK'
+  total_area='1040'
+  population='6305413'
+  population_growth='1.77'
+  infant_mortality='5.1'
+  gdp_agri='0.2'
+  inflation='8.4'
+  gdp_ind='18.4'
+  gdp_serv='81.4'
+  gdp_total='152400'
+  government='dependent territory of the UK scheduled to revert to China on 1 July 1997'
+  capital='Victoria'>
+  <ethnicgroups name='Chinese'>95</ethnicgroups>
+  <religions name='Christian'>10</religions>
+  <borders country='cid-cia-China'>30</borders>
+  <coasts>South China Sea</coasts>
+</country>
+
+<country id='cid-cia-India' 
+  continent='Asia'
+  name='India'
+  datacode='IN'
+  total_area='3287590'
+  population='952107694'
+  population_growth='1.64'
+  infant_mortality='71.1'
+  inflation='9'
+  gdp_total='1408700'
+  indep_date='15 08 1947'
+  government='federal republic'
+  capital='New Delhi'>
+  <ethnicgroups name='Dravidian'>25</ethnicgroups>
+  <ethnicgroups name='Indo-Aryan'>72</ethnicgroups>
+  <ethnicgroups name='Mongoloid'>3</ethnicgroups>
+  <religions name='Muslim'>14</religions>
+  <religions name='Buddhist'>0.7</religions>
+  <religions name='Christian'>2.4</religions>
+  <religions name='Hindu'>80</religions>
+  <religions name='Sikh'>2</religions>
+  <religions name='Jains'>0.5</religions>
+  <languages name='Hindi'>30</languages>
+  <borders country='cid-cia-Bangladesh'>4053</borders>
+  <borders country='cid-cia-Bhutan'>605</borders>
+  <borders country='cid-cia-Burma'>1463</borders>
+  <borders country='cid-cia-China'>3380</borders>
+  <borders country='cid-cia-Nepal'>1690</borders>
+  <borders country='cid-cia-Pakistan'>2912</borders>
+  <coasts>Bay Of Bengal</coasts>
+  <coasts>Arabian Sea</coasts>
+</country>
+
+<country id='cid-cia-Indonesia' 
+  continent='Asia'
+  name='Indonesia'
+  datacode='ID'
+  total_area='1919440'
+  population='206611600'
+  population_growth='1.53'
+  infant_mortality='63.1'
+  gdp_agri='17'
+  inflation='8.6'
+  gdp_ind='32.6'
+  gdp_serv='50.4'
+  gdp_total='710900'
+  indep_date='17 08 1945'
+  government='republic'
+  capital='Jakarta'>
+  <ethnicgroups name='Javanese'>45</ethnicgroups>
+  <ethnicgroups name='Sundanese'>14</ethnicgroups>
+  <ethnicgroups name='Madurese'>7.5</ethnicgroups>
+  <ethnicgroups name='Malays'>7.5</ethnicgroups>
+  <religions name='Muslim'>87</religions>
+  <religions name='Roman Catholic'>3</religions>
+  <religions name='Protestant'>6</religions>
+  <religions name='Buddhist'>1</religions>
+  <religions name='Hindu'>2</religions>
+  <borders country='cid-cia-Malaysia'>1782</borders>
+  <borders country='cid-cia-Papua-New-Guinea'>820</borders>
+  <coasts>Indian Ocean</coasts>
+  <coasts>Pacific Ocean</coasts>
+</country>
+
+<country id='cid-cia-Iran' 
+  continent='Asia'
+  name='Iran'
+  datacode='IR'
+  total_area='1648000'
+  population='66094264'
+  population_growth='2.21'
+  infant_mortality='52.7'
+  gdp_agri='21'
+  inflation='60'
+  gdp_ind='37'
+  gdp_serv='42'
+  gdp_total='323500'
+  indep_date='01 04 1979'
+  government='theocratic republic'
+  capital='Tehran'>
+  <ethnicgroups name='Arab'>3</ethnicgroups>
+  <ethnicgroups name='Persian'>51</ethnicgroups>
+  <ethnicgroups name='Baloch'>2</ethnicgroups>
+  <ethnicgroups name='Azerbaijani'>24</ethnicgroups>
+  <ethnicgroups name='Kurd'>7</ethnicgroups>
+  <ethnicgroups name='Lur'>2</ethnicgroups>
+  <ethnicgroups name='Turkmen'>2</ethnicgroups>
+  <ethnicgroups name='Gilaki Mazandarani'>8</ethnicgroups>
+  <religions name='Sunni Muslim'>10</religions>
+  <religions name='Shia Muslim'>89</religions>
+  <religions name='Bahai'>1</religions>
+  <languages name='Turkish'>1</languages>
+  <languages name='Baloch'>1</languages>
+  <languages name='Kurdish'>9</languages>
+  <languages name='Arabic'>1</languages>
+  <languages name='Luri'>2</languages>
+  <languages name='Persian Persian'>58</languages>
+  <languages name='Turkic Turkic'>26</languages>
+  <borders country='cid-cia-Afghanistan'>936</borders>
+  <borders country='cid-cia-Armenia'>35</borders>
+  <borders country='cid-cia-Iraq'>1458</borders>
+  <borders country='cid-cia-Pakistan'>909</borders>
+  <borders country='cid-cia-Turkey'>499</borders>
+  <borders country='cid-cia-Turkmenistan'>992</borders>
+  <coasts>Caspian Sea</coasts>
+  <coasts>Persian Gulf</coasts>
+  <coasts>Gulf Of Oman</coasts>
+</country>
+
+<country id='cid-cia-Iraq' 
+  continent='Asia'
+  name='Iraq'
+  datacode='IZ'
+  total_area='437072'
+  population='21422292'
+  population_growth='3.69'
+  infant_mortality='60'
+  gdp_total='41100'
+  indep_date='03 10 1932'
+  government='republic'
+  capital='Baghdad'>
+  <ethnicgroups name='Arab'>75</ethnicgroups>
+  <ethnicgroups name='Kurdish'>15</ethnicgroups>
+  <ethnicgroups name='Assyrian'>5</ethnicgroups>
+  <religions name='Muslim'>97</religions>
+  <religions name='Christian'>3</religions>
+  <borders country='cid-cia-Iran'>1458</borders>
+  <borders country='cid-cia-Jordan'>181</borders>
+  <borders country='cid-cia-Kuwait'>242</borders>
+  <borders country='cid-cia-Saudi-Arabia'>814</borders>
+  <borders country='cid-cia-Syria'>605</borders>
+  <borders country='cid-cia-Turkey'>331</borders>
+  <coasts>Persian Gulf</coasts>
+</country>
+
+<country id='cid-cia-Israel' 
+  continent='Asia'
+  name='Israel'
+  datacode='IS'
+  total_area='20770'
+  population='5421995'
+  population_growth='2.11'
+  infant_mortality='8.5'
+  gdp_agri='3.5'
+  inflation='10.1'
+  gdp_ind='22'
+  gdp_serv='74.5'
+  gdp_total='80100'
+  indep_date='14 05 1948'
+  government='republic'
+  capital='Jerusalem'>
+  <ethnicgroups name='Jewish'>82</ethnicgroups>
+  <ethnicgroups name='non-Jewish'>18</ethnicgroups>
+  <religions name='Christian'>2</religions>
+  <religions name='Islam'>14</religions>
+  <religions name='Druze'>2</religions>
+  <religions name='Judaism'>82</religions>
+  <borders country='cid-cia-Gaza-Strip'>51</borders>
+  <borders country='cid-cia-Jordan'>238</borders>
+  <borders country='cid-cia-Lebanon'>79</borders>
+  <borders country='cid-cia-Syria'>76</borders>
+  <borders country='cid-cia-West-Bank'>307</borders>
+  <borders country='cid-cia-Egypt'>255</borders>
+  <coasts>Mediterranean Sea</coasts>
+</country>
+
+<country id='cid-cia-Japan' 
+  continent='Asia'
+  name='Japan'
+  datacode='JA'
+  total_area='377835'
+  population='125449703'
+  population_growth='0.21'
+  infant_mortality='4.4'
+  gdp_agri='2.1'
+  inflation='-0.1'
+  gdp_ind='40.2'
+  gdp_serv='57.7'
+  gdp_total='2679200'
+  government='constitutional monarchy'
+  capital='Tokyo'>
+  <ethnicgroups name='Japanese'>99.4</ethnicgroups>
+  <religions name='Shinto Buddhist'>84</religions>
+  <languages name='Japanese'>100</languages>
+  <coasts>North Pacific Ocean</coasts>
+  <coasts>Sea Of Japan</coasts>
+  <coasts>Korean Peninsula</coasts>
+</country>
+
+<country id='cid-cia-Jordan' 
+  continent='Asia'
+  name='Jordan'
+  datacode='JO'
+  total_area='89213'
+  population='4212152'
+  population_growth='2.65'
+  infant_mortality='31.5'
+  gdp_agri='11'
+  inflation='3'
+  gdp_ind='25'
+  gdp_serv='64'
+  gdp_total='19300'
+  indep_date='25 05 1946'
+  government='constitutional monarchy'
+  capital='Amman'>
+  <ethnicgroups name='Armenian'>1</ethnicgroups>
+  <ethnicgroups name='Arab'>98</ethnicgroups>
+  <ethnicgroups name='Circassian'>1</ethnicgroups>
+  <religions name='Sunni Muslim'>92</religions>
+  <religions name='Christian'>8</religions>
+  <borders country='cid-cia-Iraq'>181</borders>
+  <borders country='cid-cia-Israel'>238</borders>
+  <borders country='cid-cia-Saudi-Arabia'>728</borders>
+  <borders country='cid-cia-Syria'>375</borders>
+  <borders country='cid-cia-West-Bank'>97</borders>
+</country>
+
+<country id='cid-cia-Kazakstan' 
+  continent='Asia'
+  name='Kazakstan'
+  datacode='KZ'
+  total_area='2717300'
+  population='16916463'
+  population_growth='-0.15'
+  infant_mortality='63.2'
+  gdp_agri='28.5'
+  inflation='60.3'
+  gdp_ind='41.5'
+  gdp_serv='30'
+  gdp_total='46900'
+  indep_date='16 12 1991'
+  government='republic'
+  capital='Almaty'>
+  <ethnicgroups name='German'>4.7</ethnicgroups>
+  <ethnicgroups name='Ukrainian'>5.2</ethnicgroups>
+  <ethnicgroups name='Russian'>37</ethnicgroups>
+  <ethnicgroups name='Uzbek'>2.1</ethnicgroups>
+  <ethnicgroups name='Tatar'>2</ethnicgroups>
+  <ethnicgroups name='Kazak'>41.9</ethnicgroups>
+  <religions name='Muslim'>47</religions>
+  <religions name='Protestant'>2</religions>
+  <religions name='Russian Orthodox'>44</religions>
+  <languages name='Kazak'>40</languages>
+  <borders country='cid-cia-China'>1533</borders>
+  <borders country='cid-cia-Kyrgyzstan'>1051</borders>
+  <borders country='cid-cia-Russia'>6846</borders>
+  <borders country='cid-cia-Turkmenistan'>379</borders>
+  <borders country='cid-cia-Uzbekistan'>2203</borders>
+</country>
+
+<country id='cid-cia-North-Korea' 
+  continent='Asia'
+  name='North Korea'
+  datacode='KN'
+  total_area='120540'
+  population='23904124'
+  population_growth='1.74'
+  infant_mortality='25.9'
+  gdp_agri='25'
+  gdp_ind='60'
+  gdp_serv='15'
+  gdp_total='21500'
+  government='Communist state'
+  capital='Pyongyang'>
+  <languages name='Korean'>100</languages>
+  <borders country='cid-cia-China'>1416</borders>
+  <borders country='cid-cia-South-Korea'>238</borders>
+  <borders country='cid-cia-Russia'>19</borders>
+  <coasts>Korea Bay</coasts>
+  <coasts>Sea Of Japan</coasts>
+  <coasts>Korean Peninsula</coasts>
+</country>
+
+<country id='cid-cia-South-Korea' 
+  continent='Asia'
+  name='South Korea'
+  datacode='KS'
+  total_area='98480'
+  population='45482291'
+  population_growth='1.02'
+  infant_mortality='8.2'
+  gdp_agri='8'
+  inflation='4.3'
+  gdp_ind='45'
+  gdp_serv='47'
+  gdp_total='590700'
+  government='republic'
+  capital='Seoul'>
+  <religions name='Buddhism'>47.4</religions>
+  <religions name='Christianity'>48.6</religions>
+  <religions name='Confucianism'>3</religions>
+  <religions name='Chondogyo'>0.2</religions>
+  <borders country='cid-cia-North-Korea'>238</borders>
+  <coasts>Yellow Sea</coasts>
+  <coasts>Sea Of Japan</coasts>
+  <coasts>Korean Peninsula</coasts>
+</country>
+
+<country id='cid-cia-Kuwait' 
+  continent='Asia'
+  name='Kuwait'
+  datacode='KU'
+  total_area='17820'
+  population='1950047'
+  population_growth='6.65'
+  infant_mortality='11.1'
+  gdp_agri='0'
+  inflation='5'
+  gdp_ind='55'
+  gdp_serv='45'
+  gdp_total='30800'
+  indep_date='19 06 1961'
+  government='nominal constitutional monarchy'
+  capital='Kuwait'>
+  <ethnicgroups name='Arab'>35</ethnicgroups>
+  <ethnicgroups name='Iranian'>4</ethnicgroups>
+  <ethnicgroups name='South Asian'>9</ethnicgroups>
+  <ethnicgroups name='Kuwaiti'>45</ethnicgroups>
+  <religions name='Muslim'>85</religions>
+  <borders country='cid-cia-Iraq'>242</borders>
+  <borders country='cid-cia-Saudi-Arabia'>222</borders>
+  <coasts>Persian Gulf</coasts>
+</country>
+
+<country id='cid-cia-Kyrgyzstan' 
+  continent='Asia'
+  name='Kyrgyzstan'
+  datacode='KG'
+  total_area='198500'
+  population='4529648'
+  population_growth='0.07'
+  infant_mortality='77.8'
+  inflation='32'
+  gdp_total='5400'
+  indep_date='31 08 1991'
+  government='republic'
+  capital='Bishkek'>
+  <ethnicgroups name='German'>2.4</ethnicgroups>
+  <ethnicgroups name='Ukrainian'>2.5</ethnicgroups>
+  <ethnicgroups name='Russian'>21.5</ethnicgroups>
+  <ethnicgroups name='Uzbek'>12.9</ethnicgroups>
+  <ethnicgroups name='Kirghiz'>52.4</ethnicgroups>
+  <borders country='cid-cia-China'>858</borders>
+  <borders country='cid-cia-Kazakstan'>1051</borders>
+  <borders country='cid-cia-Tajikistan'>870</borders>
+  <borders country='cid-cia-Uzbekistan'>1099</borders>
+</country>
+
+<country id='cid-cia-Laos' 
+  continent='Asia'
+  name='Laos'
+  datacode='LA'
+  total_area='236800'
+  population='4975772'
+  population_growth='2.81'
+  infant_mortality='96.8'
+  gdp_agri='50'
+  inflation='20'
+  gdp_ind='17'
+  gdp_serv='33'
+  gdp_total='5200'
+  indep_date='19 07 1949'
+  government='Communist state'
+  capital='Vientiane'>
+  <ethnicgroups name='Lao Loum'>68</ethnicgroups>
+  <ethnicgroups name='Lao Theung'>22</ethnicgroups>
+  <ethnicgroups name='Lao Soung Hmong Yao'>9</ethnicgroups>
+  <ethnicgroups name='Vietnamese/Chinese'>1</ethnicgroups>
+  <religions name='Buddhist'>60</religions>
+  <borders country='cid-cia-Burma'>235</borders>
+  <borders country='cid-cia-Cambodia'>541</borders>
+  <borders country='cid-cia-China'>423</borders>
+  <borders country='cid-cia-Thailand'>1754</borders>
+  <borders country='cid-cia-Vietnam'>2130</borders>
+</country>
+
+<country id='cid-cia-Lebanon' 
+  continent='Asia'
+  name='Lebanon'
+  datacode='LE'
+  total_area='10400'
+  population='3776317'
+  population_growth='2.16'
+  infant_mortality='36.7'
+  gdp_agri='13'
+  inflation='9'
+  gdp_ind='28'
+  gdp_serv='59'
+  gdp_total='18300'
+  indep_date='22 11 1943'
+  government='republic'
+  capital='Beirut'>
+  <ethnicgroups name='Armenian'>4</ethnicgroups>
+  <ethnicgroups name='Arab'>95</ethnicgroups>
+  <religions name='Christian'>30</religions>
+  <religions name='Islam'>70</religions>
+  <borders country='cid-cia-Israel'>79</borders>
+  <borders country='cid-cia-Syria'>375</borders>
+  <coasts>Mediterranean Sea</coasts>
+</country>
+
+<country id='cid-cia-Macau' 
+  continent='Asia'
+  name='Macau'
+  datacode='MC'
+  total_area='16'
+  population='496837'
+  population_growth='1.15'
+  infant_mortality='5.3'
+  inflation='8.6'
+  gdp_total='6400'
+  government='overseas territory of Portugal scheduled to revert to China in 1999'
+  capital='Macau'>
+  <ethnicgroups name='Chinese'>95</ethnicgroups>
+  <ethnicgroups name='Portuguese'>3</ethnicgroups>
+  <religions name='Roman Catholic'>7</religions>
+  <religions name='Protestant'>1</religions>
+  <religions name='Buddhist'>45</religions>
+  <languages name='Portuguese'>4</languages>
+  <borders country='cid-cia-China'>0.34</borders>
+  <coasts>South China Sea</coasts>
+</country>
+
+<country id='cid-cia-Malaysia' 
+  continent='Asia'
+  name='Malaysia'
+  datacode='MY'
+  total_area='329750'
+  population='19962893'
+  population_growth='2.07'
+  infant_mortality='24'
+  gdp_agri='8'
+  inflation='5.3'
+  gdp_ind='25'
+  gdp_serv='67'
+  gdp_total='193600'
+  indep_date='31 08 1957'
+  government='constitutional monarchy'
+  capital='Kuala Lumpur'>
+  <ethnicgroups name='Indian'>9</ethnicgroups>
+  <ethnicgroups name='Malay'>59</ethnicgroups>
+  <ethnicgroups name='Chinese'>32</ethnicgroups>
+  <borders country='cid-cia-Brunei'>381</borders>
+  <borders country='cid-cia-Indonesia'>1782</borders>
+  <borders country='cid-cia-Thailand'>506</borders>
+  <coasts>South China Sea</coasts>
+  <coasts>Borneo</coasts>
+</country>
+
+<country id='cid-cia-Maldives' 
+  continent='Asia'
+  name='Maldives'
+  datacode='MV'
+  total_area='300'
+  population='270758'
+  population_growth='3.52'
+  infant_mortality='47'
+  gdp_agri='21.5'
+  inflation='16.5'
+  gdp_ind='15.3'
+  gdp_serv='63.2'
+  gdp_total='390'
+  indep_date='26 07 1965'
+  government='republic'
+  capital='Male'>
+  <religions name='Sunni Muslim'>100</religions>
+  <coasts>Indian Ocean</coasts>
+</country>
+
+<country id='cid-cia-Mongolia' 
+  continent='Asia'
+  name='Mongolia'
+  datacode='MG'
+  total_area='1565000'
+  population='2496617'
+  population_growth='1.69'
+  infant_mortality='69.7'
+  gdp_agri='28'
+  inflation='53'
+  gdp_ind='35'
+  gdp_serv='37'
+  gdp_total='4900'
+  indep_date='13 03 1921'
+  government='republic'
+  capital='Ulaanbaatar'>
+  <ethnicgroups name='Russian'>2</ethnicgroups>
+  <ethnicgroups name='Chinese'>2</ethnicgroups>
+  <ethnicgroups name='Kazak'>4</ethnicgroups>
+  <ethnicgroups name='Mongol'>90</ethnicgroups>
+  <religions name='Muslim'>4</religions>
+  <languages name='Khalkha Mongol'>90</languages>
+  <borders country='cid-cia-China'>4673</borders>
+  <borders country='cid-cia-Russia'>3441</borders>
+</country>
+
+<country id='cid-cia-Nepal' 
+  continent='Asia'
+  name='Nepal'
+  datacode='NP'
+  total_area='140800'
+  population='22094033'
+  population_growth='2.45'
+  infant_mortality='79'
+  gdp_agri='49.3'
+  inflation='6.7'
+  gdp_ind='18.4'
+  gdp_serv='32.3'
+  gdp_total='25200'
+  indep_date='01 01 1768'
+  government='parliamentary democracy as of 12 May 1991'
+  capital='Kathmandu'>
+  <religions name='Muslim'>3</religions>
+  <religions name='Buddhist'>5</religions>
+  <religions name='Hindu'>90</religions>
+  <languages name='Nepali'>100</languages>
+  <borders country='cid-cia-China'>1236</borders>
+  <borders country='cid-cia-India'>1690</borders>
+</country>
+
+<country id='cid-cia-Oman' 
+  continent='Asia'
+  name='Oman'
+  datacode='MU'
+  total_area='212460'
+  population='2186548'
+  population_growth='3.53'
+  infant_mortality='27.3'
+  gdp_agri='3'
+  inflation='-0.7'
+  gdp_ind='60'
+  gdp_serv='37'
+  gdp_total='19100'
+  indep_date='01 01 1650'
+  government='monarchy'
+  capital='Muscat'>
+  <religions name='Ibadhi Muslim'>75</religions>
+  <borders country='cid-cia-Saudi-Arabia'>676</borders>
+  <borders country='cid-cia-United-Arab-Emirates'>410</borders>
+  <borders country='cid-cia-Yemen'>288</borders>
+  <coasts>Persian Gulf</coasts>
+  <coasts>Arabian Sea</coasts>
+  <coasts>Gulf Of Oman</coasts>
+  <coasts>UAE</coasts>
+</country>
+
+<country id='cid-cia-Pakistan' 
+  continent='Asia'
+  name='Pakistan'
+  datacode='PK'
+  total_area='803940'
+  population='129275660'
+  population_growth='2.24'
+  infant_mortality='96.8'
+  gdp_agri='24'
+  inflation='13'
+  gdp_ind='27'
+  gdp_serv='49'
+  gdp_total='274200'
+  indep_date='14 08 1947'
+  government='republic'
+  capital='Islamabad'>
+  <religions name='Muslim'>97</religions>
+  <languages name='Pashtu'>8</languages>
+  <languages name='Urdu'>8</languages>
+  <languages name='Punjabi'>48</languages>
+  <languages name='Sindhi'>12</languages>
+  <languages name='Balochi'>3</languages>
+  <languages name='Hindko'>2</languages>
+  <languages name='Brahui'>1</languages>
+  <languages name='Siraiki'>10</languages>
+  <borders country='cid-cia-Afghanistan'>2430</borders>
+  <borders country='cid-cia-China'>523</borders>
+  <borders country='cid-cia-India'>2912</borders>
+  <borders country='cid-cia-Iran'>909</borders>
+  <coasts>Arabian Sea</coasts>
+</country>
+
+<country id='cid-cia-Papua-New-Guinea' 
+  continent='Asia'
+  name='Papua New Guinea'
+  datacode='PP'
+  total_area='461690'
+  population='4394537'
+  population_growth='2.29'
+  infant_mortality='60.1'
+  inflation='15'
+  gdp_total='10200'
+  indep_date='16 09 1975'
+  government='parliamentary democracy'
+  capital='Port Moresby'>
+  <religions name='Roman Catholic'>22</religions>
+  <religions name='Protestant'>10</religions>
+  <religions name='Lutheran'>16</religions>
+  <religions name='Anglican'>5</religions>
+  <religions name='Seventh-Day Adventist'>1</religions>
+  <religions name='Presbyterian/Methodist/London Missionary Society'>8</religions>
+  <religions name='Evangelical Alliance'>4</religions>
+  <languages name='English'>1</languages>
+  <borders country='cid-cia-Indonesia'>820</borders>
+  <coasts>New Guinea</coasts>
+  <coasts>Coral Sea</coasts>
+  <coasts>South Pacific Ocean</coasts>
+</country>
+
+<country id='cid-cia-Paracel-Islands' 
+  continent='Asia'
+  name='Paracel Islands'
+  datacode='PF'>
+  <coasts>South China Sea</coasts>
+</country>
+
+<country id='cid-cia-Philippines' 
+  continent='Asia'
+  name='Philippines'
+  datacode='RP'
+  total_area='300000'
+  population='74480848'
+  population_growth='2.18'
+  infant_mortality='35.9'
+  gdp_agri='22'
+  inflation='8.1'
+  gdp_ind='30'
+  gdp_serv='48'
+  gdp_total='179700'
+  indep_date='04 07 1946'
+  government='republic'
+  capital='Manila'>
+  <ethnicgroups name='Chinese'>1.5</ethnicgroups>
+  <ethnicgroups name='Christian Malay'>91.5</ethnicgroups>
+  <ethnicgroups name='Muslim Malay'>4</ethnicgroups>
+  <religions name='Muslim'>5</religions>
+  <religions name='Roman Catholic'>83</religions>
+  <religions name='Protestant'>9</religions>
+  <religions name='Buddhist'>3</religions>
+  <coasts>South China Sea</coasts>
+  <coasts>Philippine Sea</coasts>
+</country>
+
+<country id='cid-cia-Qatar' 
+  continent='Asia'
+  name='Qatar'
+  datacode='QA'
+  total_area='11000'
+  population='547761'
+  population_growth='2.39'
+  infant_mortality='19.6'
+  gdp_agri='1'
+  inflation='3'
+  gdp_ind='50'
+  gdp_serv='49'
+  gdp_total='10700'
+  indep_date='03 09 1971'
+  government='traditional monarchy'
+  capital='Doha'>
+  <ethnicgroups name='Indian'>18</ethnicgroups>
+  <ethnicgroups name='Pakistani'>18</ethnicgroups>
+  <ethnicgroups name='Arab'>40</ethnicgroups>
+  <ethnicgroups name='Iranian'>10</ethnicgroups>
+  <religions name='Muslim'>95</religions>
+  <borders country='cid-cia-Saudi-Arabia'>60</borders>
+  <coasts>Persian Gulf</coasts>
+</country>
+
+<country id='cid-cia-Russia' 
+  continent='Asia'
+  name='Russia'
+  datacode='RS'
+  total_area='17075200'
+  population='148178487'
+  population_growth='-0.07'
+  infant_mortality='24.7'
+  gdp_agri='6'
+  inflation='7'
+  gdp_ind='41'
+  gdp_serv='53'
+  gdp_total='796000'
+  indep_date='24 08 1991'
+  government='federation'
+  capital='Moscow'>
+  <ethnicgroups name='Ukrainian'>3</ethnicgroups>
+  <ethnicgroups name='Russian'>81.5</ethnicgroups>
+  <ethnicgroups name='Byelorussian'>0.8</ethnicgroups>
+  <ethnicgroups name='Tatar'>3.8</ethnicgroups>
+  <ethnicgroups name='Chuvash'>1.2</ethnicgroups>
+  <ethnicgroups name='Bashkir'>0.9</ethnicgroups>
+  <ethnicgroups name='Moldavian'>0.7</ethnicgroups>
+  <languages name='Russian'>100</languages>
+  <borders country='cid-cia-Belarus'>959</borders>
+  <borders country='cid-cia-Estonia'>290</borders>
+  <borders country='cid-cia-Finland'>1313</borders>
+  <borders country='cid-cia-Latvia'>217</borders>
+  <borders country='cid-cia-Lithuania'>227</borders>
+  <borders country='cid-cia-Norway'>167</borders>
+  <borders country='cid-cia-Poland'>206</borders>
+  <borders country='cid-cia-Ukraine'>1576</borders>
+  <borders country='cid-cia-Azerbaijan'>284</borders>
+  <borders country='cid-cia-China'>3645</borders>
+  <borders country='cid-cia-Georgia'>723</borders>
+  <borders country='cid-cia-Kazakstan'>6846</borders>
+  <borders country='cid-cia-North-Korea'>19</borders>
+  <borders country='cid-cia-Mongolia'>3441</borders>
+  <coasts>Arctic Ocean</coasts>
+  <coasts>North Pacific Ocean</coasts>
+</country>
+
+<country id='cid-cia-Saudi-Arabia' 
+  continent='Asia'
+  name='Saudi Arabia'
+  datacode='SA'
+  total_area='1960582'
+  population='19409058'
+  population_growth='3.45'
+  infant_mortality='46.4'
+  gdp_agri='9'
+  inflation='5'
+  gdp_ind='50'
+  gdp_serv='41'
+  gdp_total='189300'
+  indep_date='23 09 1932'
+  government='monarchy'
+  capital='Riyadh'>
+  <ethnicgroups name='Arab'>90</ethnicgroups>
+  <ethnicgroups name='Afro-Asian'>10</ethnicgroups>
+  <religions name='Muslim'>100</religions>
+  <languages name='Arabic'>100</languages>
+  <borders country='cid-cia-Iraq'>814</borders>
+  <borders country='cid-cia-Jordan'>728</borders>
+  <borders country='cid-cia-Kuwait'>222</borders>
+  <borders country='cid-cia-Oman'>676</borders>
+  <borders country='cid-cia-Qatar'>60</borders>
+  <borders country='cid-cia-United-Arab-Emirates'>457</borders>
+  <borders country='cid-cia-Yemen'>1458</borders>
+  <coasts>Persian Gulf</coasts>
+  <coasts>Red Sea</coasts>
+</country>
+
+<country id='cid-cia-Singapore' 
+  continent='Asia'
+  name='Singapore'
+  datacode='SN'
+  total_area='632.6'
+  population='3396924'
+  population_growth='1.9'
+  infant_mortality='4.7'
+  inflation='1.7'
+  gdp_ind='28'
+  gdp_serv='72'
+  gdp_total='66100'
+  indep_date='09 08 1965'
+  government='republic within Commonwealth'
+  capital='Singapore'>
+  <ethnicgroups name='Indian'>6.4</ethnicgroups>
+  <ethnicgroups name='Malay'>14.9</ethnicgroups>
+  <ethnicgroups name='Chinese'>76.4</ethnicgroups>
+</country>
+
+<country id='cid-cia-Spratly-Islands' 
+  continent='Asia'
+  name='Spratly Islands'
+  datacode='PG'>
+  <coasts>South China Sea</coasts>
+</country>
+
+<country id='cid-cia-Sri-Lanka' 
+  continent='Asia'
+  name='Sri Lanka'
+  datacode='CE'
+  total_area='65610'
+  population='18553074'
+  population_growth='1.13'
+  infant_mortality='20.8'
+  gdp_agri='24'
+  inflation='8.4'
+  gdp_ind='24'
+  gdp_serv='52'
+  gdp_total='65600'
+  indep_date='04 02 1948'
+  government='republic'
+  capital='Colombo'>
+  <ethnicgroups name='Sinhalese'>74</ethnicgroups>
+  <ethnicgroups name='Tamil'>18</ethnicgroups>
+  <ethnicgroups name='Moor'>7</ethnicgroups>
+  <ethnicgroups name='Vedda'>1</ethnicgroups>
+  <religions name='Muslim'>8</religions>
+  <religions name='Buddhist'>69</religions>
+  <religions name='Christian'>8</religions>
+  <religions name='Hindu'>15</religions>
+  <languages name='Tamil'>18</languages>
+  <languages name='Sinhala'>74</languages>
+  <coasts>Indian Ocean</coasts>
+</country>
+
+<country id='cid-cia-Syria' 
+  continent='Asia'
+  name='Syria'
+  datacode='SY'
+  total_area='185180'
+  population='15608648'
+  population_growth='3.37'
+  infant_mortality='40'
+  gdp_agri='30'
+  inflation='15.1'
+  gdp_ind='25'
+  gdp_serv='45'
+  gdp_total='91200'
+  indep_date='17 04 1946'
+  government='republic under military regime since March 1963'
+  capital='Damascus'>
+  <ethnicgroups name='Arab'>90.3</ethnicgroups>
+  <religions name='Muslim'>16</religions>
+  <religions name='Sunni Muslim'>74</religions>
+  <religions name='Christian'>10</religions>
+  <borders country='cid-cia-Iraq'>605</borders>
+  <borders country='cid-cia-Israel'>76</borders>
+  <borders country='cid-cia-Jordan'>375</borders>
+  <borders country='cid-cia-Lebanon'>375</borders>
+  <borders country='cid-cia-Turkey'>822</borders>
+  <coasts>Mediterranean Sea</coasts>
+</country>
+
+<country id='cid-cia-Taiwan' 
+  continent='Asia'
+  name='Taiwan'
+  datacode='TW'
+  total_area='35980'
+  population='21465881'
+  population_growth='0.89'
+  infant_mortality='7'
+  gdp_agri='3.6'
+  inflation='4'
+  gdp_ind='37.3'
+  gdp_serv='59.1'
+  gdp_total='290500'
+  government='multiparty democratic regime'
+  capital='Taipei'>
+  <ethnicgroups name='Chinese'>14</ethnicgroups>
+  <ethnicgroups name='Taiwanese'>84</ethnicgroups>
+  <religions name='Christian'>4.5</religions>
+  <religions name='Taoist'>93</religions>
+  <coasts>South China Sea</coasts>
+  <coasts>East China Sea</coasts>
+  <coasts>Philippine Sea</coasts>
+  <coasts>Taiwan Strait</coasts>
+</country>
+
+<country id='cid-cia-Tajikistan' 
+  continent='Asia'
+  name='Tajikistan'
+  datacode='TI'
+  total_area='143100'
+  population='5916373'
+  population_growth='1.54'
+  infant_mortality='113.1'
+  inflation='28'
+  gdp_total='6400'
+  indep_date='09 09 1991'
+  government='republic'
+  capital='Dushanbe'>
+  <ethnicgroups name='Russian'>3.5</ethnicgroups>
+  <ethnicgroups name='Tajik'>64.9</ethnicgroups>
+  <ethnicgroups name='Uzbek'>25</ethnicgroups>
+  <religions name='Sunni Muslim'>80</religions>
+  <religions name='Shia Muslim'>5</religions>
+  <borders country='cid-cia-Afghanistan'>1206</borders>
+  <borders country='cid-cia-China'>414</borders>
+  <borders country='cid-cia-Kyrgyzstan'>870</borders>
+  <borders country='cid-cia-Uzbekistan'>1161</borders>
+</country>
+
+<country id='cid-cia-Thailand' 
+  continent='Asia'
+  name='Thailand'
+  datacode='TH'
+  total_area='514000'
+  population='58851357'
+  population_growth='1.03'
+  infant_mortality='33.4'
+  gdp_agri='10.2'
+  inflation='5.8'
+  gdp_ind='30.6'
+  gdp_serv='59.2'
+  gdp_total='416700'
+  indep_date='01 01 1238'
+  government='constitutional monarchy'
+  capital='Bangkok'>
+  <ethnicgroups name='Chinese'>14</ethnicgroups>
+  <ethnicgroups name='Thai'>75</ethnicgroups>
+  <religions name='Muslim'>3.8</religions>
+  <religions name='Buddhism'>95</religions>
+  <religions name='Christianity'>0.5</religions>
+  <religions name='Hinduism'>0.1</religions>
+  <borders country='cid-cia-Burma'>1800</borders>
+  <borders country='cid-cia-Cambodia'>803</borders>
+  <borders country='cid-cia-Laos'>1754</borders>
+  <borders country='cid-cia-Malaysia'>506</borders>
+  <coasts>Andaman Sea</coasts>
+  <coasts>Gulf Of Thailand</coasts>
+</country>
+
+<country id='cid-cia-Turkey' 
+  continent='Asia'
+  name='Turkey'
+  datacode='TU'
+  total_area='780580'
+  population='62484478'
+  population_growth='1.67'
+  infant_mortality='43.2'
+  gdp_agri='15.5'
+  inflation='94'
+  gdp_ind='33.2'
+  gdp_serv='51.3'
+  gdp_total='345700'
+  indep_date='29 10 1923'
+  government='republican parliamentary democracy'
+  capital='Ankara'>
+  <ethnicgroups name='Turkish'>80</ethnicgroups>
+  <ethnicgroups name='Kurdish'>20</ethnicgroups>
+  <religions name='Muslim'>99.8</religions>
+  <borders country='cid-cia-Bulgaria'>240</borders>
+  <borders country='cid-cia-Greece'>206</borders>
+  <borders country='cid-cia-Armenia'>268</borders>
+  <borders country='cid-cia-Azerbaijan'>9</borders>
+  <borders country='cid-cia-Georgia'>252</borders>
+  <borders country='cid-cia-Iran'>499</borders>
+  <borders country='cid-cia-Iraq'>331</borders>
+  <borders country='cid-cia-Syria'>822</borders>
+  <coasts>Black Sea</coasts>
+  <coasts>Mediterranean Sea</coasts>
+  <coasts>Aegean Sea</coasts>
+</country>
+
+<country id='cid-cia-Turkmenistan' 
+  continent='Asia'
+  name='Turkmenistan'
+  datacode='TX'
+  total_area='488100'
+  population='4149283'
+  population_growth='1.82'
+  infant_mortality='81.6'
+  gdp_agri='32.5'
+  inflation='25'
+  gdp_ind='33.4'
+  gdp_serv='34.1'
+  gdp_total='11500'
+  indep_date='27 10 1991'
+  government='republic'
+  capital='Ashgabat'>
+  <ethnicgroups name='Russian'>9.8</ethnicgroups>
+  <ethnicgroups name='Uzbek'>9</ethnicgroups>
+  <ethnicgroups name='Turkmen'>73.3</ethnicgroups>
+  <ethnicgroups name='Kazak'>2</ethnicgroups>
+  <religions name='Muslim'>87</religions>
+  <religions name='Eastern Orthodox'>11</religions>
+  <languages name='Russian'>12</languages>
+  <languages name='Uzbek'>9</languages>
+  <languages name='Turkmen'>72</languages>
+  <borders country='cid-cia-Afghanistan'>744</borders>
+  <borders country='cid-cia-Iran'>992</borders>
+  <borders country='cid-cia-Kazakstan'>379</borders>
+  <borders country='cid-cia-Uzbekistan'>1621</borders>
+  <coasts>Caspian Sea</coasts>
+</country>
+
+<country id='cid-cia-United-Arab-Emirates' 
+  continent='Asia'
+  name='United Arab Emirates'
+  datacode='TC'
+  total_area='75581'
+  population='3057337'
+  population_growth='4.33'
+  infant_mortality='20.4'
+  gdp_agri='2'
+  inflation='4.6'
+  gdp_ind='55'
+  gdp_serv='43'
+  gdp_total='70100'
+  indep_date='02 12 1971'
+  government='federation with specified powers delegated to the UAE central government and other powers reserved to member emirates'
+  capital='Abu Dhabi'>
+  <ethnicgroups name='South Asian'>50</ethnicgroups>
+  <ethnicgroups name='Emiri'>19</ethnicgroups>
+  <ethnicgroups name='Arab Iranian'>23</ethnicgroups>
+  <religions name='Muslim'>96</religions>
+  <borders country='cid-cia-Oman'>410</borders>
+  <borders country='cid-cia-Saudi-Arabia'>457</borders>
+  <coasts>Persian Gulf</coasts>
+  <coasts>Gulf Of Oman</coasts>
+</country>
+
+<country id='cid-cia-Uzbekistan' 
+  continent='Asia'
+  name='Uzbekistan'
+  datacode='UZ'
+  total_area='447400'
+  population='23418381'
+  population_growth='1.87'
+  infant_mortality='79.6'
+  inflation='7.7'
+  gdp_total='54700'
+  indep_date='31 08 1991'
+  government='republic'
+  capital='Tashkent'>
+  <ethnicgroups name='Russian'>8.3</ethnicgroups>
+  <ethnicgroups name='Tajik'>4.7</ethnicgroups>
+  <ethnicgroups name='Uzbek'>71.4</ethnicgroups>
+  <ethnicgroups name='Tatar'>2.4</ethnicgroups>
+  <ethnicgroups name='Kazak'>4.1</ethnicgroups>
+  <ethnicgroups name='Karakalpak'>2.1</ethnicgroups>
+  <religions name='Muslim'>88</religions>
+  <religions name='Eastern Orthodox'>9</religions>
+  <languages name='Russian'>14.2</languages>
+  <languages name='Tajik'>4.4</languages>
+  <languages name='Uzbek'>74.3</languages>
+  <borders country='cid-cia-Afghanistan'>137</borders>
+  <borders country='cid-cia-Kazakstan'>2203</borders>
+  <borders country='cid-cia-Kyrgyzstan'>1099</borders>
+  <borders country='cid-cia-Tajikistan'>1161</borders>
+  <borders country='cid-cia-Turkmenistan'>1621</borders>
+</country>
+
+<country id='cid-cia-Vietnam' 
+  continent='Asia'
+  name='Vietnam'
+  datacode='VM'
+  total_area='329560'
+  population='73976973'
+  population_growth='1.57'
+  infant_mortality='38.4'
+  gdp_agri='28'
+  inflation='14'
+  gdp_ind='28'
+  gdp_serv='44'
+  gdp_total='97000'
+  indep_date='02 09 1945'
+  government='Communist state'
+  capital='Hanoi'>
+  <ethnicgroups name='Chinese'>3</ethnicgroups>
+  <ethnicgroups name='Vietnamese'>85</ethnicgroups>
+  <borders country='cid-cia-Cambodia'>982</borders>
+  <borders country='cid-cia-China'>1281</borders>
+  <borders country='cid-cia-Laos'>1555</borders>
+  <coasts>South China Sea</coasts>
+  <coasts>Gulf Of Thailand</coasts>
+  <coasts>Gulf Of Tonkin</coasts>
+</country>
+
+<country id='cid-cia-West-Bank' 
+  continent='Asia'
+  name='West Bank'
+  datacode='WE'
+  total_area='5860'
+  population='1427741'
+  population_growth='4.99'
+  infant_mortality='28.6'
+  gdp_agri='33'
+  inflation='14'
+  gdp_ind='7'
+  gdp_serv='60'
+  gdp_total='3700'>
+  <ethnicgroups name='Jewish'>17</ethnicgroups>
+  <ethnicgroups name='Palestinian Arab'>83</ethnicgroups>
+  <religions name='Muslim'>75</religions>
+  <religions name='Jewish'>17</religions>
+  <religions name='Christian'>8</religions>
+  <borders country='cid-cia-Israel'>307</borders>
+  <borders country='cid-cia-Jordan'>97</borders>
+</country>
+
+<country id='cid-cia-Yemen' 
+  continent='Asia'
+  name='Yemen'
+  datacode='YM'
+  total_area='527970'
+  population='13483178'
+  population_growth='3.56'
+  infant_mortality='71.5'
+  gdp_agri='21'
+  inflation='71.3'
+  gdp_ind='24'
+  gdp_serv='55'
+  gdp_total='37100'
+  indep_date='22 05 1990'
+  government='republic'
+  capital='Sanaa'>
+  <languages name='Arabic'>100</languages>
+  <borders country='cid-cia-Oman'>288</borders>
+  <borders country='cid-cia-Saudi-Arabia'>1458</borders>
+  <coasts>Arabian Sea</coasts>
+  <coasts>Red Sea</coasts>
+  <coasts>Gulf Of Aden</coasts>
+</country>
+
+<country id='cid-cia-Anguilla' 
+  continent='North America'
+  name='Anguilla'
+  datacode='AV'
+  total_area='91'
+  population='10424'
+  population_growth='3.45'
+  infant_mortality='23'
+  inflation='4'
+  gdp_total='53'
+  government='dependent territory of the UK'
+  capital='The Valley'>
+  <ethnicgroups name='African'>100</ethnicgroups>
+  <religions name='Roman Catholic'>3</religions>
+  <religions name='Anglican'>40</religions>
+  <religions name='Baptist'>5</religions>
+  <religions name='Seventh-Day Adventist'>7</religions>
+  <religions name='Methodist'>33</religions>
+  <languages name='English'>100</languages>
+  <coasts>Caribbean Sea</coasts>
+</country>
+
+<country id='cid-cia-Antigua-and-Barbuda' 
+  continent='North America'
+  name='Antigua and Barbuda'
+  datacode='AC'
+  total_area='440'
+  population='65647'
+  population_growth='0.76'
+  infant_mortality='17.2'
+  gdp_agri='3.5'
+  inflation='3.5'
+  gdp_ind='19.3'
+  gdp_serv='77.2'
+  gdp_total='425'
+  indep_date='01 11 1981'
+  government='parliamentary democracy'
+  capital='Saint Johns'>
+  <languages name='English'>100</languages>
+  <coasts>North Atlantic Ocean</coasts>
+  <coasts>Caribbean Sea</coasts>
+</country>
+
+<country id='cid-cia-Aruba' 
+  continent='North America'
+  name='Aruba'
+  datacode='AA'
+  total_area='193'
+  population='67794'
+  population_growth='0.31'
+  infant_mortality='8.2'
+  inflation='6.1'
+  gdp_total='1200'
+  government='part of the Dutch realm'
+  capital='Oranjestad'>
+  <ethnicgroups name='European/Caribbean Indian'>80</ethnicgroups>
+  <religions name='Roman Catholic'>82</religions>
+  <religions name='Protestant'>8</religions>
+  <coasts>Caribbean Sea</coasts>
+</country>
+
+<country id='cid-cia-Bahamas' 
+  continent='North America'
+  name='Bahamas'
+  datacode='BF'
+  total_area='13940'
+  population='259367'
+  population_growth='1.05'
+  infant_mortality='23.3'
+  gdp_agri='3'
+  inflation='1.5'
+  gdp_ind='35'
+  gdp_serv='62'
+  gdp_total='4800'
+  indep_date='10 07 1973'
+  government='commonwealth'
+  capital='Nassau'>
+  <religions name='Roman Catholic'>19</religions>
+  <religions name='Protestant'>12</religions>
+  <religions name='Anglican'>20</religions>
+  <religions name='Baptist'>32</religions>
+  <religions name='Methodist'>6</religions>
+  <religions name='Church God'>6</religions>
+  <coasts>North Atlantic Ocean</coasts>
+  <coasts>Florida</coasts>
+</country>
+
+<country id='cid-cia-Barbados' 
+  continent='North America'
+  name='Barbados'
+  datacode='BB'
+  total_area='430'
+  population='257030'
+  population_growth='0.26'
+  infant_mortality='18.7'
+  gdp_agri='6.4'
+  inflation='1.7'
+  gdp_ind='39.3'
+  gdp_serv='54.3'
+  gdp_total='2500'
+  indep_date='30 11 1966'
+  government='parliamentary democracy'
+  capital='Bridgetown'>
+  <ethnicgroups name='European'>4</ethnicgroups>
+  <ethnicgroups name='African'>80</ethnicgroups>
+  <religions name='Roman Catholic'>4</religions>
+  <religions name='Protestant'>67</religions>
+  <languages name='English'>100</languages>
+  <coasts>North Atlantic Ocean</coasts>
+  <coasts>Caribbean Sea</coasts>
+</country>
+
+<country id='cid-cia-Belize' 
+  continent='North America'
+  name='Belize'
+  datacode='BH'
+  total_area='22960'
+  population='219296'
+  population_growth='2.42'
+  infant_mortality='33.9'
+  gdp_agri='30'
+  inflation='2.3'
+  gdp_total='575'
+  indep_date='21 09 1981'
+  government='parliamentary democracy'
+  capital='Belmopan'>
+  <ethnicgroups name='Creole'>30</ethnicgroups>
+  <ethnicgroups name='Garifuna'>7</ethnicgroups>
+  <ethnicgroups name='Maya'>11</ethnicgroups>
+  <religions name='Roman Catholic'>62</religions>
+  <religions name='Protestant'>30</religions>
+  <borders country='cid-cia-Guatemala'>266</borders>
+  <borders country='cid-cia-Mexico'>250</borders>
+  <coasts>Caribbean Sea</coasts>
+</country>
+
+<country id='cid-cia-Bermuda' 
+  continent='North America'
+  name='Bermuda'
+  datacode='BD'
+  total_area='50'
+  population='62099'
+  population_growth='0.76'
+  infant_mortality='13.16'
+  inflation='2.6'
+  gdp_total='1700'
+  government='dependent territory of the UK'
+  capital='Hamilton'>
+  <religions name='Roman Catholic'>14</religions>
+  <religions name='Anglican'>37</religions>
+  <religions name='Seventh-Day Adventist'>5</religions>
+  <religions name='Methodist'>6</religions>
+  <religions name='African Methodist Episcopal'>10</religions>
+  <languages name='English'>100</languages>
+  <coasts>North Atlantic Ocean</coasts>
+  <coasts>North Carolina (US)</coasts>
+</country>
+
+<country id='cid-cia-British-Virgin-Islands' 
+  continent='North America'
+  name='British Virgin Islands'
+  datacode='VI'
+  total_area='150'
+  population='13195'
+  population_growth='1.29'
+  infant_mortality='19.16'
+  inflation='2.5'
+  gdp_total='133'
+  government='dependent territory of the UK'
+  capital='Road Town'>
+  <ethnicgroups name='Asian'>100</ethnicgroups>
+  <religions name='Roman Catholic'>6</religions>
+  <religions name='Protestant'>86</religions>
+  <languages name='English'>100</languages>
+  <coasts>North Atlantic Ocean</coasts>
+  <coasts>Caribbean Sea</coasts>
+</country>
+
+<country id='cid-cia-Canada' 
+  continent='North America'
+  name='Canada'
+  datacode='CA'
+  total_area='9976140'
+  population='28820671'
+  population_growth='1.06'
+  infant_mortality='6.1'
+  gdp_agri='2'
+  inflation='2.4'
+  gdp_ind='26'
+  gdp_serv='72'
+  gdp_total='694000'
+  indep_date='01 07 1867'
+  government='confederation with parliamentary democracy'
+  capital='Ottawa'>
+  <ethnicgroups name='French'>27</ethnicgroups>
+  <ethnicgroups name='Asian'>11.5</ethnicgroups>
+  <ethnicgroups name='European'>20</ethnicgroups>
+  <ethnicgroups name='British Isles'>40</ethnicgroups>
+  <ethnicgroups name='Indian Eskimo'>1.5</ethnicgroups>
+  <religions name='Roman Catholic'>45</religions>
+  <religions name='Anglican'>8</religions>
+  <religions name='United Church'>12</religions>
+  <borders country='cid-cia-United-States'>8893</borders>
+  <coasts>US</coasts>
+  <coasts>North Atlantic Ocean</coasts>
+  <coasts>North Pacific Ocean</coasts>
+</country>
+
+<country id='cid-cia-Cayman-Islands' 
+  continent='North America'
+  name='Cayman Islands'
+  datacode='CJ'
+  total_area='260'
+  population='34646'
+  population_growth='4.27'
+  infant_mortality='8.4'
+  gdp_agri='1.4'
+  inflation='1.8'
+  gdp_ind='3.2'
+  gdp_serv='95.4'
+  gdp_total='750'
+  government='dependent territory of the UK'
+  capital='George Town'>
+  <languages name='English'>100</languages>
+  <coasts>Caribbean Sea</coasts>
+</country>
+
+<country id='cid-cia-Clipperton-Island' 
+  continent='North America'
+  name='Clipperton Island'
+  datacode='IP'
+  total_area='7'
+  government='French possession administered by France from French Polynesia by the High Commissioner of the Republic'>
+  <coasts>North Pacific Ocean</coasts>
+  <coasts>1</coasts>
+  <coasts>120</coasts>
+</country>
+
+<country id='cid-cia-Costa-Rica' 
+  continent='North America'
+  name='Costa Rica'
+  datacode='CS'
+  total_area='51100'
+  population='3463083'
+  population_growth='2.06'
+  infant_mortality='13.5'
+  inflation='22.5'
+  gdp_total='18400'
+  indep_date='15 09 1821'
+  government='democratic republic'
+  capital='San Jose'>
+  <ethnicgroups name='Indian'>1</ethnicgroups>
+  <ethnicgroups name='Chinese'>1</ethnicgroups>
+  <religions name='Roman Catholic'>95</religions>
+  <borders country='cid-cia-Nicaragua'>309</borders>
+  <borders country='cid-cia-Panama'>330</borders>
+  <coasts>North Pacific Ocean</coasts>
+  <coasts>Caribbean Sea</coasts>
+</country>
+
+<country id='cid-cia-Cuba' 
+  continent='North America'
+  name='Cuba'
+  datacode='CU'
+  total_area='110860'
+  population='10951334'
+  population_growth='0.44'
+  infant_mortality='9'
+  gdp_agri='7'
+  gdp_ind='30'
+  gdp_serv='63'
+  gdp_total='14700'
+  indep_date='20 05 1902'
+  government='Communist state'
+  capital='Havana'>
+  <ethnicgroups name='Chinese'>1</ethnicgroups>
+  <religions name='Roman Catholic'>85</religions>
+  <languages name='Spanish'>100</languages>
+  <coasts>North Atlantic Ocean</coasts>
+  <coasts>Caribbean Sea</coasts>
+  <coasts>Florida</coasts>
+</country>
+
+<country id='cid-cia-Dominica' 
+  continent='North America'
+  name='Dominica'
+  datacode='DO'
+  total_area='750'
+  population='82926'
+  population_growth='0.38'
+  infant_mortality='9.6'
+  gdp_agri='26'
+  inflation='0.4'
+  gdp_total='200'
+  indep_date='03 11 1978'
+  government='parliamentary democracy'
+  capital='Roseau'>
+  <ethnicgroups name='Carib Indians'>100</ethnicgroups>
+  <religions name='Roman Catholic'>77</religions>
+  <religions name='Protestant'>15</religions>
+  <coasts>North Atlantic Ocean</coasts>
+  <coasts>Caribbean Sea</coasts>
+  <coasts>Trinidad</coasts>
+  <coasts>Tobago</coasts>
+</country>
+
+<country id='cid-cia-Dominican-Republic' 
+  continent='North America'
+  name='Dominican Republic'
+  datacode='DR'
+  total_area='48730'
+  population='8088881'
+  population_growth='1.73'
+  infant_mortality='47.7'
+  gdp_agri='13'
+  inflation='9.5'
+  gdp_ind='32'
+  gdp_serv='55'
+  gdp_total='26800'
+  indep_date='27 02 1844'
+  government='republic'
+  capital='Santo Domingo'>
+  <religions name='Roman Catholic'>95</religions>
+  <languages name='Spanish'>100</languages>
+  <borders country='cid-cia-Haiti'>275</borders>
+  <coasts>North Atlantic Ocean</coasts>
+  <coasts>Caribbean Sea</coasts>
+  <coasts>Hispaniola</coasts>
+</country>
+
+<country id='cid-cia-El-Salvador' 
+  continent='North America'
+  name='El Salvador'
+  datacode='ES'
+  total_area='21040'
+  population='5828987'
+  population_growth='1.81'
+  infant_mortality='31.9'
+  inflation='11.4'
+  gdp_total='11400'
+  indep_date='15 09 1821'
+  government='republic'
+  capital='San Salvador'>
+  <ethnicgroups name='Indian'>5</ethnicgroups>
+  <religions name='Roman Catholic'>75</religions>
+  <borders country='cid-cia-Guatemala'>203</borders>
+  <borders country='cid-cia-Honduras'>342</borders>
+  <coasts>North Pacific Ocean</coasts>
+</country>
+
+<country id='cid-cia-Greenland' 
+  continent='North America'
+  name='Greenland'
+  datacode='GL'
+  total_area='2175600'
+  population='58203'
+  population_growth='1'
+  infant_mortality='23.8'
+  inflation='1.3'
+  gdp_total='892'
+  government='part of the Danish realm'
+  capital='Nuuk'>
+  <ethnicgroups name='Danish'>14</ethnicgroups>
+  <ethnicgroups name='Greenlander'>86</ethnicgroups>
+  <religions name='Evangelical Lutheran'>100</religions>
+  <coasts>North Atlantic Ocean</coasts>
+  <coasts>Arctic Ocean</coasts>
+</country>
+
+<country id='cid-cia-Grenada' 
+  continent='North America'
+  name='Grenada'
+  datacode='GJ'
+  total_area='340'
+  population='94961'
+  population_growth='0.55'
+  infant_mortality='11.9'
+  gdp_agri='10.2'
+  inflation='3'
+  gdp_ind='40.3'
+  gdp_serv='49.5'
+  gdp_total='284'
+  indep_date='07 02 1974'
+  government='parliamentary democracy'
+  capital='Saint Georges'>
+  <ethnicgroups name='African'>100</ethnicgroups>
+  <coasts>Caribbean Sea</coasts>
+  <coasts>Trinidad</coasts>
+  <coasts>Tobago</coasts>
+</country>
+
+<country id='cid-cia-Guadeloupe' 
+  continent='North America'
+  name='Guadeloupe'
+  datacode='GP'
+  total_area='1780'
+  population='407768'
+  population_growth='1.2'
+  infant_mortality='8.3'
+  gdp_agri='6'
+  inflation='3.7'
+  gdp_ind='9'
+  gdp_serv='85'
+  gdp_total='3700'
+  government='overseas department of France'
+  capital='Basse Terre'>
+  <ethnicgroups name='Chinese'>5</ethnicgroups>
+  <religions name='Roman Catholic'>95</religions>
+  <religions name='Protestant'>1</religions>
+  <religions name='Hindu African'>4</religions>
+  <languages name='French'>99</languages>
+  <coasts>Caribbean Sea</coasts>
+</country>
+
+<country id='cid-cia-Guatemala' 
+  continent='North America'
+  name='Guatemala'
+  datacode='GT'
+  total_area='108890'
+  population='11277614'
+  population_growth='2.48'
+  infant_mortality='50.7'
+  gdp_agri='25'
+  inflation='9'
+  gdp_ind='20'
+  gdp_serv='55'
+  gdp_total='36700'
+  indep_date='15 09 1821'
+  government='republic'
+  capital='Guatemala'>
+  <ethnicgroups name='Mestizo - Amerindian-Spanish'>56</ethnicgroups>
+  <ethnicgroups name='Amerindian Amerindian'>44</ethnicgroups>
+  <languages name='Spanish'>60</languages>
+  <languages name='Indian'>40</languages>
+  <borders country='cid-cia-Belize'>266</borders>
+  <borders country='cid-cia-El-Salvador'>203</borders>
+  <borders country='cid-cia-Honduras'>256</borders>
+  <borders country='cid-cia-Mexico'>962</borders>
+  <coasts>North Pacific Ocean</coasts>
+  <coasts>Caribbean Sea</coasts>
+</country>
+
+<country id='cid-cia-Haiti' 
+  continent='North America'
+  name='Haiti'
+  datacode='HA'
+  total_area='27750'
+  population='6731539'
+  population_growth='1.77'
+  infant_mortality='103.8'
+  gdp_agri='34.8'
+  inflation='14.5'
+  gdp_ind='23'
+  gdp_serv='42.2'
+  gdp_total='6500'
+  indep_date='01 01 1804'
+  government='republic'
+  capital='Port au Prince'>
+  <ethnicgroups name='European'>5</ethnicgroups>
+  <religions name='Roman Catholic'>80</religions>
+  <religions name='Protestant'>16</religions>
+  <languages name='French'>10</languages>
+  <borders country='cid-cia-Dominican-Republic'>275</borders>
+  <coasts>North Atlantic Ocean</coasts>
+  <coasts>Caribbean Sea</coasts>
+  <coasts>Hispaniola</coasts>
+</country>
+
+<country id='cid-cia-Honduras' 
+  continent='North America'
+  name='Honduras'
+  datacode='HO'
+  total_area='112090'
+  population='5605193'
+  population_growth='2.6'
+  infant_mortality='41.8'
+  gdp_agri='30'
+  inflation='30'
+  gdp_ind='20'
+  gdp_serv='50'
+  gdp_total='10800'
+  indep_date='15 09 1821'
+  government='republic'
+  capital='Tegucigalpa'>
+  <ethnicgroups name='Indian'>7</ethnicgroups>
+  <religions name='Roman Catholic'>97</religions>
+  <borders country='cid-cia-El-Salvador'>342</borders>
+  <borders country='cid-cia-Guatemala'>256</borders>
+  <borders country='cid-cia-Nicaragua'>922</borders>
+  <coasts>North Pacific Ocean</coasts>
+  <coasts>Caribbean Sea</coasts>
+</country>
+
+<country id='cid-cia-Jamaica' 
+  continent='North America'
+  name='Jamaica'
+  datacode='JM'
+  total_area='10990'
+  population='2595275'
+  population_growth='0.8'
+  infant_mortality='15.6'
+  gdp_agri='7.9'
+  inflation='25.5'
+  gdp_ind='28.1'
+  gdp_serv='64'
+  gdp_total='8200'
+  indep_date='06 08 1962'
+  government='parliamentary democracy'
+  capital='Kingston'>
+  <ethnicgroups name='African'>76.3</ethnicgroups>
+  <ethnicgroups name='Afro-European'>15.1</ethnicgroups>
+  <ethnicgroups name='East Indian Afro-East Indian'>3</ethnicgroups>
+  <ethnicgroups name='Chinese Afro-Chinese'>1.2</ethnicgroups>
+  <religions name='Roman Catholic'>5</religions>
+  <religions name='Protestant'>55.9</religions>
+  <coasts>Caribbean Sea</coasts>
+</country>
+
+<country id='cid-cia-Martinique' 
+  continent='North America'
+  name='Martinique'
+  datacode='MB'
+  total_area='1100'
+  population='399151'
+  population_growth='1.1'
+  infant_mortality='7.1'
+  gdp_agri='6'
+  inflation='3.9'
+  gdp_ind='11'
+  gdp_serv='83'
+  gdp_total='3950'
+  government='overseas department of France'
+  capital='Fort de France'>
+  <ethnicgroups name='Chinese'>5</ethnicgroups>
+  <ethnicgroups name='African African-white-Indian'>90</ethnicgroups>
+  <religions name='Roman Catholic'>95</religions>
+  <religions name='Hindu African'>5</religions>
+  <coasts>Caribbean Sea</coasts>
+  <coasts>Trinidad</coasts>
+  <coasts>Tobago</coasts>
+</country>
+
+<country id='cid-cia-Mexico' 
+  continent='North America'
+  name='Mexico'
+  datacode='MX'
+  total_area='1972550'
+  population='95772462'
+  population_growth='1.87'
+  infant_mortality='25'
+  gdp_agri='8.5'
+  inflation='52'
+  gdp_ind='28.4'
+  gdp_serv='63.1'
+  gdp_total='721400'
+  indep_date='16 09 1810'
+  government='federal republic operating under a centralized government'
+  capital='Mexico'>
+  <ethnicgroups name='Amerindian Amerindian'>30</ethnicgroups>
+  <ethnicgroups name='Caucasian Caucasian'>9</ethnicgroups>
+  <religions name='Roman Catholic'>89</religions>
+  <religions name='Protestant'>6</religions>
+  <borders country='cid-cia-Belize'>250</borders>
+  <borders country='cid-cia-Guatemala'>962</borders>
+  <borders country='cid-cia-United-States'>3326</borders>
+  <coasts>US</coasts>
+  <coasts>North Pacific Ocean</coasts>
+  <coasts>Caribbean Sea</coasts>
+  <coasts>Gulf Of Mexico</coasts>
+</country>
+
+<country id='cid-cia-Montserrat' 
+  continent='North America'
+  name='Montserrat'
+  datacode='MH'
+  total_area='100'
+  population='12771'
+  population_growth='0.28'
+  infant_mortality='11.78'
+  gdp_agri='4.8'
+  inflation='9.6'
+  gdp_ind='18.4'
+  gdp_serv='76.8'
+  gdp_total='55.6'
+  government='dependent territory of the UK'
+  capital='Plymouth'>
+  <ethnicgroups name='Europeans'>100</ethnicgroups>
+  <languages name='English'>100</languages>
+  <coasts>Caribbean Sea</coasts>
+</country>
+
+<country id='cid-cia-Navassa-Island' 
+  continent='North America'
+  name='Navassa Island'
+  datacode='BQ'
+  total_area='5.2'
+  government='unincorporated territory of the US administered by the US Coast Guard'>
+  <coasts>Caribbean Sea</coasts>
+</country>
+
+<country id='cid-cia-Netherlands-Antilles' 
+  continent='North America'
+  name='Netherlands Antilles'
+  datacode='NT'
+  total_area='960'
+  population='208968'
+  population_growth='1.03'
+  infant_mortality='8.9'
+  inflation='1.5'
+  gdp_total='1920'
+  government='part of the Dutch realm'
+  capital='Willemstad'>
+  <ethnicgroups name='African'>85</ethnicgroups>
+  <coasts>Caribbean Sea</coasts>
+  <coasts>Curacao</coasts>
+  <coasts>Bonaire</coasts>
+</country>
+
+<country id='cid-cia-Nicaragua' 
+  continent='North America'
+  name='Nicaragua'
+  datacode='NU'
+  total_area='129494'
+  population='4272352'
+  population_growth='2.67'
+  infant_mortality='45.8'
+  inflation='11.4'
+  gdp_total='7100'
+  indep_date='15 09 1821'
+  government='republic'
+  capital='Managua'>
+  <ethnicgroups name='Indian'>5</ethnicgroups>
+  <religions name='Roman Catholic'>95</religions>
+  <religions name='Protestant'>5</religions>
+  <languages name='Spanish'>100</languages>
+  <borders country='cid-cia-Costa-Rica'>309</borders>
+  <borders country='cid-cia-Honduras'>922</borders>
+  <coasts>North Pacific Ocean</coasts>
+  <coasts>Caribbean Sea</coasts>
+</country>
+
+<country id='cid-cia-Panama' 
+  continent='North America'
+  name='Panama'
+  datacode='PM'
+  total_area='78200'
+  population='2655094'
+  population_growth='1.64'
+  infant_mortality='29.7'
+  gdp_agri='10'
+  inflation='1.1'
+  gdp_ind='16'
+  gdp_serv='74'
+  gdp_total='13600'
+  indep_date='03 11 1903'
+  government='constitutional republic'
+  capital='Panama'>
+  <ethnicgroups name='West Indian'>14</ethnicgroups>
+  <ethnicgroups name='Indian'>6</ethnicgroups>
+  <religions name='Roman Catholic'>85</religions>
+  <religions name='Protestant'>15</religions>
+  <languages name='English'>14</languages>
+  <borders country='cid-cia-Costa-Rica'>330</borders>
+  <borders country='cid-cia-Colombia'>225</borders>
+  <coasts>North Pacific Ocean</coasts>
+  <coasts>Caribbean Sea</coasts>
+</country>
+
+<country id='cid-cia-Puerto-Rico' 
+  continent='North America'
+  name='Puerto Rico'
+  datacode='RQ'
+  total_area='9104'
+  population='3819023'
+  population_growth='0.18'
+  infant_mortality='12.4'
+  inflation='2.9'
+  gdp_total='29700'
+  government='commonwealth associated with the US'
+  capital='San Juan'>
+  <ethnicgroups name='Hispanic'>100</ethnicgroups>
+  <religions name='Roman Catholic'>85</religions>
+  <religions name='Protestant'>15</religions>
+  <coasts>North Atlantic Ocean</coasts>
+  <coasts>Caribbean Sea</coasts>
+</country>
+
+<country id='cid-cia-Saint-Kitts-and-Nevis' 
+  continent='North America'
+  name='Saint Kitts and Nevis'
+  datacode='SC'
+  total_area='269'
+  population='41369'
+  population_growth='0.98'
+  infant_mortality='18.9'
+  gdp_agri='6.2'
+  inflation='-0.9'
+  gdp_ind='35.7'
+  gdp_serv='58.1'
+  gdp_total='220'
+  indep_date='19 09 1983'
+  government='constitutional monarchy'
+  capital='Basseterre'>
+  <ethnicgroups name='African'>100</ethnicgroups>
+  <languages name='English'>100</languages>
+  <coasts>Caribbean Sea</coasts>
+  <coasts>Trinidad</coasts>
+  <coasts>Tobago</coasts>
+</country>
+
+<country id='cid-cia-Saint-Lucia' 
+  continent='North America'
+  name='Saint Lucia'
+  datacode='ST'
+  total_area='620'
+  population='157862'
+  population_growth='1.14'
+  infant_mortality='20'
+  gdp_agri='13.8'
+  inflation='0.8'
+  gdp_ind='17.4'
+  gdp_serv='68.8'
+  gdp_total='640'
+  indep_date='22 02 1979'
+  government='parliamentary democracy'
+  capital='Castries'>
+  <ethnicgroups name='African'>90.3</ethnicgroups>
+  <ethnicgroups name='East Indian'>3.2</ethnicgroups>
+  <religions name='Roman Catholic'>90</religions>
+  <religions name='Protestant'>7</religions>
+  <religions name='Anglican'>3</religions>
+  <coasts>Caribbean Sea</coasts>
+  <coasts>Trinidad</coasts>
+  <coasts>Tobago</coasts>
+</country>
+
+<country id='cid-cia-Saint-Pierre-and-Miquelon' 
+  continent='North America'
+  name='Saint Pierre and Miquelon'
+  datacode='SB'
+  total_area='242'
+  population='6809'
+  population_growth='0.77'
+  infant_mortality='9.95'
+  gdp_total='68'
+  government='territorial collectivity of France'
+  capital='Saint Pierre'>
+  <ethnicgroups name='Basques Bretons'>100</ethnicgroups>
+  <religions name='Roman Catholic'>99</religions>
+  <languages name='French'>100</languages>
+  <coasts>North Atlantic Ocean</coasts>
+  <coasts>Newfoundland (Canada)</coasts>
+</country>
+
+<country id='cid-cia-Saint-Vincent-and-the-Grenadines' 
+  continent='North America'
+  name='Saint Vincent and the Grenadines'
+  datacode='VC'
+  total_area='340'
+  population='118344'
+  population_growth='0.64'
+  infant_mortality='16.8'
+  gdp_agri='24'
+  inflation='-0.2'
+  gdp_ind='33.1'
+  gdp_serv='42.9'
+  gdp_total='240'
+  indep_date='27 10 1979'
+  government='constitutional monarchy'
+  capital='Kingstown'>
+  <coasts>Caribbean Sea</coasts>
+  <coasts>Trinidad</coasts>
+  <coasts>Tobago</coasts>
+</country>
+
+<country id='cid-cia-Trinidad-and-Tobago' 
+  continent='North America'
+  name='Trinidad and Tobago'
+  datacode='TD'
+  total_area='5130'
+  population='1272385'
+  population_growth='0.08'
+  infant_mortality='18.2'
+  gdp_agri='4.8'
+  inflation='5.4'
+  gdp_ind='44.5'
+  gdp_serv='50.7'
+  gdp_total='16200'
+  indep_date='31 08 1962'
+  government='parliamentary democracy'
+  capital='Port of Spain'>
+  <ethnicgroups name='Chinese'>1</ethnicgroups>
+  <ethnicgroups name='East Indian'>40</ethnicgroups>
+  <religions name='Muslim'>6</religions>
+  <religions name='Roman Catholic'>32.2</religions>
+  <religions name='Protestant'>14</religions>
+  <religions name='Anglican'>14.4</religions>
+  <religions name='Hindu'>24.3</religions>
+  <coasts>North Atlantic Ocean</coasts>
+  <coasts>Caribbean Sea</coasts>
+</country>
+
+<country id='cid-cia-Turks-and-Caicos-Islands' 
+  continent='North America'
+  name='Turks and Caicos Islands'
+  datacode='TK'
+  total_area='430'
+  population='14302'
+  population_growth='2.14'
+  infant_mortality='12.57'
+  gdp_total='80.8'
+  government='dependent territory of the UK'
+  capital='Grand Turk'>
+  <ethnicgroups name='African'>100</ethnicgroups>
+  <religions name='Anglican'>18.3</religions>
+  <religions name='Baptist'>41.2</religions>
+  <religions name='Seventh-Day Adventist'>1.7</religions>
+  <religions name='Methodist'>18.9</religions>
+  <languages name='English'>100</languages>
+  <coasts>North Atlantic Ocean</coasts>
+  <coasts>The Bahamas</coasts>
+</country>
+
+<country id='cid-cia-United-States' 
+  continent='North America'
+  name='United States'
+  datacode='US'
+  total_area='9372610'
+  population='266476278'
+  population_growth='0.91'
+  infant_mortality='6.7'
+  gdp_agri='2'
+  inflation='2.5'
+  gdp_ind='23'
+  gdp_serv='75'
+  gdp_total='7247700'
+  indep_date='04 07 1776'
+  government='federal republic'
+  capital='Washington'>
+  <ethnicgroups name='Asian'>3.3</ethnicgroups>
+  <ethnicgroups name='Native American'>0.8</ethnicgroups>
+  <religions name='Jewish'>2</religions>
+  <religions name='Roman Catholic'>28</religions>
+  <religions name='Protestant'>56</religions>
+  <borders country='cid-cia-Canada'>8893</borders>
+  <borders country='cid-cia-Cuba'>29</borders>
+  <borders country='cid-cia-Mexico'>3326</borders>
+  <coasts>North Atlantic Ocean</coasts>
+  <coasts>North Pacific Ocean</coasts>
+</country>
+
+<country id='cid-cia-Virgin-Islands' 
+  continent='North America'
+  name='Virgin Islands'
+  datacode='VQ'
+  total_area='352'
+  population='97120'
+  population_growth='-0.06'
+  infant_mortality='12.54'
+  gdp_total='1200'
+  government='organized'
+  capital='Charlotte Amalie'>
+  <religions name='Roman Catholic'>34</religions>
+  <religions name='Baptist'>42</religions>
+  <religions name='Episcopalian'>17</religions>
+  <coasts>North Atlantic Ocean</coasts>
+  <coasts>Caribbean Sea</coasts>
+</country>
+
+<country id='cid-cia-American-Samoa' 
+  continent='Australia/Oceania'
+  name='American Samoa'
+  datacode='AQ'
+  total_area='199'
+  population='59566'
+  population_growth='3.77'
+  infant_mortality='18.78'
+  gdp_total='128'
+  government='unincorporated and unorganized territory of the US'
+  capital='Pago Pago'>
+  <ethnicgroups name='Caucasian'>2</ethnicgroups>
+  <ethnicgroups name='Tongan'>4</ethnicgroups>
+  <ethnicgroups name='Samoan'>89</ethnicgroups>
+  <religions name='Roman Catholic'>20</religions>
+  <religions name='Protestant'>30</religions>
+  <religions name='Christian Congregationalist'>50</religions>
+  <coasts>South Pacific Ocean</coasts>
+</country>
+
+<country id='cid-cia-Australia' 
+  continent='Australia/Oceania'
+  name='Australia'
+  datacode='AS'
+  total_area='7686850'
+  population='18260863'
+  population_growth='0.99'
+  infant_mortality='5.5'
+  gdp_agri='3.1'
+  inflation='4.75'
+  gdp_ind='27.7'
+  gdp_serv='69.2'
+  gdp_total='405400'
+  indep_date='01 01 1901'
+  government='federal parliamentary state'
+  capital='Canberra'>
+  <ethnicgroups name='Asian'>4</ethnicgroups>
+  <ethnicgroups name='Caucasian'>95</ethnicgroups>
+  <religions name='Roman Catholic'>26</religions>
+  <religions name='Anglican'>26.1</religions>
+  <religions name='Christian'>24.3</religions>
+  <languages name='English'>100</languages>
+  <coasts>Indian Ocean</coasts>
+  <coasts>South Pacific Ocean</coasts>
+</country>
+
+<country id='cid-cia-Baker-Island' 
+  continent='Australia/Oceania'
+  name='Baker Island'
+  datacode='FQ'
+  total_area='1.4'
+  government='unincorporated territory of the US administered by the Fish and Wildlife Service of the US Department of the Interior as part of the National Wildlife Refuge system'>
+  <coasts>North Pacific Ocean</coasts>
+</country>
+
+<country id='cid-cia-Cook-Islands' 
+  continent='Australia/Oceania'
+  name='Cook Islands'
+  datacode='CW'
+  total_area='240'
+  population='19561'
+  population_growth='1.11'
+  infant_mortality='24.7'
+  inflation='6.2'
+  gdp_total='57'
+  government='self governing parliamentary government in free association with New Zealand'
+  capital='Avarua'>
+  <ethnicgroups name='European'>2.4</ethnicgroups>
+  <ethnicgroups name='Polynesian'>81.3</ethnicgroups>
+  <ethnicgroups name='Polynesian European'>7.7</ethnicgroups>
+  <ethnicgroups name='Polynesian non-European'>7.7</ethnicgroups>
+  <religions name='Christian'>100</religions>
+  <coasts>South Pacific Ocean</coasts>
+</country>
+
+<country id='cid-cia-Coral-Sea-Islands' 
+  continent='Australia/Oceania'
+  name='Coral Sea Islands'
+  datacode='CR'
+  government='territory of Australia administered by the Ministry for Environment'>
+  <coasts>Coral Sea</coasts>
+</country>
+
+<country id='cid-cia-Fiji' 
+  continent='Australia/Oceania'
+  name='Fiji'
+  datacode='FJ'
+  total_area='18270'
+  population='782381'
+  population_growth='1.28'
+  infant_mortality='17.4'
+  gdp_agri='22'
+  inflation='2'
+  gdp_ind='17'
+  gdp_serv='61'
+  gdp_total='4700'
+  indep_date='10 10 1970'
+  government='republic'
+  capital='Suva'>
+  <ethnicgroups name='Indian'>46</ethnicgroups>
+  <ethnicgroups name='Fijian'>49</ethnicgroups>
+  <religions name='Muslim'>8</religions>
+  <religions name='Christian'>52</religions>
+  <religions name='Hindu'>38</religions>
+  <coasts>South Pacific Ocean</coasts>
+</country>
+
+<country id='cid-cia-French-Polynesia' 
+  continent='Australia/Oceania'
+  name='French Polynesia'
+  datacode='FP'
+  total_area='4167'
+  population='224911'
+  population_growth='2.19'
+  infant_mortality='14.4'
+  gdp_agri='4'
+  inflation='1.5'
+  gdp_ind='18'
+  gdp_serv='78'
+  gdp_total='1760'
+  government='overseas territory of France since 1946'
+  capital='Papeete'>
+  <ethnicgroups name='French'>10</ethnicgroups>
+  <ethnicgroups name='Chinese'>12</ethnicgroups>
+  <ethnicgroups name='Polynesian'>78</ethnicgroups>
+  <religions name='Roman Catholic'>30</religions>
+  <religions name='Protestant'>54</religions>
+  <coasts>South Pacific Ocean</coasts>
+</country>
+
+<country id='cid-cia-Guam' 
+  continent='Australia/Oceania'
+  name='Guam'
+  datacode='GQ'
+  total_area='541.3'
+  population='156974'
+  population_growth='2.34'
+  infant_mortality='15.17'
+  inflation='4'
+  gdp_total='2000'
+  government='organized'
+  capital='Agana'>
+  <ethnicgroups name='Chamorro'>47</ethnicgroups>
+  <ethnicgroups name='Filipino'>25</ethnicgroups>
+  <religions name='Roman Catholic'>98</religions>
+  <coasts>North Pacific Ocean</coasts>
+</country>
+
+<country id='cid-cia-Howland-Island' 
+  continent='Australia/Oceania'
+  name='Howland Island'
+  datacode='HQ'
+  total_area='1.6'
+  government='unincorporated territory of the US administered by the Fish and Wildlife Service of the US Department of the Interior as part of the National Wildlife Refuge System'>
+  <coasts>North Pacific Ocean</coasts>
+</country>
+
+<country id='cid-cia-Jarvis-Island' 
+  continent='Australia/Oceania'
+  name='Jarvis Island'
+  datacode='DQ'
+  total_area='4.5'
+  government='unincorporated territory of the US administered by the Fish and Wildlife Service of the US Department of the Interior as part of the National Wildlife Refuge System'>
+  <coasts>South Pacific Ocean</coasts>
+</country>
+
+<country id='cid-cia-Johnston-Atoll' 
+  continent='Australia/Oceania'
+  name='Johnston Atoll'
+  datacode='JQ'
+  total_area='2.8'
+  government='unincorporated territory of the US administered by the US Defense Nuclear Agency and managed cooperatively by DNA and the Fish and Wildlife Service of the US Department of the Interior as part of the National Wildlife Refuge system'>
+  <coasts>North Pacific Ocean</coasts>
+</country>
+
+<country id='cid-cia-Kingman-Reef' 
+  continent='Australia/Oceania'
+  name='Kingman Reef'
+  datacode='KQ'
+  total_area='1'
+  government='unincorporated territory of the US administered by the US Navy'>
+  <coasts>North Pacific Ocean</coasts>
+</country>
+
+<country id='cid-cia-Kiribati' 
+  continent='Australia/Oceania'
+  name='Kiribati'
+  datacode='KR'
+  total_area='717'
+  population='80919'
+  population_growth='1.89'
+  infant_mortality='52.9'
+  inflation='5.5'
+  gdp_total='68'
+  indep_date='12 07 1979'
+  government='republic'
+  capital='Tarawa'>
+  <ethnicgroups name='Micronesian'>100</ethnicgroups>
+  <religions name='Roman Catholic'>52.6</religions>
+  <religions name='Protestant'>40.9</religions>
+  <religions name='Mormon'>6</religions>
+  <coasts>Pacific Ocean</coasts>
+  <coasts>International Date Line</coasts>
+</country>
+
+<country id='cid-cia-Marshall-Islands' 
+  continent='Australia/Oceania'
+  name='Marshall Islands'
+  datacode='RM'
+  total_area='181.3'
+  population='58363'
+  population_growth='3.85'
+  infant_mortality='46.9'
+  inflation='4'
+  gdp_total='94'
+  indep_date='21 10 1986'
+  government='constitutional government in free association with the US'
+  capital='Majuro'>
+  <ethnicgroups name='Micronesian'>100</ethnicgroups>
+  <religions name='Christian'>100</religions>
+  <coasts>North Pacific Ocean</coasts>
+</country>
+
+<country id='cid-cia-Micronesia' 
+  continent='Australia/Oceania'
+  name='Micronesia'
+  datacode='FM'
+  total_area='702'
+  population='125377'
+  population_growth='3.34'
+  infant_mortality='35.8'
+  inflation='4'
+  gdp_total='205'
+  indep_date='03 11 1986'
+  government='constitutional government in free association with the US'
+  capital='Kolonia'>
+  <ethnicgroups name='Micronesian Polynesian'>100</ethnicgroups>
+  <religions name='Roman Catholic'>50</religions>
+  <religions name='Protestant'>47</religions>
+  <coasts>North Pacific Ocean</coasts>
+</country>
+
+<country id='cid-cia-Midway-Islands' 
+  continent='Australia/Oceania'
+  name='Midway Islands'
+  datacode='MQ'
+  total_area='5.2'
+  government='unincorporated territory of the US formerly administered by the US Navy'>
+  <coasts>Tokyo</coasts>
+  <coasts>North Pacific Ocean</coasts>
+  <coasts>Honolulu</coasts>
+</country>
+
+<country id='cid-cia-Nauru' 
+  continent='Australia/Oceania'
+  name='Nauru'
+  datacode='NR'
+  total_area='21'
+  population='10273'
+  population_growth='1.33'
+  infant_mortality='40.6'
+  inflation='-3.6'
+  gdp_total='100'
+  indep_date='31 01 1968'
+  government='republic'
+  capital='no official capital'>
+  <ethnicgroups name='Chinese'>8</ethnicgroups>
+  <ethnicgroups name='European'>8</ethnicgroups>
+  <ethnicgroups name='Nauruan'>58</ethnicgroups>
+  <ethnicgroups name='Pacific Islander'>26</ethnicgroups>
+  <religions name='Christian'>100</religions>
+  <coasts>South Pacific Ocean</coasts>
+</country>
+
+<country id='cid-cia-New-Caledonia' 
+  continent='Australia/Oceania'
+  name='New Caledonia'
+  datacode='NC'
+  total_area='19060'
+  population='187784'
+  population_growth='1.72'
+  infant_mortality='13.8'
+  gdp_agri='5'
+  inflation='1.4'
+  gdp_ind='35'
+  gdp_serv='60'
+  gdp_total='1500'
+  government='overseas territory of France since 1956'
+  capital='Noumea'>
+  <ethnicgroups name='Vietnamese'>1.6</ethnicgroups>
+  <ethnicgroups name='European'>37.1</ethnicgroups>
+  <ethnicgroups name='Polynesian'>3.8</ethnicgroups>
+  <ethnicgroups name='Melanesian'>42.5</ethnicgroups>
+  <ethnicgroups name='Wallisian'>8.4</ethnicgroups>
+  <ethnicgroups name='Indonesian'>3.6</ethnicgroups>
+  <religions name='Roman Catholic'>60</religions>
+  <religions name='Protestant'>30</religions>
+  <coasts>South Pacific Ocean</coasts>
+</country>
+
+<country id='cid-cia-New-Zealand' 
+  continent='Australia/Oceania'
+  name='New Zealand'
+  datacode='NZ'
+  total_area='268680'
+  population='3547983'
+  population_growth='1.12'
+  infant_mortality='6.7'
+  gdp_agri='7.3'
+  inflation='2'
+  gdp_ind='25.9'
+  gdp_serv='66.8'
+  gdp_total='62300'
+  indep_date='26 09 1907'
+  government='parliamentary democracy'
+  capital='Wellington'>
+  <ethnicgroups name='European'>88</ethnicgroups>
+  <ethnicgroups name='Pacific Islander'>2.9</ethnicgroups>
+  <ethnicgroups name='Maori'>8.9</ethnicgroups>
+  <religions name='Roman Catholic'>15</religions>
+  <religions name='Protestant'>3</religions>
+  <religions name='Anglican'>24</religions>
+  <religions name='Baptist'>2</religions>
+  <religions name='Methodist'>5</religions>
+  <religions name='Presbyterian'>18</religions>
+  <coasts>South Pacific Ocean</coasts>
+</country>
+
+<country id='cid-cia-Niue' 
+  continent='Australia/Oceania'
+  name='Niue'
+  datacode='NE'
+  total_area='260'
+  population='2174'
+  population_growth='-0.62'
+  inflation='5'
+  gdp_total='2.4'
+  indep_date='19 10 1974'
+  government='self governing territory in free association with New Zealand'
+  capital='Alofi'>
+  <ethnicgroups name='Polynesian'>100</ethnicgroups>
+  <religions name='Morman'>10</religions>
+  <religions name='Ekalesia Nieue'>75</religions>
+  <coasts>South Pacific Ocean</coasts>
+</country>
+
+<country id='cid-cia-Norfolk-Island' 
+  continent='Australia/Oceania'
+  name='Norfolk Island'
+  datacode='NF'
+  total_area='34.6'
+  population='2209'
+  population_growth='-0.68'
+  government='territory of Australia'
+  capital='Kingston'>
+  <religions name='Roman Catholic'>11.7</religions>
+  <religions name='Anglican'>39</religions>
+  <religions name='Seventh-Day Adventist'>4.4</religions>
+  <religions name='Uniting Church Australia'>16.4</religions>
+  <coasts>South Pacific Ocean</coasts>
+</country>
+
+<country id='cid-cia-Northern-Mariana-Islands' 
+  continent='Australia/Oceania'
+  name='Northern Mariana Islands'
+  datacode='CQ'
+  total_area='477'
+  population='52284'
+  population_growth='3.04'
+  infant_mortality='37.96'
+  inflation='6.5'
+  gdp_total='524'
+  government='commonwealth in political union with the US'
+  capital='Saipan'>
+  <religions name='Christian'>100</religions>
+  <coasts>North Pacific Ocean</coasts>
+</country>
+
+<country id='cid-cia-Palau' 
+  continent='Australia/Oceania'
+  name='Palau'
+  datacode='PS'
+  total_area='458'
+  population='16952'
+  population_growth='1.71'
+  infant_mortality='25.07'
+  gdp_total='81.8'
+  indep_date='01 10 1994'
+  government='constitutional government in free association with the US'
+  capital='Koror'>
+  <coasts>North Pacific Ocean</coasts>
+</country>
+
+<country id='cid-cia-Palmyra-Atoll' 
+  continent='Australia/Oceania'
+  name='Palmyra Atoll'
+  datacode='LQ'
+  total_area='11.9'
+  government='incorporated territory of the US'>
+  <coasts>North Pacific Ocean</coasts>
+</country>
+
+<country id='cid-cia-Pitcairn-Islands' 
+  continent='Australia/Oceania'
+  name='Pitcairn Islands'
+  datacode='PC'
+  total_area='47'
+  population='56'
+  population_growth='0'
+  government='dependent territory of the UK'
+  capital='Adamstown'>
+  <ethnicgroups name='Bounty'>100</ethnicgroups>
+  <religions name='Seventh-Day Adventist'>100</religions>
+  <coasts>South Pacific Ocean</coasts>
+</country>
+
+<country id='cid-cia-Solomon-Islands' 
+  continent='Australia/Oceania'
+  name='Solomon Islands'
+  datacode='BP'
+  total_area='28450'
+  population='412902'
+  population_growth='3.35'
+  infant_mortality='25.8'
+  inflation='13'
+  gdp_total='1000'
+  indep_date='07 07 1978'
+  government='parliamentary democracy'
+  capital='Honiara'>
+  <ethnicgroups name='Chinese'>0.3</ethnicgroups>
+  <ethnicgroups name='European'>0.8</ethnicgroups>
+  <ethnicgroups name='Polynesian'>4</ethnicgroups>
+  <ethnicgroups name='Micronesian'>1.5</ethnicgroups>
+  <ethnicgroups name='Melanesian'>93</ethnicgroups>
+  <religions name='Roman Catholic'>19</religions>
+  <religions name='Protestant'>5</religions>
+  <religions name='Anglican'>34</religions>
+  <religions name='Baptist'>17</religions>
+  <religions name='Seventh-Day Adventist'>10</religions>
+  <religions name='United'>11</religions>
+  <languages name='English'>1</languages>
+  <coasts>South Pacific Ocean</coasts>
+</country>
+
+<country id='cid-cia-Tokelau' 
+  continent='Australia/Oceania'
+  name='Tokelau'
+  datacode='TL'
+  total_area='10'
+  population='1482'
+  population_growth='-1.35'
+  gdp_total='1.5'
+  government='territory of New Zealand'>
+  <ethnicgroups name='Polynesian'>100</ethnicgroups>
+  <religions name='Roman Catholic'>28</religions>
+  <religions name='Congregational Christian Church'>70</religions>
+  <coasts>South Pacific Ocean</coasts>
+</country>
+
+<country id='cid-cia-Tonga' 
+  continent='Australia/Oceania'
+  name='Tonga'
+  datacode='TN'
+  total_area='748'
+  population='106466'
+  population_growth='0.82'
+  infant_mortality='40.26'
+  gdp_agri='40'
+  inflation='3'
+  gdp_total='228'
+  indep_date='04 06 1970'
+  government='hereditary constitutional monarchy'
+  capital='Nukualofa'>
+  <religions name='Christian'>100</religions>
+  <coasts>South Pacific Ocean</coasts>
+</country>
+
+<country id='cid-cia-Tuvalu' 
+  continent='Australia/Oceania'
+  name='Tuvalu'
+  datacode='TV'
+  total_area='26'
+  population='10146'
+  population_growth='1.51'
+  infant_mortality='27.6'
+  inflation='2.9'
+  gdp_total='7.8'
+  indep_date='01 10 1978'
+  government='democracy'
+  capital='Funafuti'>
+  <ethnicgroups name='Polynesian'>96</ethnicgroups>
+  <religions name='Bahai'>1</religions>
+  <religions name='Seventh-Day Adventist'>1.4</religions>
+  <religions name='Church Tuvalu'>97</religions>
+  <coasts>South Pacific Ocean</coasts>
+</country>
+
+<country id='cid-cia-Vanuatu' 
+  continent='Australia/Oceania'
+  name='Vanuatu'
+  datacode='NH'
+  total_area='14760'
+  population='177504'
+  population_growth='2.17'
+  infant_mortality='64.6'
+  inflation='7'
+  gdp_total='210'
+  indep_date='30 07 1980'
+  government='republic'
+  capital='Port Vila'>
+  <ethnicgroups name='French'>4</ethnicgroups>
+  <ethnicgroups name='Melanesian'>94</ethnicgroups>
+  <religions name='Catholic'>15</religions>
+  <religions name='Anglican'>15</religions>
+  <religions name='Seventh-Day Adventist'>6.2</religions>
+  <religions name='Presbyterian'>36.7</religions>
+  <religions name='Church Christ'>3.8</religions>
+  <coasts>South Pacific Ocean</coasts>
+</country>
+
+<country id='cid-cia-Wake-Island' 
+  continent='Australia/Oceania'
+  name='Wake Island'
+  datacode='WQ'
+  total_area='6.5'
+  population_growth='0'
+  government='unincorporated territory of the US administered by the US Army and Strategic Defense Command since 1 October 1994'>
+  <coasts>North Pacific Ocean</coasts>
+</country>
+
+<country id='cid-cia-Wallis-and-Futuna' 
+  continent='Australia/Oceania'
+  name='Wallis and Futuna'
+  datacode='WF'
+  total_area='274'
+  population='14659'
+  population_growth='1.11'
+  infant_mortality='23.59'
+  gdp_total='28.7'
+  government='overseas territory of France'
+  capital='Mata Utu'>
+  <ethnicgroups name='Polynesian'>100</ethnicgroups>
+  <religions name='Roman Catholic'>100</religions>
+  <coasts>South Pacific Ocean</coasts>
+</country>
+
+<country id='cid-cia-Western-Samoa' 
+  continent='Australia/Oceania'
+  name='Western Samoa'
+  datacode='WS'
+  total_area='2860'
+  population='214384'
+  population_growth='2.37'
+  infant_mortality='34.3'
+  gdp_agri='50'
+  inflation='18'
+  gdp_total='415'
+  indep_date='01 01 1962'
+  government='constitutional monarchy under native chief'
+  capital='Apia'>
+  <ethnicgroups name='Europeans'>0.4</ethnicgroups>
+  <ethnicgroups name='Samoan'>92.6</ethnicgroups>
+  <ethnicgroups name='Euronesians'>7</ethnicgroups>
+  <religions name='Christian'>99.7</religions>
+  <coasts>South Pacific Ocean</coasts>
+</country>
+
+<country id='cid-cia-Argentina' 
+  continent='South America'
+  name='Argentina'
+  datacode='AR'
+  total_area='2766890'
+  population='34672997'
+  population_growth='1.1'
+  infant_mortality='28.3'
+  gdp_agri='6'
+  inflation='1.7'
+  gdp_ind='31'
+  gdp_serv='63'
+  gdp_total='278500'
+  indep_date='09 07 1816'
+  government='republic'
+  capital='Buenos Aires'>
+  <ethnicgroups name='Indian'>100</ethnicgroups>
+  <religions name='Jewish'>2</religions>
+  <religions name='Roman Catholic'>90</religions>
+  <religions name='Protestant'>2</religions>
+  <borders country='cid-cia-Bolivia'>832</borders>
+  <borders country='cid-cia-Brazil'>1224</borders>
+  <borders country='cid-cia-Chile'>5150</borders>
+  <borders country='cid-cia-Paraguay'>1880</borders>
+  <borders country='cid-cia-Uruguay'>579</borders>
+  <coasts>South Atlantic Ocean</coasts>
+</country>
+
+<country id='cid-cia-Bolivia' 
+  continent='South America'
+  name='Bolivia'
+  datacode='BL'
+  total_area='1098580'
+  population='7165257'
+  population_growth='1.82'
+  infant_mortality='67.5'
+  inflation='12'
+  gdp_total='20000'
+  indep_date='06 08 1825'
+  government='republic'
+  capital='La Paz'>
+  <ethnicgroups name='European'>5</ethnicgroups>
+  <ethnicgroups name='Quechua'>30</ethnicgroups>
+  <ethnicgroups name='Aymara'>25</ethnicgroups>
+  <religions name='Roman Catholic'>95</religions>
+  <borders country='cid-cia-Argentina'>832</borders>
+  <borders country='cid-cia-Brazil'>3400</borders>
+  <borders country='cid-cia-Chile'>861</borders>
+  <borders country='cid-cia-Paraguay'>750</borders>
+  <borders country='cid-cia-Peru'>900</borders>
+</country>
+
+<country id='cid-cia-Brazil' 
+  continent='South America'
+  name='Brazil'
+  datacode='BR'
+  total_area='8511965'
+  population='162661214'
+  population_growth='1.16'
+  infant_mortality='55.3'
+  gdp_agri='16'
+  inflation='23'
+  gdp_ind='25'
+  gdp_serv='59'
+  gdp_total='976800'
+  indep_date='07 09 1822'
+  government='federal republic'
+  capital='Brasilia'>
+  <ethnicgroups name='African'>44</ethnicgroups>
+  <religions name='Roman Catholic'>70</religions>
+  <borders country='cid-cia-Argentina'>1224</borders>
+  <borders country='cid-cia-Bolivia'>3400</borders>
+  <borders country='cid-cia-Colombia'>1643</borders>
+  <borders country='cid-cia-French-Guiana'>673</borders>
+  <borders country='cid-cia-Guyana'>1119</borders>
+  <borders country='cid-cia-Paraguay'>1290</borders>
+  <borders country='cid-cia-Peru'>1560</borders>
+  <borders country='cid-cia-Suriname'>597</borders>
+  <borders country='cid-cia-Uruguay'>985</borders>
+  <borders country='cid-cia-Venezuela'>2200</borders>
+  <coasts>Atlantic Ocean</coasts>
+</country>
+
+<country id='cid-cia-Chile' 
+  continent='South America'
+  name='Chile'
+  datacode='CI'
+  total_area='756950'
+  population='14333258'
+  population_growth='1.24'
+  infant_mortality='13.6'
+  gdp_agri='7.4'
+  inflation='8.1'
+  gdp_ind='36.4'
+  gdp_serv='56.2'
+  gdp_total='113200'
+  indep_date='18 09 1810'
+  government='republic'
+  capital='Santiago'>
+  <ethnicgroups name='Indian'>3</ethnicgroups>
+  <ethnicgroups name='European European-Indian'>95</ethnicgroups>
+  <religions name='Roman Catholic'>89</religions>
+  <religions name='Protestant'>11</religions>
+  <languages name='Spanish'>100</languages>
+  <borders country='cid-cia-Argentina'>5150</borders>
+  <borders country='cid-cia-Bolivia'>861</borders>
+  <borders country='cid-cia-Peru'>160</borders>
+  <coasts>South Pacific Ocean</coasts>
+  <coasts>South Atlantic Ocean</coasts>
+</country>
+
+<country id='cid-cia-Colombia' 
+  continent='South America'
+  name='Colombia'
+  datacode='CO'
+  total_area='1138910'
+  population='36813161'
+  population_growth='1.66'
+  infant_mortality='25.8'
+  gdp_agri='21.5'
+  inflation='19.5'
+  gdp_ind='29'
+  gdp_serv='49.5'
+  gdp_total='192500'
+  indep_date='20 07 1810'
+  government='republic'
+  capital='Bogota'>
+  <ethnicgroups name='Indian'>1</ethnicgroups>
+  <ethnicgroups name='black-Indian'>3</ethnicgroups>
+  <religions name='Roman Catholic'>95</religions>
+  <languages name='Spanish'>100</languages>
+  <borders country='cid-cia-Panama'>225</borders>
+  <borders country='cid-cia-Brazil'>1643</borders>
+  <borders country='cid-cia-Ecuador'>590</borders>
+  <borders country='cid-cia-Peru'>2900</borders>
+  <borders country='cid-cia-Venezuela'>2050</borders>
+  <coasts>North Pacific Ocean</coasts>
+  <coasts>Caribbean Sea</coasts>
+</country>
+
+<country id='cid-cia-Ecuador' 
+  continent='South America'
+  name='Ecuador'
+  datacode='EC'
+  total_area='283560'
+  population='11466291'
+  population_growth='1.96'
+  infant_mortality='34.8'
+  gdp_agri='13'
+  inflation='25'
+  gdp_ind='39'
+  gdp_serv='48'
+  gdp_total='44600'
+  indep_date='24 05 1822'
+  government='republic'
+  capital='Quito'>
+  <ethnicgroups name='Spanish'>10</ethnicgroups>
+  <ethnicgroups name='Indian'>25</ethnicgroups>
+  <religions name='Roman Catholic'>95</religions>
+  <borders country='cid-cia-Colombia'>590</borders>
+  <borders country='cid-cia-Peru'>1420</borders>
+  <coasts>Pacific Ocean</coasts>
+</country>
+
+<country id='cid-cia-Falkland-Islands' 
+  continent='South America'
+  name='Falkland Islands'
+  datacode='FA'
+  total_area='12170'
+  population='2374'
+  population_growth='2.43'
+  government='dependent territory of the UK'
+  capital='Stanley'>
+  <ethnicgroups name='British'>100</ethnicgroups>
+  <languages name='English'>100</languages>
+  <coasts>South Atlantic Ocean</coasts>
+</country>
+
+<country id='cid-cia-French-Guiana' 
+  continent='South America'
+  name='French Guiana'
+  datacode='FG'
+  total_area='91000'
+  population='151187'
+  population_growth='3.86'
+  infant_mortality='14.6'
+  inflation='2.5'
+  gdp_total='800'
+  government='overseas department of France'
+  capital='Cayenne'>
+  <ethnicgroups name='Amerindian'>12</ethnicgroups>
+  <religions name='Roman Catholic'>100</religions>
+  <languages name='French'>100</languages>
+  <borders country='cid-cia-Brazil'>673</borders>
+  <borders country='cid-cia-Suriname'>510</borders>
+  <coasts>North Atlantic Ocean</coasts>
+</country>
+
+<country id='cid-cia-Guyana' 
+  continent='South America'
+  name='Guyana'
+  datacode='GY'
+  total_area='214970'
+  population='712091'
+  population_growth='-0.9'
+  infant_mortality='51.4'
+  gdp_agri='26.5'
+  inflation='8.1'
+  gdp_ind='27.8'
+  gdp_serv='45.7'
+  gdp_total='1600'
+  indep_date='26 05 1966'
+  government='republic'
+  capital='Georgetown'>
+  <ethnicgroups name='East Indian'>51</ethnicgroups>
+  <ethnicgroups name='Amerindian'>4</ethnicgroups>
+  <ethnicgroups name='European Chinese'>2</ethnicgroups>
+  <religions name='Muslim'>9</religions>
+  <religions name='Christian'>57</religions>
+  <religions name='Hindu'>33</religions>
+  <borders country='cid-cia-Brazil'>1119</borders>
+  <borders country='cid-cia-Suriname'>600</borders>
+  <borders country='cid-cia-Venezuela'>743</borders>
+  <coasts>North Atlantic Ocean</coasts>
+</country>
+
+<country id='cid-cia-Paraguay' 
+  continent='South America'
+  name='Paraguay'
+  datacode='PA'
+  total_area='406750'
+  population='5504146'
+  population_growth='2.67'
+  infant_mortality='23.2'
+  gdp_agri='25.7'
+  inflation='10.5'
+  gdp_ind='25.8'
+  gdp_serv='48.5'
+  gdp_total='17000'
+  indep_date='14 05 1811'
+  government='republic'
+  capital='Asuncion'>
+  <ethnicgroups name='Amerindians'>5</ethnicgroups>
+  <religions name='Roman Catholic'>90</religions>
+  <borders country='cid-cia-Argentina'>1880</borders>
+  <borders country='cid-cia-Bolivia'>750</borders>
+  <borders country='cid-cia-Brazil'>1290</borders>
+</country>
+
+<country id='cid-cia-Peru' 
+  continent='South America'
+  name='Peru'
+  datacode='PE'
+  total_area='1285220'
+  population='24523408'
+  population_growth='1.74'
+  infant_mortality='52.2'
+  inflation='10.2'
+  gdp_total='87000'
+  indep_date='28 07 1821'
+  government='republic'
+  capital='Lima'>
+  <ethnicgroups name='Indian'>45</ethnicgroups>
+  <religions name='Roman Catholic'>100</religions>
+  <borders country='cid-cia-Bolivia'>900</borders>
+  <borders country='cid-cia-Brazil'>1560</borders>
+  <borders country='cid-cia-Chile'>160</borders>
+  <borders country='cid-cia-Colombia'>2900</borders>
+  <borders country='cid-cia-Ecuador'>1420</borders>
+  <coasts>South Pacific Ocean</coasts>
+</country>
+
+<country id='cid-cia-South-Georgia-and-the-South-Sandwich-Islands' 
+  continent='South America'
+  name='South Georgia and the South Sandwich Islands'
+  datacode='SX'
+  total_area='4066'
+  government='dependent territory of the UK'>
+  <coasts>South Atlantic Ocean</coasts>
+</country>
+
+<country id='cid-cia-Suriname' 
+  continent='South America'
+  name='Suriname'
+  datacode='NS'
+  total_area='163270'
+  population='436418'
+  population_growth='1.6'
+  infant_mortality='29.3'
+  gdp_agri='21.6'
+  inflation='62'
+  gdp_ind='23.7'
+  gdp_serv='54.7'
+  gdp_total='1300'
+  indep_date='25 11 1975'
+  government='republic'
+  capital='Paramaribo'>
+  <ethnicgroups name='Chinese'>1.7</ethnicgroups>
+  <ethnicgroups name='Javanese'>15.3</ethnicgroups>
+  <ethnicgroups name='Creole'>31</ethnicgroups>
+  <ethnicgroups name='Europeans'>1</ethnicgroups>
+  <ethnicgroups name='Amerindian'>2.6</ethnicgroups>
+  <ethnicgroups name='Hindustani'>37</ethnicgroups>
+  <religions name='Muslim'>19.6</religions>
+  <religions name='Roman Catholic'>22.8</religions>
+  <religions name='Protestant'>25.2</religions>
+  <religions name='Hindu'>27.4</religions>
+  <borders country='cid-cia-Brazil'>597</borders>
+  <borders country='cid-cia-French-Guiana'>510</borders>
+  <borders country='cid-cia-Guyana'>600</borders>
+  <coasts>North Atlantic Ocean</coasts>
+</country>
+
+<country id='cid-cia-Uruguay' 
+  continent='South America'
+  name='Uruguay'
+  datacode='UY'
+  total_area='176220'
+  population='3238952'
+  population_growth='0.7'
+  infant_mortality='15.4'
+  gdp_agri='10.5'
+  inflation='35.4'
+  gdp_ind='27.5'
+  gdp_serv='62'
+  gdp_total='24400'
+  indep_date='25 08 1828'
+  government='republic'
+  capital='Montevideo'>
+  <religions name='Jewish'>2</religions>
+  <religions name='Roman Catholic'>66</religions>
+  <religions name='Protestant'>2</religions>
+  <borders country='cid-cia-Argentina'>579</borders>
+  <borders country='cid-cia-Brazil'>985</borders>
+  <coasts>South Atlantic Ocean</coasts>
+</country>
+
+<country id='cid-cia-Venezuela' 
+  continent='South America'
+  name='Venezuela'
+  datacode='VE'
+  total_area='912050'
+  population='21983188'
+  population_growth='1.89'
+  infant_mortality='29.5'
+  gdp_agri='5'
+  inflation='57'
+  gdp_ind='41'
+  gdp_serv='54'
+  gdp_total='195500'
+  indep_date='05 07 1811'
+  government='republic'
+  capital='Caracas'>
+  <ethnicgroups name='Amerindian'>2</ethnicgroups>
+  <religions name='Roman Catholic'>96</religions>
+  <religions name='Protestant'>2</religions>
+  <borders country='cid-cia-Brazil'>2200</borders>
+  <borders country='cid-cia-Colombia'>2050</borders>
+  <borders country='cid-cia-Guyana'>743</borders>
+  <coasts>North Atlantic Ocean</coasts>
+  <coasts>Caribbean Sea</coasts>
+</country>
+
+<country id='cid-cia-Algeria' 
+  continent='Africa'
+  name='Algeria'
+  datacode='AG'
+  total_area='2381740'
+  population='29183032'
+  population_growth='2.21'
+  infant_mortality='48.7'
+  gdp_agri='12'
+  inflation='28'
+  gdp_ind='50'
+  gdp_serv='38'
+  gdp_total='108700'
+  indep_date='05 07 1962'
+  government='republic'
+  capital='Algiers'>
+  <ethnicgroups name='European'>1</ethnicgroups>
+  <ethnicgroups name='Arab-Berber'>99</ethnicgroups>
+  <religions name='Sunni Muslim'>99</religions>
+  <religions name='Christian Jewish'>1</religions>
+  <borders country='cid-cia-Libya'>982</borders>
+  <borders country='cid-cia-Mali'>1376</borders>
+  <borders country='cid-cia-Mauritania'>463</borders>
+  <borders country='cid-cia-Morocco'>1559</borders>
+  <borders country='cid-cia-Niger'>956</borders>
+  <borders country='cid-cia-Tunisia'>965</borders>
+  <borders country='cid-cia-Western-Sahara'>42</borders>
+  <coasts>Mediterranean Sea</coasts>
+</country>
+
+<country id='cid-cia-Angola' 
+  continent='Africa'
+  name='Angola'
+  datacode='AO'
+  total_area='1246700'
+  population='10342899'
+  population_growth='2.68'
+  infant_mortality='138.9'
+  gdp_agri='12'
+  inflation='20'
+  gdp_ind='56'
+  gdp_serv='32'
+  gdp_total='7400'
+  indep_date='11 11 1975'
+  government='transitional government nominally a multiparty democracy with a strong presidential system'
+  capital='Luanda'>
+  <ethnicgroups name='European'>1</ethnicgroups>
+  <ethnicgroups name='Ovimbundu'>37</ethnicgroups>
+  <ethnicgroups name='Kimbundu'>25</ethnicgroups>
+  <ethnicgroups name='Bakongo'>13</ethnicgroups>
+  <religions name='Roman Catholic'>38</religions>
+  <religions name='Protestant'>15</religions>
+  <borders country='cid-cia-Congo'>201</borders>
+  <borders country='cid-cia-Namibia'>1376</borders>
+  <borders country='cid-cia-Zaire'>2511</borders>
+  <borders country='cid-cia-Zambia'>1110</borders>
+  <coasts>South Atlantic Ocean</coasts>
+</country>
+
+<country id='cid-cia-Bassas-da-India' 
+  continent='Africa'
+  name='Bassas da India'
+  datacode='BS'
+  total_area='0.2'
+  government='French possession administered by a Commissioner of the Republic'>
+  <coasts>Mozambique Channel</coasts>
+</country>
+
+<country id='cid-cia-Benin' 
+  continent='Africa'
+  name='Benin'
+  datacode='BN'
+  total_area='112620'
+  population='5709529'
+  population_growth='3.32'
+  infant_mortality='105.1'
+  gdp_agri='36.8'
+  inflation='55'
+  gdp_ind='12.6'
+  gdp_serv='50.6'
+  gdp_total='7600'
+  indep_date='01 08 1960'
+  government='republic under multiparty democratic rule dropped Marxism Leninism December 1989'
+  capital='Porto Novo'>
+  <ethnicgroups name='African'>99</ethnicgroups>
+  <religions name='Muslim'>15</religions>
+  <religions name='Christian'>15</religions>
+  <borders country='cid-cia-Burkina-Faso'>306</borders>
+  <borders country='cid-cia-Niger'>266</borders>
+  <borders country='cid-cia-Nigeria'>773</borders>
+  <borders country='cid-cia-Togo'>644</borders>
+  <coasts>North Atlantic Ocean</coasts>
+</country>
+
+<country id='cid-cia-Botswana' 
+  continent='Africa'
+  name='Botswana'
+  datacode='BC'
+  total_area='600370'
+  population='1477630'
+  population_growth='1.63'
+  infant_mortality='54.2'
+  gdp_agri='5'
+  inflation='10'
+  gdp_total='4500'
+  indep_date='30 09 1966'
+  government='parliamentary republic'
+  capital='Gaborone'>
+  <ethnicgroups name='Batswana'>95</ethnicgroups>
+  <ethnicgroups name='Kgalagadi'>4</ethnicgroups>
+  <religions name='Christian'>50</religions>
+  <borders country='cid-cia-Namibia'>1360</borders>
+  <borders country='cid-cia-South-Africa'>1840</borders>
+  <borders country='cid-cia-Zimbabwe'>813</borders>
+</country>
+
+<country id='cid-cia-Bouvet-Island' 
+  continent='Africa'
+  name='Bouvet Island'
+  datacode='BV'
+  total_area='58'
+  government='territory of Norway'>
+  <coasts>South Atlantic Ocean</coasts>
+  <coasts>Cape Of Good Hope (South Africa)</coasts>
+</country>
+
+<country id='cid-cia-Burkina-Faso' 
+  continent='Africa'
+  name='Burkina Faso'
+  datacode='UV'
+  total_area='274200'
+  population='10623323'
+  population_growth='2.53'
+  infant_mortality='117.8'
+  gdp_agri='32'
+  inflation='5'
+  gdp_ind='24'
+  gdp_serv='44'
+  gdp_total='7400'
+  indep_date='05 08 1960'
+  government='parliamentary'
+  capital='Ouagadougou'>
+  <ethnicgroups name='Mossi'>24</ethnicgroups>
+  <religions name='Muslim'>50</religions>
+  <religions name='Christian'>10</religions>
+  <borders country='cid-cia-Benin'>306</borders>
+  <borders country='cid-cia-Cote-dIvoire'>584</borders>
+  <borders country='cid-cia-Ghana'>548</borders>
+  <borders country='cid-cia-Mali'>1000</borders>
+  <borders country='cid-cia-Niger'>628</borders>
+  <borders country='cid-cia-Togo'>126</borders>
+</country>
+
+<country id='cid-cia-Burundi' 
+  continent='Africa'
+  name='Burundi'
+  datacode='BY'
+  total_area='27830'
+  population='5943057'
+  population_growth='1.54'
+  infant_mortality='102.2'
+  gdp_agri='54.1'
+  inflation='10'
+  gdp_ind='16.8'
+  gdp_serv='29.1'
+  gdp_total='4000'
+  indep_date='01 07 1962'
+  government='republic'
+  capital='Bujumbura'>
+  <religions name='Muslim'>1</religions>
+  <religions name='Christian'>67</religions>
+  <borders country='cid-cia-Rwanda'>290</borders>
+  <borders country='cid-cia-Tanzania'>451</borders>
+  <borders country='cid-cia-Zaire'>233</borders>
+</country>
+
+<country id='cid-cia-Cameroon' 
+  continent='Africa'
+  name='Cameroon'
+  datacode='CM'
+  total_area='475440'
+  population='14261557'
+  population_growth='2.89'
+  infant_mortality='78.7'
+  gdp_agri='29'
+  inflation='48'
+  gdp_ind='24'
+  gdp_serv='47'
+  gdp_total='16500'
+  indep_date='01 01 1960'
+  government='unitary republic'
+  capital='Yaounde'>
+  <ethnicgroups name='African'>13</ethnicgroups>
+  <ethnicgroups name='Fulani'>10</ethnicgroups>
+  <ethnicgroups name='Cameroon Highlanders'>31</ethnicgroups>
+  <ethnicgroups name='Equatorial Bantu'>19</ethnicgroups>
+  <ethnicgroups name='Kirdi'>11</ethnicgroups>
+  <ethnicgroups name='Northwestern Bantu'>8</ethnicgroups>
+  <ethnicgroups name='Eastern Nigritic'>7</ethnicgroups>
+  <ethnicgroups name='non-African'>1</ethnicgroups>
+  <religions name='Muslim'>16</religions>
+  <religions name='Christian'>33</religions>
+  <borders country='cid-cia-Central-African-Republic'>797</borders>
+  <borders country='cid-cia-Chad'>1094</borders>
+  <borders country='cid-cia-Congo'>523</borders>
+  <borders country='cid-cia-Equatorial-Guinea'>189</borders>
+  <borders country='cid-cia-Gabon'>298</borders>
+  <borders country='cid-cia-Nigeria'>1690</borders>
+  <coasts>North Atlantic Ocean</coasts>
+</country>
+
+<country id='cid-cia-Cape-Verde' 
+  continent='Africa'
+  name='Cape Verde'
+  datacode='CV'
+  total_area='4030'
+  population='449066'
+  population_growth='2.93'
+  infant_mortality='54.3'
+  gdp_agri='13'
+  inflation='5'
+  gdp_ind='17'
+  gdp_serv='70'
+  gdp_total='440'
+  indep_date='05 07 1975'
+  government='republic'
+  capital='Praia'>
+  <ethnicgroups name='European'>1</ethnicgroups>
+  <ethnicgroups name='African'>28</ethnicgroups>
+  <ethnicgroups name='Creole'>71</ethnicgroups>
+  <religions name='Roman Catholicism'>100</religions>
+  <coasts>North Atlantic Ocean</coasts>
+  <coasts>Islands</coasts>
+</country>
+
+<country id='cid-cia-Central-African-Republic' 
+  continent='Africa'
+  name='Central African Republic'
+  datacode='CT'
+  total_area='622980'
+  population='3274426'
+  population_growth='2.08'
+  infant_mortality='111.7'
+  gdp_agri='50'
+  inflation='45'
+  gdp_ind='14'
+  gdp_serv='36'
+  gdp_total='2500'
+  indep_date='13 08 1960'
+  government='republic'
+  capital='Bangui'>
+  <ethnicgroups name='Baya'>34</ethnicgroups>
+  <ethnicgroups name='Banda'>27</ethnicgroups>
+  <ethnicgroups name='Sara'>10</ethnicgroups>
+  <ethnicgroups name='Mandjia'>21</ethnicgroups>
+  <ethnicgroups name='Mboum'>4</ethnicgroups>
+  <ethnicgroups name='MBaka'>4</ethnicgroups>
+  <religions name='Muslim'>15</religions>
+  <religions name='Roman Catholic'>25</religions>
+  <religions name='Protestant'>25</religions>
+  <borders country='cid-cia-Cameroon'>797</borders>
+  <borders country='cid-cia-Chad'>1197</borders>
+  <borders country='cid-cia-Congo'>467</borders>
+  <borders country='cid-cia-Sudan'>1165</borders>
+  <borders country='cid-cia-Zaire'>1577</borders>
+</country>
+
+<country id='cid-cia-Chad' 
+  continent='Africa'
+  name='Chad'
+  datacode='CD'
+  total_area='1284000'
+  population='6976845'
+  population_growth='2.68'
+  infant_mortality='120.4'
+  gdp_agri='49'
+  inflation='41'
+  gdp_ind='17'
+  gdp_serv='34'
+  gdp_total='3300'
+  indep_date='11 08 1960'
+  government='republic'
+  capital='NDjamena'>
+  <religions name='Muslim'>50</religions>
+  <religions name='Christian'>25</religions>
+  <borders country='cid-cia-Cameroon'>1094</borders>
+  <borders country='cid-cia-Central-African-Republic'>1197</borders>
+  <borders country='cid-cia-Libya'>1055</borders>
+  <borders country='cid-cia-Niger'>1175</borders>
+  <borders country='cid-cia-Nigeria'>87</borders>
+  <borders country='cid-cia-Sudan'>1360</borders>
+</country>
+
+<country id='cid-cia-Comoros' 
+  continent='Africa'
+  name='Comoros'
+  datacode='CN'
+  total_area='2170'
+  population='569237'
+  population_growth='3.55'
+  infant_mortality='75.3'
+  inflation='15'
+  gdp_total='370'
+  indep_date='06 07 1975'
+  government='independent republic'
+  capital='Moroni'>
+  <religions name='Roman Catholic'>14</religions>
+  <religions name='Sunni Muslim'>86</religions>
+  <coasts>Mozambique Channel</coasts>
+</country>
+
+<country id='cid-cia-Congo' 
+  continent='Africa'
+  name='Congo'
+  datacode='CF'
+  total_area='342000'
+  population='2527841'
+  population_growth='2.19'
+  infant_mortality='108.1'
+  gdp_agri='11.4'
+  inflation='61'
+  gdp_ind='35.2'
+  gdp_serv='53.4'
+  gdp_total='7700'
+  indep_date='15 08 1960'
+  government='republic'
+  capital='Brazzaville'>
+  <religions name='Muslim'>2</religions>
+  <religions name='Christian'>50</religions>
+  <borders country='cid-cia-Angola'>201</borders>
+  <borders country='cid-cia-Cameroon'>523</borders>
+  <borders country='cid-cia-Central-African-Republic'>467</borders>
+  <borders country='cid-cia-Gabon'>1903</borders>
+  <borders country='cid-cia-Zaire'>2410</borders>
+  <coasts>South Atlantic Ocean</coasts>
+</country>
+
+<country id='cid-cia-Cote-dIvoire' 
+  continent='Africa'
+  name='Cote dIvoire'
+  datacode='IV'
+  total_area='322460'
+  population='14762445'
+  population_growth='2.92'
+  infant_mortality='82.4'
+  gdp_agri='37'
+  inflation='10'
+  gdp_ind='24'
+  gdp_serv='39'
+  gdp_total='21900'
+  indep_date='07 08 1960'
+  government='republic'
+  capital='Yamoussoukro'>
+  <ethnicgroups name='Malinke'>11</ethnicgroups>
+  <ethnicgroups name='Baoule'>23</ethnicgroups>
+  <ethnicgroups name='Bete'>18</ethnicgroups>
+  <ethnicgroups name='Senoufou'>15</ethnicgroups>
+  <religions name='Muslim'>60</religions>
+  <religions name='Christian'>12</religions>
+  <borders country='cid-cia-Burkina-Faso'>584</borders>
+  <borders country='cid-cia-Ghana'>668</borders>
+  <borders country='cid-cia-Guinea'>610</borders>
+  <borders country='cid-cia-Liberia'>716</borders>
+  <borders country='cid-cia-Mali'>532</borders>
+  <coasts>North Atlantic Ocean</coasts>
+</country>
+
+<country id='cid-cia-Djibouti' 
+  continent='Africa'
+  name='Djibouti'
+  datacode='DJ'
+  total_area='22000'
+  population='427642'
+  population_growth='1.5'
+  infant_mortality='106.7'
+  gdp_agri='3'
+  inflation='6'
+  gdp_ind='21'
+  gdp_serv='76'
+  gdp_total='500'
+  indep_date='27 06 1977'
+  government='republic'
+  capital='Djibouti'>
+  <ethnicgroups name='Italian'>5</ethnicgroups>
+  <ethnicgroups name='Afar'>35</ethnicgroups>
+  <ethnicgroups name='Somali'>60</ethnicgroups>
+  <religions name='Muslim'>94</religions>
+  <religions name='Christian'>6</religions>
+  <borders country='cid-cia-Eritrea'>113</borders>
+  <borders country='cid-cia-Ethiopia'>337</borders>
+  <borders country='cid-cia-Somalia'>58</borders>
+  <coasts>Red Sea</coasts>
+  <coasts>Gulf Of Aden</coasts>
+</country>
+
+<country id='cid-cia-Egypt' 
+  continent='Africa'
+  name='Egypt'
+  datacode='EG'
+  total_area='1001450'
+  population='63575107'
+  population_growth='1.91'
+  infant_mortality='72.8'
+  inflation='9.4'
+  gdp_total='171000'
+  indep_date='28 02 1922'
+  government='republic'
+  capital='Cairo'>
+  <ethnicgroups name='European'>1</ethnicgroups>
+  <ethnicgroups name='Eastern Hamitic'>99</ethnicgroups>
+  <religions name='Muslim'>94</religions>
+  <religions name='Coptic Christian'>6</religions>
+  <borders country='cid-cia-Gaza-Strip'>11</borders>
+  <borders country='cid-cia-Israel'>255</borders>
+  <borders country='cid-cia-Libya'>1150</borders>
+  <borders country='cid-cia-Sudan'>1273</borders>
+  <coasts>Mediterranean Sea</coasts>
+</country>
+
+<country id='cid-cia-Equatorial-Guinea' 
+  continent='Africa'
+  name='Equatorial Guinea'
+  datacode='EK'
+  total_area='28050'
+  population='431282'
+  population_growth='2.58'
+  infant_mortality='98'
+  gdp_agri='47'
+  inflation='41'
+  gdp_ind='26'
+  gdp_serv='27'
+  gdp_total='325'
+  indep_date='12 10 1968'
+  government='republic in transition to multiparty democracy'
+  capital='Malabo'>
+  <religions name='Christian Roman Catholic'>100</religions>
+  <borders country='cid-cia-Cameroon'>189</borders>
+  <borders country='cid-cia-Gabon'>350</borders>
+  <coasts>North Atlantic Ocean</coasts>
+</country>
+
+<country id='cid-cia-Eritrea' 
+  continent='Africa'
+  name='Eritrea'
+  datacode='ER'
+  total_area='121320'
+  population='3427883'
+  population_growth='2.79'
+  infant_mortality='118.9'
+  inflation='10'
+  gdp_total='2000'
+  indep_date='27 05 1993'
+  government='transitional government'
+  capital='Asmara'>
+  <ethnicgroups name='Afar'>4</ethnicgroups>
+  <ethnicgroups name='Tigrinya'>50</ethnicgroups>
+  <ethnicgroups name='Tigre Kunama'>40</ethnicgroups>
+  <ethnicgroups name='Saho'>3</ethnicgroups>
+  <borders country='cid-cia-Djibouti'>113</borders>
+  <borders country='cid-cia-Ethiopia'>912</borders>
+  <borders country='cid-cia-Sudan'>605</borders>
+  <coasts>Red Sea</coasts>
+</country>
+
+<country id='cid-cia-Ethiopia' 
+  continent='Africa'
+  name='Ethiopia'
+  datacode='ET'
+  total_area='1127127'
+  population='57171662'
+  population_growth='2.72'
+  infant_mortality='122.8'
+  gdp_agri='48'
+  inflation='10'
+  gdp_ind='15'
+  gdp_serv='37'
+  gdp_total='24200'
+  government='federal republic'
+  capital='Addis Ababa'>
+  <ethnicgroups name='Afar'>4</ethnicgroups>
+  <ethnicgroups name='Somali'>6</ethnicgroups>
+  <ethnicgroups name='Oromo'>40</ethnicgroups>
+  <ethnicgroups name='Sidamo'>9</ethnicgroups>
+  <ethnicgroups name='Shankella'>6</ethnicgroups>
+  <ethnicgroups name='Gurage'>2</ethnicgroups>
+  <ethnicgroups name='Amhara Tigrean'>32</ethnicgroups>
+  <religions name='Muslim'>45</religions>
+  <religions name='Ethiopian Orthodox'>35</religions>
+  <borders country='cid-cia-Djibouti'>337</borders>
+  <borders country='cid-cia-Eritrea'>912</borders>
+  <borders country='cid-cia-Kenya'>830</borders>
+  <borders country='cid-cia-Somalia'>1626</borders>
+  <borders country='cid-cia-Sudan'>1606</borders>
+</country>
+
+<country id='cid-cia-Europa-Island' 
+  continent='Africa'
+  name='Europa Island'
+  datacode='EU'
+  total_area='28'
+  government='French possession administered by Commissioner of the Republic'>
+  <coasts>Mozambique Channel</coasts>
+</country>
+
+<country id='cid-cia-French-Southern-and-Antarctic-Lands' 
+  continent='Africa'
+  name='French Southern and Antarctic Lands'
+  datacode='FS'
+  total_area='7781'
+  government='overseas territory of France since 1955'>
+  <coasts>US</coasts>
+  <coasts>French</coasts>
+  <coasts>Indian Ocean</coasts>
+  <coasts>Antarctica</coasts>
+  <coasts>Australia;</coasts>
+  <coasts>French Southern</coasts>
+  <coasts>Antarctic Lands</coasts>
+  <coasts>Ile Amsterdam</coasts>
+  <coasts>Ile Saint-Paul</coasts>
+  <coasts>Iles Crozet</coasts>
+  <coasts>Iles Kerguelen</coasts>
+  <coasts>French-claimed</coasts>
+  <coasts>&quot;Adelie Land&quot;;</coasts>
+  <coasts>&quot;Adelie Land&quot;</coasts>
+</country>
+
+<country id='cid-cia-Gabon' 
+  continent='Africa'
+  name='Gabon'
+  datacode='GB'
+  total_area='267670'
+  population='1172798'
+  population_growth='1.47'
+  infant_mortality='90.1'
+  gdp_agri='8.2'
+  inflation='15'
+  gdp_ind='44.7'
+  gdp_serv='47.1'
+  gdp_total='6000'
+  indep_date='17 08 1960'
+  government='republic'
+  capital='Libreville'>
+  <religions name='Muslim'>1</religions>
+  <religions name='Christian'>55</religions>
+  <borders country='cid-cia-Cameroon'>298</borders>
+  <borders country='cid-cia-Congo'>1903</borders>
+  <borders country='cid-cia-Equatorial-Guinea'>350</borders>
+  <coasts>Atlantic Ocean</coasts>
+</country>
+
+<country id='cid-cia-Gambia' 
+  continent='Africa'
+  name='Gambia'
+  datacode='GA'
+  total_area='11300'
+  population='1204984'
+  population_growth='3.55'
+  infant_mortality='80.5'
+  gdp_agri='27'
+  inflation='1.7'
+  gdp_ind='15'
+  gdp_serv='58'
+  gdp_total='1100'
+  indep_date='18 02 1965'
+  government='republic under multiparty democratic rule'
+  capital='Banjul'>
+  <ethnicgroups name='African'>99</ethnicgroups>
+  <ethnicgroups name='non-Gambian'>1</ethnicgroups>
+  <religions name='Muslim'>90</religions>
+  <religions name='Christian'>9</religions>
+  <borders country='cid-cia-Senegal'>740</borders>
+  <coasts>North Atlantic Ocean</coasts>
+</country>
+
+<country id='cid-cia-Ghana' 
+  continent='Africa'
+  name='Ghana'
+  datacode='GH'
+  total_area='238540'
+  population='17698271'
+  population_growth='2.29'
+  infant_mortality='80.3'
+  gdp_agri='47'
+  inflation='69'
+  gdp_ind='16'
+  gdp_serv='37'
+  gdp_total='25100'
+  indep_date='06 03 1957'
+  government='constitutional democracy'
+  capital='Accra'>
+  <ethnicgroups name='European'>0.2</ethnicgroups>
+  <ethnicgroups name='African'>99.8</ethnicgroups>
+  <religions name='Muslim'>30</religions>
+  <religions name='Christian'>24</religions>
+  <borders country='cid-cia-Burkina-Faso'>548</borders>
+  <borders country='cid-cia-Cote-dIvoire'>668</borders>
+  <borders country='cid-cia-Togo'>877</borders>
+  <coasts>North Atlantic Ocean</coasts>
+</country>
+
+<country id='cid-cia-Glorioso-Islands' 
+  continent='Africa'
+  name='Glorioso Islands'
+  datacode='GO'
+  total_area='5'
+  government='French possession administered by Commissioner of the Republic'>
+  <coasts>Indian Ocean</coasts>
+</country>
+
+<country id='cid-cia-Guinea' 
+  continent='Africa'
+  name='Guinea'
+  datacode='GV'
+  total_area='245860'
+  population='7411981'
+  population_growth='1.85'
+  infant_mortality='134.1'
+  gdp_agri='24'
+  inflation='4.1'
+  gdp_ind='31'
+  gdp_serv='45'
+  gdp_total='6500'
+  indep_date='02 10 1958'
+  government='republic'
+  capital='Conakry'>
+  <ethnicgroups name='Malinke'>30</ethnicgroups>
+  <ethnicgroups name='Peuhl'>40</ethnicgroups>
+  <ethnicgroups name='Soussou'>20</ethnicgroups>
+  <religions name='Muslim'>85</religions>
+  <religions name='Christian'>8</religions>
+  <languages name='French'>100</languages>
+  <borders country='cid-cia-Cote-dIvoire'>610</borders>
+  <borders country='cid-cia-Guinea-Bissau'>386</borders>
+  <borders country='cid-cia-Liberia'>563</borders>
+  <borders country='cid-cia-Mali'>858</borders>
+  <borders country='cid-cia-Senegal'>330</borders>
+  <borders country='cid-cia-Sierra-Leone'>652</borders>
+  <coasts>North Atlantic Ocean</coasts>
+</country>
+
+<country id='cid-cia-Guinea-Bissau' 
+  continent='Africa'
+  name='Guinea-Bissau'
+  datacode='PU'
+  total_area='36120'
+  population='1151330'
+  population_growth='2.35'
+  infant_mortality='115.8'
+  gdp_agri='44'
+  inflation='15'
+  gdp_ind='8'
+  gdp_serv='48'
+  gdp_total='1000'
+  indep_date='10 09 1974'
+  government='republic'
+  capital='Bissau'>
+  <ethnicgroups name='European'>1</ethnicgroups>
+  <ethnicgroups name='African'>99</ethnicgroups>
+  <religions name='Muslim'>30</religions>
+  <religions name='Christian'>5</religions>
+  <borders country='cid-cia-Guinea'>386</borders>
+  <borders country='cid-cia-Senegal'>338</borders>
+  <coasts>North Atlantic Ocean</coasts>
+</country>
+
+<country id='cid-cia-Heard-Island-and-McDonald-Islands' 
+  continent='Africa'
+  name='Heard Island and McDonald Islands'
+  datacode='HM'
+  total_area='412'
+  government='territory of Australia administered by the Ministry for Environment'>
+  <coasts>Indian Ocean</coasts>
+  <coasts>Antarctica</coasts>
+</country>
+
+<country id='cid-cia-Juan-de-Nova-Island' 
+  continent='Africa'
+  name='Juan de Nova Island'
+  datacode='JU'
+  total_area='4.4'
+  government='French possession administered by Commissioner of the Republic'>
+  <coasts>Mozambique Channel</coasts>
+</country>
+
+<country id='cid-cia-Kenya' 
+  continent='Africa'
+  name='Kenya'
+  datacode='KE'
+  total_area='582650'
+  population='28176686'
+  population_growth='2.27'
+  infant_mortality='55.3'
+  gdp_agri='27'
+  inflation='1.7'
+  gdp_ind='19'
+  gdp_serv='54'
+  gdp_total='36800'
+  indep_date='12 12 1963'
+  government='republic'
+  capital='Nairobi'>
+  <ethnicgroups name='Arab'>1</ethnicgroups>
+  <ethnicgroups name='Kikuyu'>22</ethnicgroups>
+  <ethnicgroups name='Luhya'>14</ethnicgroups>
+  <ethnicgroups name='Luo'>13</ethnicgroups>
+  <ethnicgroups name='Kalenjin'>12</ethnicgroups>
+  <ethnicgroups name='Kamba'>11</ethnicgroups>
+  <ethnicgroups name='Kisii'>6</ethnicgroups>
+  <ethnicgroups name='Meru'>6</ethnicgroups>
+  <religions name='Roman Catholic'>28</religions>
+  <religions name='Protestant'>38</religions>
+  <borders country='cid-cia-Ethiopia'>830</borders>
+  <borders country='cid-cia-Somalia'>682</borders>
+  <borders country='cid-cia-Sudan'>232</borders>
+  <borders country='cid-cia-Tanzania'>769</borders>
+  <borders country='cid-cia-Uganda'>933</borders>
+  <coasts>Indian Ocean</coasts>
+</country>
+
+<country id='cid-cia-Lesotho' 
+  continent='Africa'
+  name='Lesotho'
+  datacode='LT'
+  total_area='30350'
+  population='1970781'
+  population_growth='1.9'
+  infant_mortality='81.6'
+  gdp_agri='10.4'
+  inflation='9.5'
+  gdp_ind='48.8'
+  gdp_serv='40.8'
+  gdp_total='2800'
+  indep_date='04 10 1966'
+  government='modified constitutional monarchy'
+  capital='Maseru'>
+  <ethnicgroups name='Sotho'>99.7</ethnicgroups>
+  <religions name='Christian'>80</religions>
+  <borders country='cid-cia-South-Africa'>909</borders>
+</country>
+
+<country id='cid-cia-Liberia' 
+  continent='Africa'
+  name='Liberia'
+  datacode='LI'
+  total_area='111370'
+  population='2109789'
+  population_growth='2.13'
+  infant_mortality='108.1'
+  inflation='50'
+  gdp_total='2300'
+  government='republic'
+  capital='Monrovia'>
+  <ethnicgroups name='African'>95</ethnicgroups>
+  <ethnicgroups name='Americo-Liberians'>5</ethnicgroups>
+  <religions name='Muslim'>20</religions>
+  <religions name='Christian'>10</religions>
+  <languages name='English'>20</languages>
+  <borders country='cid-cia-Cote-dIvoire'>716</borders>
+  <borders country='cid-cia-Guinea'>563</borders>
+  <borders country='cid-cia-Sierra-Leone'>306</borders>
+  <coasts>North Atlantic Ocean</coasts>
+</country>
+
+<country id='cid-cia-Libya' 
+  continent='Africa'
+  name='Libya'
+  datacode='LY'
+  total_area='1759540'
+  population='5445436'
+  population_growth='3.67'
+  infant_mortality='59.5'
+  inflation='25'
+  gdp_total='32900'
+  indep_date='24 12 1951'
+  government='Jamahiriya in theory'
+  capital='Tripoli'>
+  <ethnicgroups name='Berber Arab'>97</ethnicgroups>
+  <religions name='Sunni Muslim'>97</religions>
+  <borders country='cid-cia-Algeria'>982</borders>
+  <borders country='cid-cia-Chad'>1055</borders>
+  <borders country='cid-cia-Egypt'>1150</borders>
+  <borders country='cid-cia-Niger'>354</borders>
+  <borders country='cid-cia-Sudan'>383</borders>
+  <borders country='cid-cia-Tunisia'>459</borders>
+  <coasts>Mediterranean Sea</coasts>
+</country>
+
+<country id='cid-cia-Madagascar' 
+  continent='Africa'
+  name='Madagascar'
+  datacode='MA'
+  total_area='587040'
+  population='13670507'
+  population_growth='2.83'
+  infant_mortality='93.5'
+  gdp_agri='35'
+  inflation='35'
+  gdp_ind='15'
+  gdp_serv='50'
+  gdp_total='11400'
+  indep_date='26 06 1960'
+  government='republic'
+  capital='Antananarivo'>
+  <religions name='Muslim'>7</religions>
+  <religions name='Christian'>41</religions>
+  <coasts>Indian Ocean</coasts>
+</country>
+
+<country id='cid-cia-Malawi' 
+  continent='Africa'
+  name='Malawi'
+  datacode='MI'
+  total_area='118480'
+  population='9452844'
+  population_growth='1.71'
+  infant_mortality='139.9'
+  gdp_agri='31'
+  inflation='83.3'
+  gdp_ind='14'
+  gdp_serv='55'
+  gdp_total='6900'
+  indep_date='06 07 1964'
+  government='multiparty democracy'
+  capital='Lilongwe'>
+  <religions name='Muslim'>20</religions>
+  <religions name='Roman Catholic'>20</religions>
+  <religions name='Protestant'>55</religions>
+  <borders country='cid-cia-Mozambique'>1569</borders>
+  <borders country='cid-cia-Tanzania'>475</borders>
+  <borders country='cid-cia-Zambia'>837</borders>
+</country>
+
+<country id='cid-cia-Mali' 
+  continent='Africa'
+  name='Mali'
+  datacode='ML'
+  total_area='1240000'
+  population='9653261'
+  population_growth='2.95'
+  infant_mortality='102.7'
+  gdp_agri='42.4'
+  inflation='8'
+  gdp_ind='15.4'
+  gdp_serv='42.2'
+  gdp_total='5400'
+  indep_date='22 09 1960'
+  government='republic'
+  capital='Bamako'>
+  <ethnicgroups name='Mande'>50</ethnicgroups>
+  <ethnicgroups name='Peul'>17</ethnicgroups>
+  <ethnicgroups name='Voltaic'>12</ethnicgroups>
+  <ethnicgroups name='Songhai'>6</ethnicgroups>
+  <ethnicgroups name='Tuareg Moor'>10</ethnicgroups>
+  <religions name='Muslim'>90</religions>
+  <religions name='Christian'>1</religions>
+  <languages name='Bambara'>80</languages>
+  <borders country='cid-cia-Algeria'>1376</borders>
+  <borders country='cid-cia-Burkina-Faso'>1000</borders>
+  <borders country='cid-cia-Cote-dIvoire'>532</borders>
+  <borders country='cid-cia-Guinea'>858</borders>
+  <borders country='cid-cia-Mauritania'>2237</borders>
+  <borders country='cid-cia-Niger'>821</borders>
+  <borders country='cid-cia-Senegal'>419</borders>
+</country>
+
+<country id='cid-cia-Mauritania' 
+  continent='Africa'
+  name='Mauritania'
+  datacode='MR'
+  total_area='1030700'
+  population='2336048'
+  population_growth='3.17'
+  infant_mortality='81.7'
+  gdp_agri='27.1'
+  inflation='3.5'
+  gdp_ind='29.5'
+  gdp_serv='43.4'
+  gdp_total='2800'
+  indep_date='28 11 1960'
+  government='republic'
+  capital='Nouakchott'>
+  <ethnicgroups name='Maur'>30</ethnicgroups>
+  <ethnicgroups name='Maur/black'>40</ethnicgroups>
+  <religions name='Muslim'>100</religions>
+  <borders country='cid-cia-Algeria'>463</borders>
+  <borders country='cid-cia-Mali'>2237</borders>
+  <borders country='cid-cia-Senegal'>813</borders>
+  <borders country='cid-cia-Western-Sahara'>1561</borders>
+  <coasts>North Atlantic Ocean</coasts>
+</country>
+
+<country id='cid-cia-Mauritius' 
+  continent='Africa'
+  name='Mauritius'
+  datacode='MP'
+  total_area='1860'
+  population='1140256'
+  population_growth='1.23'
+  infant_mortality='17.2'
+  inflation='9.4'
+  gdp_total='10900'
+  indep_date='12 03 1968'
+  government='parliamentary democracy'
+  capital='Port Louis'>
+  <ethnicgroups name='Creole'>27</ethnicgroups>
+  <ethnicgroups name='Indo-Mauritian'>68</ethnicgroups>
+  <ethnicgroups name='Sino-Mauritian'>3</ethnicgroups>
+  <ethnicgroups name='Franco-Mauritian'>2</ethnicgroups>
+  <religions name='Muslim'>16.6</religions>
+  <religions name='Christian'>28.3</religions>
+  <religions name='Hindu'>52</religions>
+  <coasts>Indian Ocean</coasts>
+</country>
+
+<country id='cid-cia-Mayotte' 
+  continent='Africa'
+  name='Mayotte'
+  datacode='MF'
+  total_area='375'
+  population='100838'
+  population_growth='3.78'
+  infant_mortality='75.3'
+  gdp_total='54'
+  government='territorial collectivity of France'
+  capital='Mamoutzou'>
+  <ethnicgroups name='NA'>100</ethnicgroups>
+  <religions name='Muslim'>99</religions>
+  <coasts>Mozambique Channel</coasts>
+</country>
+
+<country id='cid-cia-Morocco' 
+  continent='Africa'
+  name='Morocco'
+  datacode='MO'
+  total_area='446550'
+  population='29779156'
+  population_growth='2.05'
+  infant_mortality='43.2'
+  gdp_agri='14.3'
+  inflation='5.4'
+  gdp_ind='32.2'
+  gdp_serv='53.5'
+  gdp_total='87400'
+  indep_date='02 03 1956'
+  government='constitutional monarchy'
+  capital='Rabat'>
+  <ethnicgroups name='Jewish'>0.2</ethnicgroups>
+  <ethnicgroups name='Arab-Berber'>99.1</ethnicgroups>
+  <religions name='Muslim'>98.7</religions>
+  <religions name='Jewish'>0.2</religions>
+  <religions name='Christian'>1.1</religions>
+  <borders country='cid-cia-Algeria'>1559</borders>
+  <borders country='cid-cia-Western-Sahara'>443</borders>
+  <coasts>Mediterranean Sea</coasts>
+  <coasts>North Atlantic Ocean</coasts>
+</country>
+
+<country id='cid-cia-Mozambique' 
+  continent='Africa'
+  name='Mozambique'
+  datacode='MZ'
+  total_area='801590'
+  population='17877927'
+  population_growth='2.65'
+  infant_mortality='125.6'
+  gdp_agri='33'
+  inflation='50'
+  gdp_ind='12'
+  gdp_serv='55'
+  gdp_total='12200'
+  indep_date='25 06 1975'
+  government='republic'
+  capital='Maputo'>
+  <ethnicgroups name='Europeans'>0.06</ethnicgroups>
+  <ethnicgroups name='Indians'>0.08</ethnicgroups>
+  <ethnicgroups name='Euro-Africans'>0.2</ethnicgroups>
+  <religions name='Muslim'>20</religions>
+  <religions name='Christian'>30</religions>
+  <languages name='Portuguese'>100</languages>
+  <borders country='cid-cia-Malawi'>1569</borders>
+  <borders country='cid-cia-South-Africa'>491</borders>
+  <borders country='cid-cia-Swaziland'>105</borders>
+  <borders country='cid-cia-Tanzania'>756</borders>
+  <borders country='cid-cia-Zambia'>419</borders>
+  <borders country='cid-cia-Zimbabwe'>1231</borders>
+  <coasts>Mozambique Channel</coasts>
+</country>
+
+<country id='cid-cia-Namibia' 
+  continent='Africa'
+  name='Namibia'
+  datacode='WA'
+  total_area='825418'
+  population='1677243'
+  population_growth='2.93'
+  infant_mortality='47.2'
+  inflation='11'
+  gdp_total='5800'
+  indep_date='21 03 1990'
+  government='republic'
+  capital='Windhoek'>
+  <religions name='Lutheran'>50</religions>
+  <languages name='German'>32</languages>
+  <languages name='English'>7</languages>
+  <languages name='Afrikaans'>60</languages>
+  <borders country='cid-cia-Angola'>1376</borders>
+  <borders country='cid-cia-Botswana'>1360</borders>
+  <borders country='cid-cia-South-Africa'>855</borders>
+  <borders country='cid-cia-Zambia'>233</borders>
+  <coasts>South Atlantic Ocean</coasts>
+</country>
+
+<country id='cid-cia-Niger' 
+  continent='Africa'
+  name='Niger'
+  datacode='NG'
+  total_area='1267000'
+  population='9113001'
+  population_growth='2.99'
+  infant_mortality='117.6'
+  gdp_agri='38.5'
+  inflation='35.6'
+  gdp_ind='17.9'
+  gdp_serv='43.6'
+  gdp_total='5500'
+  indep_date='03 08 1960'
+  government='republic'
+  capital='Niamey'>
+  <ethnicgroups name='Fula'>8.5</ethnicgroups>
+  <ethnicgroups name='Hausa'>56</ethnicgroups>
+  <ethnicgroups name='Djerma'>22</ethnicgroups>
+  <ethnicgroups name='Tuareg'>8</ethnicgroups>
+  <ethnicgroups name='Beri Beri'>4.3</ethnicgroups>
+  <ethnicgroups name='Gourmantche'>1.2</ethnicgroups>
+  <religions name='Muslim'>80</religions>
+  <borders country='cid-cia-Algeria'>956</borders>
+  <borders country='cid-cia-Benin'>266</borders>
+  <borders country='cid-cia-Burkina-Faso'>628</borders>
+  <borders country='cid-cia-Chad'>1175</borders>
+  <borders country='cid-cia-Libya'>354</borders>
+  <borders country='cid-cia-Mali'>821</borders>
+  <borders country='cid-cia-Nigeria'>1497</borders>
+</country>
+
+<country id='cid-cia-Nigeria' 
+  continent='Africa'
+  name='Nigeria'
+  datacode='NI'
+  total_area='923770'
+  population='103912489'
+  population_growth='3.05'
+  infant_mortality='72.4'
+  gdp_agri='38'
+  inflation='57'
+  gdp_ind='22'
+  gdp_serv='40'
+  gdp_total='135900'
+  indep_date='01 10 1960'
+  government='military government'
+  capital='Abuja'>
+  <ethnicgroups name='non-Africans 27000'>100</ethnicgroups>
+  <religions name='Muslim'>50</religions>
+  <religions name='Christian'>40</religions>
+  <borders country='cid-cia-Benin'>773</borders>
+  <borders country='cid-cia-Cameroon'>1690</borders>
+  <borders country='cid-cia-Chad'>87</borders>
+  <borders country='cid-cia-Niger'>1497</borders>
+  <coasts>Gulf Of Guinea</coasts>
+</country>
+
+<country id='cid-cia-Reunion' 
+  continent='Africa'
+  name='Reunion'
+  datacode='RE'
+  total_area='2510'
+  population='679198'
+  population_growth='1.93'
+  infant_mortality='7.5'
+  gdp_total='2900'
+  government='overseas department of France'
+  capital='Saint Denis'>
+  <religions name='Roman Catholic'>94</religions>
+  <coasts>Indian Ocean</coasts>
+</country>
+
+<country id='cid-cia-Rwanda' 
+  continent='Africa'
+  name='Rwanda'
+  datacode='RW'
+  total_area='26340'
+  population='6853359'
+  population_growth='16.49'
+  infant_mortality='118.8'
+  gdp_agri='52'
+  inflation='64'
+  gdp_ind='13'
+  gdp_serv='35'
+  gdp_total='3800'
+  indep_date='01 07 1962'
+  government='republic'
+  capital='Kigali'>
+  <ethnicgroups name='Hutu'>80</ethnicgroups>
+  <ethnicgroups name='Tutsi'>19</ethnicgroups>
+  <ethnicgroups name='Twa'>1</ethnicgroups>
+  <religions name='Muslim'>1</religions>
+  <religions name='Roman Catholic'>65</religions>
+  <religions name='Protestant'>9</religions>
+  <borders country='cid-cia-Burundi'>290</borders>
+  <borders country='cid-cia-Tanzania'>217</borders>
+  <borders country='cid-cia-Uganda'>169</borders>
+  <borders country='cid-cia-Zaire'>217</borders>
+</country>
+
+<country id='cid-cia-Saint-Helena' 
+  continent='Africa'
+  name='Saint Helena'
+  datacode='SH'
+  total_area='410'
+  population='6782'
+  population_growth='0.31'
+  infant_mortality='35.14'
+  government='dependent territory of the UK'
+  capital='Jamestown'>
+  <ethnicgroups name='NA'>100</ethnicgroups>
+  <languages name='English'>100</languages>
+  <coasts>South Atlantic Ocean</coasts>
+</country>
+
+<country id='cid-cia-Sao-Tome-and-Principe' 
+  continent='Africa'
+  name='Sao Tome and Principe'
+  datacode='TP'
+  total_area='960'
+  population='144128'
+  population_growth='2.58'
+  infant_mortality='61.1'
+  gdp_agri='28'
+  inflation='38'
+  gdp_ind='14'
+  gdp_serv='58'
+  gdp_total='138'
+  indep_date='12 07 1975'
+  government='republic'
+  capital='Sao Tome'>
+  <ethnicgroups name='Europeans'>100</ethnicgroups>
+  <languages name='Portuguese'>100</languages>
+  <coasts>Atlantic Ocean</coasts>
+</country>
+
+<country id='cid-cia-Senegal' 
+  continent='Africa'
+  name='Senegal'
+  datacode='SG'
+  total_area='196190'
+  population='9092749'
+  population_growth='3.37'
+  infant_mortality='64'
+  inflation='6.1'
+  gdp_total='14500'
+  indep_date='20 08 1960'
+  government='republic under multiparty democratic rule'
+  capital='Dakar'>
+  <ethnicgroups name='Fulani'>17</ethnicgroups>
+  <ethnicgroups name='Wolof'>36</ethnicgroups>
+  <ethnicgroups name='Diola'>9</ethnicgroups>
+  <ethnicgroups name='Mandingo'>9</ethnicgroups>
+  <ethnicgroups name='Serer'>17</ethnicgroups>
+  <ethnicgroups name='Toucouleur'>9</ethnicgroups>
+  <ethnicgroups name='European Lebanese'>1</ethnicgroups>
+  <religions name='Muslim'>92</religions>
+  <religions name='Christian'>2</religions>
+  <borders country='cid-cia-Gambia'>740</borders>
+  <borders country='cid-cia-Guinea'>330</borders>
+  <borders country='cid-cia-Guinea-Bissau'>338</borders>
+  <borders country='cid-cia-Mali'>419</borders>
+  <borders country='cid-cia-Mauritania'>813</borders>
+  <coasts>North Atlantic Ocean</coasts>
+</country>
+
+<country id='cid-cia-Seychelles' 
+  continent='Africa'
+  name='Seychelles'
+  datacode='SE'
+  total_area='455'
+  population='77575'
+  population_growth='0.76'
+  infant_mortality='12.5'
+  inflation='3.9'
+  gdp_total='430'
+  indep_date='29 06 1976'
+  government='republic'
+  capital='Victoria'>
+  <ethnicgroups name='Seychellois'>100</ethnicgroups>
+  <religions name='Roman Catholic'>90</religions>
+  <religions name='Anglican'>8</religions>
+  <coasts>Indian Ocean</coasts>
+</country>
+
+<country id='cid-cia-Sierra-Leone' 
+  continent='Africa'
+  name='Sierra Leone'
+  datacode='SL'
+  total_area='71740'
+  population='4793121'
+  population_growth='4.14'
+  infant_mortality='135.6'
+  gdp_agri='40'
+  inflation='24'
+  gdp_ind='17'
+  gdp_serv='43'
+  gdp_total='4400'
+  indep_date='27 04 1961'
+  government='constitutional democracy'
+  capital='Freetown'>
+  <ethnicgroups name='Asian'>1</ethnicgroups>
+  <ethnicgroups name='African'>99</ethnicgroups>
+  <religions name='Muslim'>60</religions>
+  <religions name='Christian'>10</religions>
+  <borders country='cid-cia-Guinea'>652</borders>
+  <borders country='cid-cia-Liberia'>306</borders>
+  <coasts>North Atlantic Ocean</coasts>
+</country>
+
+<country id='cid-cia-Somalia' 
+  continent='Africa'
+  name='Somalia'
+  datacode='SO'
+  total_area='637660'
+  population='9639151'
+  population_growth='3.1'
+  infant_mortality='121.1'
+  gdp_total='3600'
+  indep_date='01 07 1960'
+  government='none'
+  capital='Mogadishu'>
+  <ethnicgroups name='Somali'>85</ethnicgroups>
+  <religions name='Sunni Muslim'>100</religions>
+  <borders country='cid-cia-Djibouti'>58</borders>
+  <borders country='cid-cia-Ethiopia'>1626</borders>
+  <borders country='cid-cia-Kenya'>682</borders>
+  <coasts>Indian Ocean</coasts>
+  <coasts>Gulf Of Aden</coasts>
+</country>
+
+<country id='cid-cia-South-Africa' 
+  continent='Africa'
+  name='South Africa'
+  datacode='SF'
+  total_area='1219912'
+  population='41743459'
+  population_growth='1.76'
+  infant_mortality='48.8'
+  inflation='8.7'
+  gdp_total='215000'
+  indep_date='31 05 1910'
+  government='republic'
+  capital='Pretoria'>
+  <ethnicgroups name='Indian'>2.6</ethnicgroups>
+  <ethnicgroups name='Colored'>8.6</ethnicgroups>
+  <religions name='Muslim'>2</religions>
+  <borders country='cid-cia-Botswana'>1840</borders>
+  <borders country='cid-cia-Lesotho'>909</borders>
+  <borders country='cid-cia-Mozambique'>491</borders>
+  <borders country='cid-cia-Namibia'>855</borders>
+  <borders country='cid-cia-Swaziland'>430</borders>
+  <borders country='cid-cia-Zimbabwe'>225</borders>
+</country>
+
+<country id='cid-cia-Sudan' 
+  continent='Africa'
+  name='Sudan'
+  datacode='SU'
+  total_area='2505810'
+  population='31547543'
+  population_growth='3.48'
+  infant_mortality='76'
+  gdp_agri='33'
+  inflation='66'
+  gdp_ind='17'
+  gdp_serv='50'
+  gdp_total='25000'
+  indep_date='01 01 1956'
+  government='transitional previously ruling military junta'
+  capital='Khartoum'>
+  <ethnicgroups name='Arab'>39</ethnicgroups>
+  <ethnicgroups name='Beja'>6</ethnicgroups>
+  <religions name='Sunni Muslim'>70</religions>
+  <religions name='Christian'>5</religions>
+  <borders country='cid-cia-Central-African-Republic'>1165</borders>
+  <borders country='cid-cia-Chad'>1360</borders>
+  <borders country='cid-cia-Egypt'>1273</borders>
+  <borders country='cid-cia-Eritrea'>605</borders>
+  <borders country='cid-cia-Ethiopia'>1606</borders>
+  <borders country='cid-cia-Kenya'>232</borders>
+  <borders country='cid-cia-Libya'>383</borders>
+  <borders country='cid-cia-Uganda'>435</borders>
+  <borders country='cid-cia-Zaire'>628</borders>
+  <coasts>Red Sea</coasts>
+</country>
+
+<country id='cid-cia-Swaziland' 
+  continent='Africa'
+  name='Swaziland'
+  datacode='WZ'
+  total_area='17360'
+  population='998730'
+  population_growth='3.24'
+  infant_mortality='88.4'
+  gdp_agri='25'
+  inflation='14.7'
+  gdp_ind='40'
+  gdp_serv='35'
+  gdp_total='3600'
+  indep_date='06 09 1968'
+  government='monarchy'
+  capital='Mbabane'>
+  <ethnicgroups name='European'>3</ethnicgroups>
+  <ethnicgroups name='African'>97</ethnicgroups>
+  <religions name='Christian'>60</religions>
+  <borders country='cid-cia-Mozambique'>105</borders>
+  <borders country='cid-cia-South-Africa'>430</borders>
+</country>
+
+<country id='cid-cia-Tanzania' 
+  continent='Africa'
+  name='Tanzania'
+  datacode='TZ'
+  total_area='945090'
+  population='29058470'
+  population_growth='1.15'
+  infant_mortality='105.9'
+  gdp_agri='58'
+  inflation='25'
+  gdp_ind='8'
+  gdp_serv='34'
+  gdp_total='23100'
+  indep_date='26 04 1964'
+  government='republic'
+  capital='Dar es Salaam'>
+  <borders country='cid-cia-Burundi'>451</borders>
+  <borders country='cid-cia-Kenya'>769</borders>
+  <borders country='cid-cia-Malawi'>475</borders>
+  <borders country='cid-cia-Mozambique'>756</borders>
+  <borders country='cid-cia-Rwanda'>217</borders>
+  <borders country='cid-cia-Uganda'>396</borders>
+  <borders country='cid-cia-Zambia'>338</borders>
+  <coasts>Indian Ocean</coasts>
+</country>
+
+<country id='cid-cia-Togo' 
+  continent='Africa'
+  name='Togo'
+  datacode='TO'
+  total_area='56790'
+  population='4570530'
+  population_growth='3.56'
+  infant_mortality='84.3'
+  gdp_agri='49.2'
+  inflation='8.8'
+  gdp_ind='17.7'
+  gdp_serv='33.1'
+  gdp_total='4100'
+  indep_date='27 04 1960'
+  government='republic under transition to multiparty democratic rule'
+  capital='Lome'>
+  <ethnicgroups name='African'>99</ethnicgroups>
+  <ethnicgroups name='European Syrian-Lebanese'>1</ethnicgroups>
+  <religions name='Muslim'>10</religions>
+  <religions name='Christian'>20</religions>
+  <borders country='cid-cia-Benin'>644</borders>
+  <borders country='cid-cia-Burkina-Faso'>126</borders>
+  <borders country='cid-cia-Ghana'>877</borders>
+  <coasts>North Atlantic Ocean</coasts>
+</country>
+
+<country id='cid-cia-Tromelin-Island' 
+  continent='Africa'
+  name='Tromelin Island'
+  datacode='TE'
+  total_area='1'
+  government='French possession administered by Commissioner of the Republic'>
+  <coasts>Indian Ocean</coasts>
+</country>
+
+<country id='cid-cia-Tunisia' 
+  continent='Africa'
+  name='Tunisia'
+  datacode='TS'
+  total_area='163610'
+  population='9019687'
+  population_growth='1.81'
+  infant_mortality='35.1'
+  gdp_agri='15'
+  inflation='5.5'
+  gdp_ind='30'
+  gdp_serv='55'
+  gdp_total='37100'
+  indep_date='20 03 1956'
+  government='republic'
+  capital='Tunis'>
+  <ethnicgroups name='Jewish'>1</ethnicgroups>
+  <ethnicgroups name='European'>1</ethnicgroups>
+  <ethnicgroups name='Arab-Berber'>98</ethnicgroups>
+  <religions name='Muslim'>98</religions>
+  <religions name='Jewish'>1</religions>
+  <religions name='Christian'>1</religions>
+  <borders country='cid-cia-Algeria'>965</borders>
+  <borders country='cid-cia-Libya'>459</borders>
+  <coasts>Mediterranean Sea</coasts>
+</country>
+
+<country id='cid-cia-Uganda' 
+  continent='Africa'
+  name='Uganda'
+  datacode='UG'
+  total_area='236040'
+  population='20158176'
+  population_growth='2.24'
+  infant_mortality='99.4'
+  gdp_agri='55'
+  inflation='6.1'
+  gdp_ind='12'
+  gdp_serv='33'
+  gdp_total='16800'
+  indep_date='09 10 1962'
+  government='republic'
+  capital='Kampala'>
+  <ethnicgroups name='Rwanda'>6</ethnicgroups>
+  <ethnicgroups name='Arab'>1</ethnicgroups>
+  <ethnicgroups name='Baganda'>17</ethnicgroups>
+  <ethnicgroups name='Karamojong'>12</ethnicgroups>
+  <ethnicgroups name='Basogo'>8</ethnicgroups>
+  <ethnicgroups name='Iteso'>8</ethnicgroups>
+  <ethnicgroups name='Langi'>6</ethnicgroups>
+  <ethnicgroups name='Bagisu'>5</ethnicgroups>
+  <ethnicgroups name='Acholi'>4</ethnicgroups>
+  <ethnicgroups name='Lugbara'>4</ethnicgroups>
+  <ethnicgroups name='Bunyoro'>3</ethnicgroups>
+  <ethnicgroups name='Batobo'>3</ethnicgroups>
+  <religions name='Muslim'>16</religions>
+  <religions name='Roman Catholic'>33</religions>
+  <religions name='Protestant'>33</religions>
+  <borders country='cid-cia-Kenya'>933</borders>
+  <borders country='cid-cia-Rwanda'>169</borders>
+  <borders country='cid-cia-Sudan'>435</borders>
+  <borders country='cid-cia-Tanzania'>396</borders>
+  <borders country='cid-cia-Zaire'>765</borders>
+</country>
+
+<country id='cid-cia-Western-Sahara' 
+  continent='Africa'
+  name='Western Sahara'
+  datacode='WI'
+  total_area='266000'
+  population='222631'
+  population_growth='2.46'
+  infant_mortality='145.82'
+  government='legal status of territory and question of sovereignty unresolved'
+  capital='El Aaiun'>
+  <religions name='Muslim'>100</religions>
+  <borders country='cid-cia-Algeria'>42</borders>
+  <borders country='cid-cia-Mauritania'>1561</borders>
+  <borders country='cid-cia-Morocco'>443</borders>
+  <coasts>North Atlantic Ocean</coasts>
+</country>
+
+<country id='cid-cia-Zaire' 
+  continent='Africa'
+  name='Zaire'
+  datacode='CG'
+  total_area='2345410'
+  population='46498539'
+  population_growth='1.67'
+  infant_mortality='108'
+  inflation='12'
+  gdp_total='16500'
+  indep_date='30 06 1960'
+  government='republic with a strong presidential system'
+  capital='Kinshasa'>
+  <ethnicgroups name='Mangbetu-Azande'>45</ethnicgroups>
+  <religions name='Muslim'>10</religions>
+  <religions name='Roman Catholic'>50</religions>
+  <religions name='Protestant'>20</religions>
+  <religions name='Kimbanguist'>10</religions>
+  <borders country='cid-cia-Angola'>2511</borders>
+  <borders country='cid-cia-Burundi'>233</borders>
+  <borders country='cid-cia-Central-African-Republic'>1577</borders>
+  <borders country='cid-cia-Congo'>2410</borders>
+  <borders country='cid-cia-Rwanda'>217</borders>
+  <borders country='cid-cia-Sudan'>628</borders>
+  <borders country='cid-cia-Uganda'>765</borders>
+  <borders country='cid-cia-Zambia'>1930</borders>
+</country>
+
+<country id='cid-cia-Zambia' 
+  continent='Africa'
+  name='Zambia'
+  datacode='ZA'
+  total_area='752610'
+  population='9159072'
+  population_growth='2.11'
+  infant_mortality='96.1'
+  gdp_agri='32'
+  inflation='55'
+  gdp_ind='22'
+  gdp_serv='46'
+  gdp_total='8900'
+  indep_date='24 10 1964'
+  government='republic'
+  capital='Lusaka'>
+  <ethnicgroups name='European'>1.1</ethnicgroups>
+  <ethnicgroups name='African'>98.7</ethnicgroups>
+  <religions name='Christian'>50</religions>
+  <religions name='Muslim Hindu'>24</religions>
+  <borders country='cid-cia-Angola'>1110</borders>
+  <borders country='cid-cia-Malawi'>837</borders>
+  <borders country='cid-cia-Mozambique'>419</borders>
+  <borders country='cid-cia-Namibia'>233</borders>
+  <borders country='cid-cia-Tanzania'>338</borders>
+  <borders country='cid-cia-Zaire'>1930</borders>
+  <borders country='cid-cia-Zimbabwe'>797</borders>
+</country>
+
+<country id='cid-cia-Zimbabwe' 
+  continent='Africa'
+  name='Zimbabwe'
+  datacode='ZI'
+  total_area='390580'
+  population='11271314'
+  population_growth='1.41'
+  infant_mortality='72.8'
+  gdp_agri='18.3'
+  inflation='25.8'
+  gdp_ind='35.3'
+  gdp_serv='46.4'
+  gdp_total='18100'
+  indep_date='18 04 1980'
+  government='parliamentary democracy'
+  capital='Harare'>
+  <ethnicgroups name='Asian'>1</ethnicgroups>
+  <ethnicgroups name='African'>98</ethnicgroups>
+  <religions name='Muslim'>1</religions>
+  <religions name='Christian'>25</religions>
+  <borders country='cid-cia-Botswana'>813</borders>
+  <borders country='cid-cia-Mozambique'>1231</borders>
+  <borders country='cid-cia-South-Africa'>225</borders>
+  <borders country='cid-cia-Zambia'>797</borders>
+</country>
+
+</cia>
